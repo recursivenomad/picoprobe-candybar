@@ -1,0 +1,40 @@
+# Project
+# -------
+
+# Misc intermediary/meta files
+_untracked/
+
+
+
+# KiCad 8.0
+# ---------
+
+# Backup files
+*-backups/
+
+# Temporary files
+~*.lck
+*.kicad_prl
+fp-info-cache
+
+
+
+# FreeCAD 0.21
+# ------------
+
+# Backup files
+*.FCBak
+
+# Built files
+*.step
+*.stl
+*.wrl
+
+
+
+# Firmware
+# --------
+
+# Build files
+.cache/
+build/
