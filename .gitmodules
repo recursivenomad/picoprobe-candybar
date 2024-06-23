@@ -1,0 +1,4 @@
+[submodule "ki-lime-pi-pico"]
+	path = pcb/project-libraries/RaspberryPi_Pico
+	url = https://github.com/recursivenomad/ki-lime-pi-to-go.git
+	shallow = true
