@@ -4,6 +4,15 @@
 	(generator_version "8.0")
 	(uuid "73798b73-b835-4423-abd2-5bd613a215bf")
 	(paper "A4")
+	(title_block
+		(title "Picoprobe Candybar")
+		(date "25 June 2024")
+		(rev "0")
+		(comment 1 "Peter S. Hollander")
+		(comment 2 "recursivenomad@protonmail.com")
+		(comment 3 "MIT-0 OR CC0-1.0")
+		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"

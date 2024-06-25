@@ -7,6 +7,15 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Picoprobe Candybar")
+		(date "25 June 2024")
+		(rev "0")
+		(comment 1 "Peter S. Hollander")
+		(comment 2 "recursivenomad@protonmail.com")
+		(comment 3 "MIT-0 OR CC0-1.0")
+		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
