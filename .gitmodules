@@ -4,4 +4,4 @@
 	shallow = true
 [submodule "kicad-title-block"]
 	path = pcb/project-libraries/kicad-title-block
-	url = https://gitlab.com/recursivenomad/kicad-title-block.git
+	url = ../../recursivenomad/kicad-title-block.git
