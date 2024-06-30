@@ -1,7 +1,7 @@
 [submodule "ki-lime-pi-pico"]
-	path = pcb/project-libraries/RaspberryPi_Pico
+	path = pcb/project-libraries/ki-lime-pi-pico
 	url = https://github.com/recursivenomad/ki-lime-pi-to-go.git
 	shallow = true
-[submodule "pcb/project-libraries/kicad-title-block"]
+[submodule "kicad-title-block"]
 	path = pcb/project-libraries/kicad-title-block
-	url = https://gitlab.com/recursivenomad/kicad-title-block.git
+	url = ../../recursivenomad/kicad-title-block.git
