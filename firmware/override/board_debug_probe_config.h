@@ -28,5 +28,17 @@
 // Depend on the original Debug Probe configuration to maintain near-parity
 #include "../lib/debugprobe/include/board_debug_probe_config.h"
 
+#include "boards/pico.h"
+
+
+#undef  PROBE_PIN_RESET
+#define PROBE_PIN_RESET 1
+
+#undef  PROBE_USB_CONNECTED_LED
+#define PROBE_USB_CONNECTED_LED PICO_DEFAULT_LED_PIN
+
+#undef  PROBE_PRODUCT_STRING
+#define PROBE_PRODUCT_STRING "Picoprobe Candybar (CMSIS-DAP)"
+
 
 #endif  // OVERRIDE_BOARD_DEBUG_PROBE_H_
