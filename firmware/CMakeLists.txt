@@ -82,6 +82,11 @@ target_compile_definitions (${PROJECT_NAME} PRIVATE
 
 
 
+pico_set_program_name(${PROJECT_NAME}        "Picoprobe Candybar")
+pico_set_program_version(${PROJECT_NAME}     "0.0.0-dev")
+pico_set_program_url(${PROJECT_NAME}         "https://gitlab.com/recursivenomad/picoprobe-candybar/")
+pico_set_program_description(${PROJECT_NAME} "A charming debug probe using the Raspberry Pi Pico")
+
 # Creates "probe.pio.h" at build-time
 pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/lib/debugprobe/src/probe.pio)
 # Creates map/bin/hex/uf2 files, in addition to elf

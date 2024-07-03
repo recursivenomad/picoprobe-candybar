@@ -5,6 +5,8 @@
 #include "probe_config.h"
 #include "pico/binary_info.h"
 
+#include "pico_binary_license_info.h"
+
 
 #define STR_LITERAL(x) #x
 #define STR(x) STR_LITERAL(x)
@@ -29,6 +31,12 @@ void bi_decl_config() {
     bi_decl(bi_program_feature(STR(PROBE_UART_BAUDRATE) " baud probe UART"));
     bi_decl(bi_program_feature("Activity indicator LEDs"));
     bi_decl(bi_program_feature("Probe target reset support"));
+
+    bi_decl(bi_program_author("Firmware derived from Raspberry Pi's Debug Probe"));
+    bi_decl(bi_program_author("Peter S. Hollander <recursivenomad@protonmail.com>"));
+
+    bi_decl(bi_program_license("See repository or accompanying .TXT for complete notices"));
+    bi_decl(bi_program_license("MIT-0 OR CC0-1.0, BSD-3-Clause, MIT, Apache-2.0, SunPro, OAR, BSD-4.3TAHOE, Martin-Birgmeier"));
 
 }
 
