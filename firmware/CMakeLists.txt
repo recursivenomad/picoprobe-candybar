@@ -60,6 +60,11 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     lib/debugprobe/CMSIS_5/CMSIS/Core/Include/
 )
 
+# Specify BEFORE here to assert 'override/' being first include dir in the list
+target_include_directories(${PROJECT_NAME} BEFORE PRIVATE
+    override/
+)
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
     pico_multicore
     pico_stdlib
