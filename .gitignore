@@ -3,6 +3,7 @@
 
 # Misc intermediary/meta files
 _untracked/
+*.code-workspace
 
 
 
@@ -40,3 +41,4 @@ fp-info-cache
 # Build files
 .cache/
 build/
+compile_commands.json

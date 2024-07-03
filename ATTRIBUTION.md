@@ -19,6 +19,8 @@ KiCad libraries created from 2022-2024 with the same permissions.
 
 ## Raspberry Pi
 
+This project relies almost entirely on Raspberry Pi's [Debug Probe repository][URL-Debug-Probe] for its firmware source, which is incorporated into this project as a git submodule in the directory [`./firmware/lib/`](./firmware/lib/).
+
 For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe hardware][URL-Debug-Probe-Brief], documentation was acquired from Raspberry Pi for reference in 2024:
 
 - [Raspberry Pi Pico datasheet (schematic)][URL-Pico-Schematic]
@@ -54,6 +56,7 @@ For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe h
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
 [URL-CC0]: <https://creativecommons.org/publicdomain/zero/1.0/>
 
+[URL-Debug-Probe]: <https://github.com/raspberrypi/debugprobe/>
 [URL-Debug-Probe-Brief]: <https://datasheets.raspberrypi.com/debug/raspberry-pi-debug-probe-product-brief.pdf>
 [URL-Debug-Probe-Docs]: <https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html>
 [URL-Debug-Probe-Schematic]: <https://datasheets.raspberrypi.com/debug/raspberry-pi-debug-probe-schematics.pdf>
