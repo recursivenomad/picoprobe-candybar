@@ -16,9 +16,6 @@ void bi_decl_config() {
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWDIO, "PROBE SWDIO"));
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWDI,  "PROBE SWDI" ));
 
-    bi_decl(bi_program_feature("PROBE UART INTERFACE " STR(PROBE_UART_INTERFACE)));
-    bi_decl(bi_program_feature("PROBE UART BAUDRATE " STR(PROBE_UART_BAUDRATE)));
-
     bi_decl(bi_1pin_with_name(PROBE_UART_TX, "PROBE UART TX"));
     bi_decl(bi_1pin_with_name(PROBE_UART_RX, "PROBE UART RX"));
 
