@@ -15,9 +15,20 @@ void bi_decl_config() {
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWCLK, "PROBE SWCLK"));
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWDIO, "PROBE SWDIO"));
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWDI,  "PROBE SWDI" ));
+    bi_decl(bi_1pin_with_name(PROBE_PIN_RESET, "PROBE RESET"));
 
-    bi_decl(bi_1pin_with_name(PROBE_UART_TX, "PROBE UART TX"));
-    bi_decl(bi_1pin_with_name(PROBE_UART_RX, "PROBE UART RX"));
+    bi_decl(bi_1pin_with_name(PROBE_UART_TX, "PROBE UART_TX"));
+    bi_decl(bi_1pin_with_name(PROBE_UART_RX, "PROBE UART_RX"));
+
+    bi_decl(bi_1pin_with_name(PROBE_USB_CONNECTED_LED, "LED_USB_CONN"));
+    bi_decl(bi_1pin_with_name(PROBE_DAP_CONNECTED_LED, "LED_DAP_CONN"));
+    bi_decl(bi_1pin_with_name(PROBE_DAP_RUNNING_LED,   "LED_DAP_RUN" ));
+    bi_decl(bi_1pin_with_name(PROBE_UART_TX_LED,       "LED_UART_TX" ));
+    bi_decl(bi_1pin_with_name(PROBE_UART_RX_LED,       "LED_UART_RX" ));
+
+    bi_decl(bi_program_feature(STR(PROBE_UART_BAUDRATE) " baud probe UART"));
+    bi_decl(bi_program_feature("Activity indicator LEDs"));
+    bi_decl(bi_program_feature("Probe target reset support"));
 
 }
 
