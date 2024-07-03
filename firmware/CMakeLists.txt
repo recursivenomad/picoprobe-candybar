@@ -27,7 +27,7 @@ endif()
 
 
 # Set PROJECT_NAME and languages
-project(debugprobe C CXX ASM)
+project(picoprobe_candybar C CXX ASM)
 
 # Invokes the Pico SDK's CMakeLists.txt
 pico_sdk_init()
