@@ -35,7 +35,7 @@ For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe h
 
 
 > *Additional attributions specific to certain elements can be found at the following locations:*  
-> `./pcb/project-libraries/RaspberryPi_Pico/ATTRIBUTION.md` ([local link](./pcb/project-libraries/RaspberryPi_Pico/ATTRIBUTION.md)) ([online link](https://github.com/recursivenomad/ki-lime-pi-to-go/blob/main/ATTRIBUTION.md))  
+> `./pcb/project-libraries/ki-lime-pi-pico/ATTRIBUTION.md` ([local link](./pcb/project-libraries/ki-lime-pi-pico/ATTRIBUTION.md)) ([online link](https://github.com/recursivenomad/ki-lime-pi-to-go/blob/main/ATTRIBUTION.md))  
 
 &nbsp;
 
@@ -47,6 +47,8 @@ For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe h
 # Tools utilized
 
 - [KiCad][URL-KiCad] - PCB design
+- [VSCodium][URL-VSCodium] - Firmware composition
+- [Raspberry Pi Pico SDK][URL-Pico-SDK]
 
 
 
@@ -63,3 +65,5 @@ For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe h
 [URL-Pico-Schematic]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf#pico-schematic>
 
 [URL-KiCad]: <https://www.kicad.org/>
+[URL-Pico-SDK]: <https://github.com/raspberrypi/pico-sdk>
+[URL-VSCodium]: <https://vscodium.com/>
