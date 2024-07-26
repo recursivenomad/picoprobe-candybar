@@ -8,6 +8,22 @@
 
 
 
+***Cloning***
+=============
+
+```bash
+git clone https://gitlab.com/recursivenomad/picoprobe-candybar.git
+cd picoprobe-candybar/
+git submodule update --init --single-branch
+cd firmware/lib/debugprobe/
+git config --local submodule.CMSIS_5.branch master
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --depth 1
+git submodule foreach 'git fetch --depth 1'   # redundant, but gets the checked-out tag
+cd ../../..
+```
+
+
+
 ***License / Access***
 ======================
 
