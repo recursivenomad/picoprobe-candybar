@@ -2,8 +2,8 @@
 	path = pcb/project-libraries/ki-lime-pi-pico
 	url = https://github.com/recursivenomad/ki-lime-pi-to-go.git
 	branch = 2.1.1
-[submodule "kicad-title-block"]
-	path = pcb/project-libraries/kicad-title-block
+[submodule "compact-title-block"]
+	path = pcb/project-libraries/compact-title-block
 	url = ../../recursivenomad/kicad-title-block.git
 [submodule "debugprobe"]
 	path = firmware/lib/debugprobe

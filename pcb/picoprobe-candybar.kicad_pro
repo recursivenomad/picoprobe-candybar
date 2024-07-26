@@ -473,7 +473,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "project-libraries/kicad-title-block/compact-title-block.kicad_wks"
+    "page_layout_descr_file": "project-libraries/compact-title-block/compact-title-block.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -563,7 +563,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "project-libraries/kicad-title-block/compact-title-block.kicad_wks",
+    "page_layout_descr_file": "project-libraries/compact-title-block/compact-title-block.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
