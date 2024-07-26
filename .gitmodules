@@ -7,3 +7,6 @@
 [submodule "debugprobe"]
 	path = firmware/lib/debugprobe
 	url = https://github.com/raspberrypi/debugprobe.git
+[submodule "picoprobe-candybar-interface"]
+	path = pcb/project-libraries/picoprobe-candybar-interface
+	url = ../../recursivenomad/picoprobe-candybar-interface.git
