@@ -28,6 +28,7 @@ void bi_decl_config() {
     bi_decl(bi_1pin_with_name(PROBE_UART_TX_LED,       "LED_UART_TX" ));
     bi_decl(bi_1pin_with_name(PROBE_UART_RX_LED,       "LED_UART_RX" ));
 
+    // picotool lists bi_decl's of each category in reverse order
     bi_decl(bi_program_feature(STR(PROBE_UART_BAUDRATE) " baud probe UART"));
     bi_decl(bi_program_feature("Activity indicator LEDs"));
     bi_decl(bi_program_feature("Probe target reset support"));
