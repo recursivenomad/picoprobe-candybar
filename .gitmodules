@@ -1,12 +1,9 @@
 [submodule "ki-lime-pi-pico"]
 	path = pcb/project-libraries/ki-lime-pi-pico
 	url = https://github.com/recursivenomad/ki-lime-pi-to-go.git
-	shallow = true
 [submodule "kicad-title-block"]
 	path = pcb/project-libraries/kicad-title-block
 	url = ../../recursivenomad/kicad-title-block.git
 [submodule "debugprobe"]
 	path = firmware/lib/debugprobe
 	url = https://github.com/raspberrypi/debugprobe.git
-	fetchRecurseSubmodules = true
-	shallow = true
