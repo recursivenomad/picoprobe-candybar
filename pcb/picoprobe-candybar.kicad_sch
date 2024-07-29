@@ -327,6 +327,221 @@
 				)
 			)
 		)
+		(symbol "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SWD-UART_PicoprobeCandybar"
+				(at -2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://gitlab.com/recursivenomad/picoprobe-candybar/"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, ARM, Cortex"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SWD UART Picoprobe Candybar ARM Cortex debug programming header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SWD*UART*PicoprobeCandybar*7Pins*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SWD-UART_PicoprobeCandybar_0_0"
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SWD-UART_PicoprobeCandybar_1_0"
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND_OUT" power_out line)
+				)
+				(pin power_out line
+					(at -5.08 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SWD-UART_PicoprobeCandybar_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico_DebugPins"
 			(pin_names
 				(offset 0.762)
@@ -1668,6 +1883,91 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar")
+		(at 64.77 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d455c23-ff8c-40b7-bb69-97f3c35d518c")
+		(property "Reference" "J2"
+			(at 55.88 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SWD-UART_PicoprobeCandybar"
+			(at 55.88 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_2Rows_7Pins_P2.54mm_Polarized_PressFit_Vertical"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/recursivenomad/picoprobe-candybar/"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, SWD, power, UART, ARM, Cortex"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "702ee9d0-cb76-44cf-bbab-192db0f5a967")
+		)
+		(pin "8"
+			(uuid "2c5fa6c2-82d0-4579-949a-5f300f1a117e")
+		)
+		(pin "1"
+			(uuid "35cb5e1c-af30-4da1-9fe3-d754ad379c33")
+		)
+		(pin "4"
+			(uuid "2c64e961-5358-49b9-9e9b-76a2863fe698")
+		)
+		(pin "6"
+			(uuid "0163e3af-70d9-469c-a96f-0c92b8775acb")
+		)
+		(pin "5"
+			(uuid "060ff625-ae3d-4b47-9335-0e600585be83")
+		)
+		(pin "7"
+			(uuid "77f5b8fc-4d3d-4aff-9a11-267bd4e419f8")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J2")
 					(unit 1)
 				)
 			)
