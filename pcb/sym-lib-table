@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MCU_Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/ki-lime-pi-pico/MCU_Module_RaspberryPi_Pico.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_PicoprobeCandybar")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/picoprobe-candybar-interface/Connector_PicoprobeCandybar.kicad_sym")(options "")(descr ""))
+  (lib (name "ProjectSymbols_PicoprobeCandybar")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/debugprobe-components/ProjectSymbols_PicoprobeCandybar.kicad_sym")(options "")(descr ""))
 )
