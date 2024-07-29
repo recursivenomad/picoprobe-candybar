@@ -264,7 +264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +284,7 @@
 		(symbol "MBR120VLSF_1_1"
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -296,7 +296,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.032 -1.27) (xy -2.032 -0.762)
+					(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -308,7 +308,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -3.048 1.27) (xy -3.048 0.762)
+					(xy -1.27 1.27) (xy -1.778 1.27) (xy -1.778 0.762)
 				)
 				(stroke
 					(width 0)
@@ -320,7 +320,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 0 1.27) (xy 0 -1.27) (xy -2.54 0)
+					(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -331,7 +331,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -349,7 +349,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
