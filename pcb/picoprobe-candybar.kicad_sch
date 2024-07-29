@@ -2599,10 +2599,28 @@
 		(uuid "054375a2-9080-4fb1-ae76-f640717517cd")
 	)
 	(junction
+		(at 212.09 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45626eac-82f5-4a5e-a9c8-656e3d29c719")
+	)
+	(junction
+		(at 219.71 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd4a18f-8553-42a2-b599-c35aedff1e02")
+	)
+	(junction
 		(at 226.06 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78bbbed9-20e9-4fdd-8626-c91e319756f7")
+	)
+	(junction
+		(at 226.06 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db32b71c-373f-4276-8926-86586ada5acd")
 	)
 	(junction
 		(at 219.71 41.91)
@@ -2616,6 +2634,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 105.41) (xy 231.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056ca0a8-403e-4e94-9338-941b60ab5061")
+	)
+	(wire
+		(pts
 			(xy 256.54 87.63) (xy 256.54 92.71)
 		)
 		(stroke
@@ -2623,6 +2651,16 @@
 			(type default)
 		)
 		(uuid "08e0546d-db04-469f-8f81-a8af5dfa63c6")
+	)
+	(wire
+		(pts
+			(xy 205.74 162.56) (xy 215.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a465100-0e88-44b3-97a2-c6b29ecb4729")
 	)
 	(wire
 		(pts
@@ -2656,6 +2694,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 124.46) (xy 212.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b0f2ec-9260-463c-9927-c5dfdf24eedf")
+	)
+	(wire
+		(pts
 			(xy 212.09 67.31) (xy 212.09 48.26)
 		)
 		(stroke
@@ -2663,6 +2711,26 @@
 			(type default)
 		)
 		(uuid "16250d31-a519-4f12-8858-72a965db0b13")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 201.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae238ab-c136-4bae-a7f3-d844a756bfa5")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 212.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec7f6fd-80a3-498e-b358-5c8a30c70900")
 	)
 	(wire
 		(pts
@@ -2706,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 149.86) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef00fc5-032d-430b-a446-7ec1d344e588")
+	)
+	(wire
+		(pts
 			(xy 236.22 17.78) (xy 236.22 80.01)
 		)
 		(stroke
@@ -2726,6 +2804,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 115.57) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353a48d1-2e32-40a5-a14c-d380a6711e2a")
+	)
+	(wire
+		(pts
 			(xy 205.74 22.86) (xy 233.68 22.86)
 		)
 		(stroke
@@ -2733,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "35a10307-bce4-463e-b2ab-41ee6046b56d")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 191.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388f7dec-90b0-4126-8eb9-d4ab7694a7cb")
 	)
 	(wire
 		(pts
@@ -2753,6 +2851,46 @@
 			(type default)
 		)
 		(uuid "3dc546e2-559c-4814-afec-83e7403dba72")
+	)
+	(wire
+		(pts
+			(xy 226.06 157.48) (xy 226.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb12deb-7f88-42ff-9eb9-12cd64127d6b")
+	)
+	(wire
+		(pts
+			(xy 201.93 142.24) (xy 201.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6d2465-41e9-412a-819a-e6c3dbbc27c5")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 212.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40936999-4aa8-431c-8cc8-9eb0f97c2e2c")
+	)
+	(wire
+		(pts
+			(xy 212.09 110.49) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4120d802-a43a-4551-9011-76e770148f40")
 	)
 	(wire
 		(pts
@@ -2806,6 +2944,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 157.48) (xy 198.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b303c8b-1999-40ca-ac7d-aae37f60ee47")
+	)
+	(wire
+		(pts
+			(xy 223.52 162.56) (xy 226.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb63468-6d17-4a4f-9731-fd84024fa1d7")
+	)
+	(wire
+		(pts
 			(xy 226.06 92.71) (xy 226.06 95.25)
 		)
 		(stroke
@@ -2833,6 +2991,16 @@
 			(type default)
 		)
 		(uuid "81b4cdba-24a5-4d97-9747-40c5a35d2e3c")
+	)
+	(wire
+		(pts
+			(xy 212.09 130.81) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828ae8a3-06a5-4094-8e43-bf01cc5be5d5")
 	)
 	(wire
 		(pts
@@ -2876,6 +3044,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 120.65) (xy 219.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f4424b-a1f0-411a-b1e4-1739433b1146")
+	)
+	(wire
+		(pts
 			(xy 233.68 82.55) (xy 248.92 82.55)
 		)
 		(stroke
@@ -2886,6 +3064,36 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 162.56) (xy 226.06 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eead6f2-235a-45a4-ac1c-6ba5ed578701")
+	)
+	(wire
+		(pts
+			(xy 191.77 130.81) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930dbf89-796f-4d23-888a-695aac2681a2")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d05608-b0b0-4b5f-9047-e13d8c94df64")
+	)
+	(wire
+		(pts
 			(xy 219.71 52.07) (xy 219.71 59.69)
 		)
 		(stroke
@@ -2893,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "974e1a8d-1f6f-450b-b091-2d646f2681c8")
+	)
+	(wire
+		(pts
+			(xy 212.09 149.86) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be457c8-69f2-4728-b98d-db9e0242c4a2")
 	)
 	(wire
 		(pts
@@ -2936,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 162.56) (xy 198.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a501834a-bbd7-4419-8ca2-aa69878c9e81")
+	)
+	(wire
+		(pts
 			(xy 201.93 36.83) (xy 201.93 38.1)
 		)
 		(stroke
@@ -2953,16 +3181,6 @@
 			(type default)
 		)
 		(uuid "b102d047-4fde-4581-8af0-27d9ca59347d")
-	)
-	(wire
-		(pts
-			(xy 233.68 100.33) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d05769-b9b5-4e70-8b70-d0ace670f17e")
 	)
 	(wire
 		(pts
@@ -2996,6 +3214,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 157.48) (xy 226.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbcedc4-58d0-4f37-a823-2cb62c4068b6")
+	)
+	(wire
+		(pts
 			(xy 231.14 27.94) (xy 231.14 87.63)
 		)
 		(stroke
@@ -3026,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 115.57) (xy 212.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d086e9-ec51-44ad-af42-2830c5941682")
+	)
+	(wire
+		(pts
 			(xy 248.92 87.63) (xy 247.65 87.63)
 		)
 		(stroke
@@ -3033,6 +3271,16 @@
 			(type default)
 		)
 		(uuid "c8ee6af2-ea1d-4d7f-ba67-0dc13ee060bd")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 212.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f0f640-d162-4304-adcb-22064f92e767")
 	)
 	(wire
 		(pts
@@ -3066,6 +3314,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ebca2e-84d1-4c4c-8fb0-486ef5010672")
+	)
+	(wire
+		(pts
+			(xy 219.71 124.46) (xy 212.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da02c16b-c859-4a7a-9d30-48b8a6a9fe17")
+	)
+	(wire
+		(pts
 			(xy 205.74 33.02) (xy 212.09 33.02)
 		)
 		(stroke
@@ -3096,6 +3364,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 134.62) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35df068-b9ea-49bf-a1d1-5b0218f96258")
+	)
+	(wire
+		(pts
 			(xy 248.92 87.63) (xy 248.92 82.55)
 		)
 		(stroke
@@ -3114,6 +3392,36 @@
 		)
 		(uuid "f78b4757-3ed8-41d4-9525-d7ddb7d0fc6e")
 	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8ea3d1-1566-4e18-820d-c63d8e608479")
+	)
+	(wire
+		(pts
+			(xy 219.71 124.46) (xy 219.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce3cd39-6ee9-4b0f-abe7-53d3cd662a41")
+	)
+	(wire
+		(pts
+			(xy 205.74 157.48) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe319396-6d70-497d-80c5-6328f6f41d24")
+	)
 	(label "GPIO14"
 		(at 185.42 27.94 0)
 		(fields_autoplaced yes)
@@ -3126,7 +3434,7 @@
 		(uuid "073345bb-13a7-4722-83ba-7cb0eccfac78")
 	)
 	(label "CB_~{RST}"
-		(at 220.98 17.78 0)
+		(at 214.63 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3137,7 +3445,7 @@
 		(uuid "076f1440-065d-4be4-b682-1292d4b86df3")
 	)
 	(label "CB_CLK"
-		(at 220.98 22.86 0)
+		(at 214.63 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,6 +3465,17 @@
 			(justify left bottom)
 		)
 		(uuid "1c43d6ef-9cd3-47d9-936d-736c6507388c")
+	)
+	(label "GPIO5"
+		(at 185.42 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "223e81d1-810e-458e-87f5-043dfddbe281")
 	)
 	(label "GPIO1"
 		(at 185.42 17.78 0)
@@ -3180,6 +3499,17 @@
 		)
 		(uuid "246429d8-4b5e-4c4e-aae0-d6056de4ea0f")
 	)
+	(label "CB_RX"
+		(at 214.63 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b4451af-731d-419e-b824-1bbf22681bdb")
+	)
 	(label "GPIO13"
 		(at 185.42 67.31 0)
 		(fields_autoplaced yes)
@@ -3190,6 +3520,28 @@
 			(justify left bottom)
 		)
 		(uuid "31191d65-6686-4c97-b1d4-fe26fa96ab7d")
+	)
+	(label "CB_TX"
+		(at 214.63 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6305e803-a9d3-4980-9699-22439d886262")
+	)
+	(label "GPIO7"
+		(at 185.42 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
 	(label "GPIO16"
 		(at 185.42 80.01 0)
@@ -3203,7 +3555,7 @@
 		(uuid "7b62c24c-aff2-4b75-b480-6f6b3b4a2be4")
 	)
 	(label "CB_IO"
-		(at 220.98 27.94 0)
+		(at 214.63 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3212,6 +3564,182 @@
 			(justify left bottom)
 		)
 		(uuid "d07744c6-9a4b-4900-95ed-60f9be7980ec")
+	)
+	(label "GPIO4"
+		(at 185.42 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4e3709b-5264-48e1-8fc8-bde119242daf")
+	)
+	(label "GPIO6"
+		(at 185.42 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
+	)
+	(label "GPIO8"
+		(at 185.42 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37f488b-3e54-4663-9862-8b3294960627")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08bc2020-437b-4d66-9862-1a56aec531ed")
+		(property "Reference" "#PWR07"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea42f885-97e9-45e0-a746-ed1348cf5614")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols_PicoprobeCandybar:74AUP1T17")
+		(at 201.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a66944-2457-4952-bc90-369274383d1a")
+		(property "Reference" "U2"
+			(at 196.215 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74AUP1T17"
+			(at 196.215 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 201.93 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c94848f5-4846-44cf-9168-9855697a0491")
+		)
+		(pin "3"
+			(uuid "e23ac178-62f3-49a4-ac7b-b467b2f619da")
+		)
+		(pin "2"
+			(uuid "0e91f20d-ef30-4a36-a4d1-14510c76b6e4")
+		)
+		(pin "1"
+			(uuid "1d184984-40e6-415c-ae71-7916338a9d29")
+		)
+		(pin "5"
+			(uuid "8c8cc625-9351-4bf7-a03d-4f018ee3a42c")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3486,33 +4014,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Filled")
-		(at 251.46 173.99 180)
+		(lib_id "Device:R")
+		(at 201.93 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "478b4978-6f05-4ccf-935a-c355a0cdba15")
-		(property "Reference" "D4"
-			(at 253.0475 166.37 0)
+		(uuid "45936f7a-e17b-4f32-8ad2-40c675dd93f7")
+		(property "Reference" "R9"
+			(at 198.755 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Yellow"
-			(at 253.0475 168.91 0)
+		(property "Value" "470R"
+			(at 205.105 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 173.99 0)
+			(at 201.93 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 173.99 0)
+			(at 201.93 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,25 +4058,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, filled shape"
-			(at 251.46 173.99 0)
+		(property "Description" "Resistor"
+			(at 201.93 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c0a8ae23-1dc8-4147-be99-7b7f188d5a28")
 		)
 		(pin "1"
-			(uuid "1a11af76-afbd-4f51-9288-60329ee44e72")
+			(uuid "0717499c-f65c-4209-8d24-785c2f4f60eb")
+		)
+		(pin "2"
+			(uuid "84d285bd-b004-4c1e-bb16-5c257b4e20bc")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3624,6 +4153,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 201.93 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58b7d8f6-c0cc-487a-99f8-e433288f536f")
+		(property "Reference" "R8"
+			(at 198.755 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 205.105 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74806a4f-56ed-405a-8c26-95e04e890761")
+		)
+		(pin "2"
+			(uuid "74b9f82c-5118-431d-b5cf-ebf8fb876c68")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 201.93 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3693,32 +4291,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 146.05 90)
+		(at 201.93 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ca9f091-5222-454b-85b7-6b29e6894ace")
-		(property "Reference" "R8"
-			(at 236.22 139.7 90)
+		(uuid "6510daff-ffb9-4ee6-aa1c-f54bad56924c")
+		(property "Reference" "R6"
+			(at 198.755 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
-			(at 236.22 142.24 90)
+			(at 205.105 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 147.828 90)
+			(at 201.93 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 146.05 0)
+			(at 201.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +4335,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 146.05 0)
+			(at 201.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,15 +4344,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e86c1ecb-f79c-4504-92cc-9ac997dd77d1")
+			(uuid "09f9ce15-7fda-4fe2-af70-2c372785b9f6")
 		)
 		(pin "2"
-			(uuid "a456a8d9-2db5-42c8-ab48-afceb70efedf")
+			(uuid "87cfaf02-c1b5-4365-b1ec-a3cb5a4db4c6")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4172,16 +4771,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 266.7 120.65 0)
+		(lib_id "Device:LED_Filled")
+		(at 219.71 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "830f797b-d347-4815-a43f-962062275be8")
-		(property "Reference" "C2"
-			(at 270.51 119.3799 0)
+		(uuid "81d30274-6dca-43d2-9e91-71dcb92e6628")
+		(property "Reference" "D4"
+			(at 217.805 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,8 +4788,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 270.51 121.9199 0)
+		(property "Value" "Yellow"
+			(at 217.805 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.6652 124.46 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 120.65 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,25 +4815,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 266.7 120.65 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5116e50c-7fe4-4283-aacb-8b82a835223c")
 		)
 		(pin "2"
-			(uuid "b09bcdfb-65d7-4c5c-a73e-1fc680667352")
+			(uuid "b0dd77df-ff51-47b3-972d-3921e551d64d")
+		)
+		(pin "1"
+			(uuid "11b50fa8-6fb1-46db-ba99-4d130614e1ec")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "C2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4327,100 +4926,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 173.99 90)
+		(at 201.93 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f260c70-efca-4d96-8b28-4551d03f5fbd")
-		(property "Reference" "R10"
-			(at 236.22 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 236.22 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21d62d9a-c090-4da1-899e-837c204ee3cb")
-		)
-		(pin "2"
-			(uuid "f5603520-8304-424b-a963-3df7500d99b9")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 236.22 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d143681-650d-41e6-afb5-ace535485a54")
+		(uuid "963fd0a3-e721-419d-a2aa-ebf98478a2bb")
 		(property "Reference" "R7"
-			(at 236.22 129.54 90)
+			(at 198.755 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
-			(at 236.22 132.08 90)
+			(at 205.105 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 137.668 90)
+			(at 201.93 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 135.89 0)
+			(at 201.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4970,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 135.89 0)
+			(at 201.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,10 +4979,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7811cb3-a08f-44ef-9296-998076d3b6b5")
+			(uuid "46214fb1-216b-4bed-bfd5-5eab6e07bff4")
 		)
 		(pin "2"
-			(uuid "5d9ea0f0-83b9-4672-98db-66021891ed03")
+			(uuid "4a1eb0e5-b60f-48a2-a2e1-709e5e0e9718")
 		)
 		(instances
 			(project "picoprobe-candybar"
@@ -4534,6 +5066,71 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a748a43c-8dcc-4a91-b513-1766fc1f5192")
+		(property "Reference" "#PWR09"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68d02794-573e-4764-9699-7f18ad8b1118")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4675,32 +5272,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 125.73 90)
+		(at 201.93 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6d6cd33-e246-4cb1-8e40-5ddac7b77278")
-		(property "Reference" "R6"
-			(at 236.22 119.38 90)
+		(uuid "bbe9a41a-d2bd-4473-9fa2-284d99e3fc93")
+		(property "Reference" "R10"
+			(at 198.755 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 236.22 121.92 90)
+		(property "Value" "470R"
+			(at 205.105 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 127.508 90)
+			(at 201.93 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 125.73 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +5316,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 125.73 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,15 +5325,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "d186158a-43ff-43cb-92af-0043bb0f2b11")
+			(uuid "cbda0322-14b7-43fa-a292-68adb3f4e813")
 		)
 		(pin "2"
-			(uuid "6e27cfcd-b84a-45cd-8a37-253af685370b")
+			(uuid "f1f070c2-aff2-4003-8f14-eb5465492533")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R6")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Filled")
+		(at 219.71 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c193010f-4c58-45f9-982b-d8cad7cabba0")
+		(property "Reference" "D3"
+			(at 217.805 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green"
+			(at 217.805 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18dfff92-9394-4730-85e7-b16eba3b512c")
+		)
+		(pin "1"
+			(uuid "bbff30fa-e43e-47ea-a73f-4600e8030f41")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4801,74 +5468,6 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 236.22 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2340b72-fb17-4ae6-bd9f-4e6a149b59de")
-		(property "Reference" "R9"
-			(at 236.22 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 236.22 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8c67678-d0a4-41c5-9a4c-3b0436fa5740")
-		)
-		(pin "2"
-			(uuid "193a3c15-9624-45a4-b9a5-9c991354d026")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5009,83 +5608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectSymbols_PicoprobeCandybar:74AUP1T17")
-		(at 255.27 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da66fd0a-0ddc-4cc8-8967-cf82b1a9fcd9")
-		(property "Reference" "U2"
-			(at 266.7 129.5714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AUP1T17"
-			(at 266.7 132.1114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 255.27 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
-			(at 255.27 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "673aae0a-5f1a-4504-b29d-5a6a74956585")
-		)
-		(pin "3"
-			(uuid "7c24963f-eeb4-46b7-b5b9-e04e850d17b9")
-		)
-		(pin "2"
-			(uuid "da814824-4ce2-4c92-8d57-ac3582bd3208")
-		)
-		(pin "1"
-			(uuid "fc5ad15a-5565-4e8b-b8ca-50767dc43471")
-		)
-		(pin "5"
-			(uuid "4103a5a4-3782-401a-9a06-2119bce79b33")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 95.25 0)
 		(unit 1)
@@ -5151,25 +5673,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Filled")
-		(at 251.46 161.29 180)
+		(lib_id "power:+3V3")
+		(at 219.71 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5d12fd7-e278-494f-a2c9-f28ce4caca28")
-		(property "Reference" "D3"
-			(at 253.0475 153.67 0)
+		(uuid "e4d6e57d-d2d1-4e49-9a37-1bc284452636")
+		(property "Reference" "#PWR08"
+			(at 219.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Green"
-			(at 253.0475 156.21 0)
+		(property "Value" "+3V3"
+			(at 219.71 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5699,138 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 161.29 0)
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf051482-0150-4dbe-b906-cc7cf183780b")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e621c121-b9b8-4929-934c-38bb9d7cb3f8")
+		(property "Reference" "#PWR010"
+			(at 226.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1210316d-f1ab-4675-b111-04b5faf2faf8")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c864e5-bad6-476d-ad66-4845e64f0009")
+		(property "Reference" "C2"
+			(at 220.345 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 220.345 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.6752 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 161.29 0)
+			(at 219.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,25 +5847,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, filled shape"
-			(at 251.46 161.29 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "00b1af3d-1406-4fff-a787-d8f1c9698b91")
 		)
 		(pin "1"
-			(uuid "c6e332a3-1f4a-4a21-b8b9-1458b9adac58")
+			(uuid "376bb831-9b5c-46eb-b13d-9d7c291c8ece")
+		)
+		(pin "2"
+			(uuid "80228991-643c-4394-bfcc-64660aa3ef74")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
