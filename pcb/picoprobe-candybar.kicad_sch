@@ -4209,6 +4209,18 @@
 		)
 		(uuid "fe319396-6d70-497d-80c5-6328f6f41d24")
 	)
+	(text "CB_~{RST}"
+		(exclude_from_sim no)
+		(at 214.63 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "435dd332-2ed9-4d99-bc79-d45503c528a5")
+	)
 	(label "GPIO14"
 		(at 185.42 30.48 0)
 		(fields_autoplaced yes)
@@ -4219,17 +4231,6 @@
 			(justify left bottom)
 		)
 		(uuid "073345bb-13a7-4722-83ba-7cb0eccfac78")
-	)
-	(label "CB_~{RST}"
-		(at 214.63 20.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "076f1440-065d-4be4-b682-1292d4b86df3")
 	)
 	(label "GPIO14"
 		(at 91.44 91.44 0)
@@ -7054,7 +7055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 102.235 0)
+			(at 226.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
