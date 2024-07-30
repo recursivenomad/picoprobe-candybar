@@ -27,6 +27,8 @@ For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe h
 - [Debug Probe documentation][URL-Debug-Probe-Docs]
   - [Debug Probe schematic][URL-Debug-Probe-Schematic]
 
+Various aspects of the schematic layout were inspired by the Debug Probe schematic.
+
 &nbsp;
 
 
