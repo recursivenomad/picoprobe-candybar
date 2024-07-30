@@ -14,6 +14,7 @@ _untracked/
 *-backups/
 _autosave-*
 *auto_saved_files*
+*.bak
 
 # Temporary files
 ~*.lck
