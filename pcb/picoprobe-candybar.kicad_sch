@@ -3117,12 +3117,6 @@
 		(uuid "db32b71c-373f-4276-8926-86586ada5acd")
 	)
 	(junction
-		(at 74.93 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec393b86-04d5-410c-9bdf-1b8203cc3b08")
-	)
-	(junction
 		(at 201.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3183,10 +3177,6 @@
 	(no_connect
 		(at 124.46 87.63)
 		(uuid "8994ad6a-6671-4434-918f-2251cf1b8110")
-	)
-	(no_connect
-		(at 78.74 62.23)
-		(uuid "c416cca5-cfc1-49ec-98d8-f5054a8cb202")
 	)
 	(no_connect
 		(at 124.46 92.71)
@@ -3588,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 74.93 57.15)
+			(xy 50.8 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3798,16 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 78.74 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e63677e-45b0-4a1e-bcab-a8753b9acb25")
-	)
-	(wire
-		(pts
 			(xy 208.28 161.29) (xy 208.28 163.83)
 		)
 		(stroke
@@ -3928,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 60.96) (xy 74.93 60.96)
+			(xy 66.04 62.23) (xy 78.74 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4045,16 +4025,6 @@
 			(type default)
 		)
 		(uuid "be9eb956-a0d9-4b67-b68c-8544c0dde77d")
-	)
-	(wire
-		(pts
-			(xy 74.93 57.15) (xy 74.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf092a83-93b8-40ab-8481-faafba5474e2")
 	)
 	(wire
 		(pts
@@ -4394,7 +4364,7 @@
 		)
 		(uuid "223e81d1-810e-458e-87f5-043dfddbe281")
 	)
-	(label "GPIO1"
+	(label "GPIO3"
 		(at 167.64 26.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4570,8 +4540,8 @@
 		)
 		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
 	)
-	(label "GPIO1"
-		(at 66.04 60.96 0)
+	(label "GPIO3"
+		(at 66.04 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
