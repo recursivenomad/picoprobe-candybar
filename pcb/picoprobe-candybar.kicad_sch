@@ -5921,6 +5921,7 @@
 		)
 		(pin "1"
 			(uuid "7682146c-80b6-4d60-929c-0e0b9a23c6ac")
+			(alternate "UART0_TX")
 		)
 		(pin "14"
 			(uuid "67f9f55d-b0d9-48c4-a21f-825a9205fd61")
@@ -5945,6 +5946,7 @@
 		)
 		(pin "2"
 			(uuid "efe124f9-cf31-4865-9e8c-778ce5918e9f")
+			(alternate "UART0_RX")
 		)
 		(pin "32"
 			(uuid "99839aa9-7315-4976-a4bf-dd9b2185b100")
@@ -6015,12 +6017,14 @@
 		)
 		(pin "7"
 			(uuid "ccfd5ac4-709a-46b5-83bd-7e98167db0ff")
+			(alternate "UART1_RX")
 		)
 		(pin "D1"
 			(uuid "c71d5d0e-9670-43db-86fb-35bc9072de59")
 		)
 		(pin "6"
 			(uuid "4f9a1525-43c2-4e0c-b05c-97de6bebe521")
+			(alternate "UART1_TX")
 		)
 		(pin "9"
 			(uuid "53bdc364-0ff1-422a-83ce-42d5aa58ca59")
