@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.54 0)
+		(at 0 4.064 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "26979f8d-f7c9-49bb-88e3-3d179e427cc9")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SW_Slide_SP3T_Vertical_P3.2mm_CUI_SLW-156646-5A-N-D"
-		(at 0 2.54 0)
+		(at 0 -4.064 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "979db058-e006-4799-84cb-973d4942dc2f")
@@ -67,6 +67,49 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -8.05 -3.25)
+		(end 8.05 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "08121a67-a6e1-470c-ae23-ca1498b7c94d")
+	)
+	(fp_line
+		(start -1.7 -1.55)
+		(end -1.7 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dd96be02-bbd6-4fdb-a5a3-a9bf72138947")
+	)
+	(fp_rect
+		(start -7.8 -3)
+		(end 7.8 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "72ff5241-d958-4c03-82ad-1799f621ce76")
+	)
+	(fp_rect
+		(start -4.7 -1.55)
+		(end 4.7 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6e154909-d12e-44f7-883c-c751be1be480")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
