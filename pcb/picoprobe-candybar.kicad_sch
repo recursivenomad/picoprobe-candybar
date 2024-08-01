@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 119.38 147.574 0)
+			(at 119.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7010,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 106.68 30.734 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
