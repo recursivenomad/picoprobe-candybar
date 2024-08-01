@@ -368,21 +368,20 @@
 			)
 		)
 	)
-	(symbol "SLW-156646-5A-N-D"
+	(symbol "SW_Slide_SP3T"
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.905 -3.81 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SLW-156646-5A-N-D"
+		(property "Value" "SW_Slide_SP3T"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -399,7 +398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-156646-5a-n-d.pdf"
+		(property "Datasheet" ""
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -417,7 +416,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SLW-156646-5A-N-D_0_1"
+		(symbol "SW_Slide_SP3T_0_1"
 			(circle
 				(center -0.635 -3.81)
 				(radius 0.381)
@@ -463,7 +462,7 @@
 				)
 			)
 		)
-		(symbol "SLW-156646-5A-N-D_1_1"
+		(symbol "SW_Slide_SP3T_1_1"
 			(rectangle
 				(start -1.5875 4.7625)
 				(end 1.5875 -4.7625)
