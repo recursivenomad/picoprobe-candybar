@@ -416,6 +416,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SW?Slide?SP3T*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SW_Slide_SP3T_0_1"
 			(circle
 				(center -0.635 -3.81)
