@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/ki-lime-pi-pico/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
   (lib (name "Connector_PicoprobeCandybar")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/picoprobe-candybar-interface/Connector_PicoprobeCandybar.pretty")(options "")(descr ""))
+  (lib (name "ProjectFootprints_PicoprobeCandybar")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/project-specific-components/ProjectFootprints_PicoprobeCandybar.pretty")(options "")(descr ""))
 )
