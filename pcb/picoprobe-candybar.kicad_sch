@@ -5451,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "SW-R1-1A-E-1-0"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf"
 			(at 50.8 118.11 0)
 			(effects
 				(font
