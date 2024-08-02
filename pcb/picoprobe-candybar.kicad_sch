@@ -3012,6 +3012,7 @@
 			)
 		)
 		(symbol "Switch:SW_SPST"
+			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
