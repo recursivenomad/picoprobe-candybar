@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf")
 	(property "Reference" "REF**"
-		(at 0 -3.81 0)
+		(at -5.3975 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "26979f8d-f7c9-49bb-88e3-3d179e427cc9")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SW_Rocker_SPST_P10.8mm_QuickConnect_SW-R1-1X-E-XX-0_SMD-Retrofit-Horizontal"
-		(at 0 6.35 0)
+		(at 0 -36.595 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "979db058-e006-4799-84cb-973d4942dc2f")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 -1.035 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 -1.035 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -1.035 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,118 @@
 		)
 	)
 	(attr exclude_from_pos_files)
+	(fp_line
+		(start 6.35 -22.86)
+		(end 3.81 -22.86)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "81ca74c8-804e-4b70-8f8e-1bcef96b0a44")
+	)
+	(fp_circle
+		(center -5.08 -22.86)
+		(end -3.81 -22.86)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "88649156-498c-480c-b919-0e9a790d0a13")
+	)
+	(fp_rect
+		(start -17.399 -34.055)
+		(end 17.399 -5.635)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4b27d520-80ae-4579-bfce-61a3c2eab77c")
+	)
+	(fp_line
+		(start 10.16 -27.954809)
+		(end 10.16 -27.835)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b85c624-9e18-4316-9116-341ad6914cde")
+	)
+	(fp_rect
+		(start -15.25 -27.835)
+		(end 15.25 -25.835)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a723a14f-6f25-4d9e-94cc-baf3b1790855")
+	)
+	(fp_rect
+		(start -12 -25.835)
+		(end 12 -5.835)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6c49e0ea-d6f2-4159-95ff-4eb3977f2439")
+	)
+	(fp_arc
+		(start -10.159998 -27.835)
+		(mid -8.05793 -31.231139)
+		(end -4.87338 -33.64176)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c6c66b3e-9368-4938-a3c6-be8dec139b0a")
+	)
+	(fp_arc
+		(start 10.16 -27.954809)
+		(mid 2.124105 -29.425774)
+		(end -4.873381 -33.641759)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "685b2473-03fd-4662-ab30-79e4d6e6bdf2")
+	)
+	(fp_text user "Rocker Switch"
+		(at 0 -13.335 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "27026916-9538-4309-ba84-9ea5dcae8661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Keep Out Intersecting Board"
+		(at 0 -11.43 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "c1b0c5d4-f693-4de0-91f9-afc47554e581")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -17.78 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "21c5c1a6-1549-4151-b722-d1e49c5a5f46")
@@ -80,15 +190,51 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Straight_CK_OS102011MS2Q.wrl"
-		(offset
-			(xyz -3.55 0 0)
+	(pad "1" smd roundrect
+		(at -10.795 0)
+		(size 2.4 9.13)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 2.4 9.13)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "c9ab0e5f-9a6f-49f6-a837-41b9c635fce7")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Edge.Cuts")
+		(uuid "a653b649-f6ec-497b-943d-a06334418761")
+		(name "Rocker Switch Keep Out")
+		(hatch edge 0.25)
+		(connect_pads
+			(clearance 0)
 		)
-		(scale
-			(xyz 1.8 1.4 1.4)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
 		)
-		(rotate
-			(xyz 0 0 0)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -17.653 -4.565) (xy 17.653 -4.565) (xy 17.653 -34.309) (xy -17.653 -34.309)
+			)
 		)
 	)
 )
