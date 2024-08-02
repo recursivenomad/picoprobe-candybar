@@ -6917,7 +6917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS806N-DS-v02_03-en.pdf?fileId=db3a304330f686060131185f0553451c"
 			(at 86.36 146.05 0)
 			(effects
 				(font
@@ -8088,7 +8088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-156646-5a-n-d.pdf"
 			(at 106.68 166.37 0)
 			(effects
 				(font
