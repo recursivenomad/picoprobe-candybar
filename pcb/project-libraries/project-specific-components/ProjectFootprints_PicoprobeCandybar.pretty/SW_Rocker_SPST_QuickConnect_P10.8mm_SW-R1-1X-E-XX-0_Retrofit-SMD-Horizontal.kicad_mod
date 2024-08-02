@@ -237,4 +237,15 @@
 			)
 		)
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(offset
+			(xyz 0 5.835 4.15)
+		)
+		(scale
+			(xyz 33.5 20 88)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )
