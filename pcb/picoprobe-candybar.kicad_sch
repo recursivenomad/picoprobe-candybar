@@ -5379,7 +5379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08bc2020-437b-4d66-9862-1a56aec531ed")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 184.15 147.32 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5444,7 +5444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c3850d4-048f-46a5-85ed-af9361def9e0")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 50.8 114.935 0)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5511,7 +5511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13e9e214-46d9-4061-a2e1-59aa517847d2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5641,7 +5641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2086d1d2-969f-47e7-b0f4-461327aec837")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 129.54 154.94 0)
 			(effects
 				(font
@@ -5691,7 +5691,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "209e3649-0454-48d5-b6b3-d7533ca51ce1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 304.8 194.31 0)
 			(effects
 				(font
@@ -5756,7 +5756,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5984,7 +5984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ac8c4fe-97dd-4656-880f-80f19cf5be45")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 201.93 69.85 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6049,7 +6049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d9c6212-3d6e-40b6-a7ca-3098919b1f07")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 200.025 82.55 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45582b27-fdca-4c93-bb55-c01d766bfb29")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 200.025 87.63 0)
 			(effects
 				(font
@@ -6172,7 +6172,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6463,7 +6463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "609b95ff-4fee-4f40-8ab4-5d1a6ac66e18")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6879,7 +6879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e552fe4-b636-40bd-8781-9a54aac743d6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81d30274-6dca-43d2-9e91-71dcb92e6628")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 200.025 160.02 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7082,7 +7082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86493590-0984-4460-8d04-1ad8ab4486f3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 101.6 123.19 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7459,7 +7459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f9d1306-50ba-453f-93f4-8e8118b5bf3d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 83.82 142.24 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a748a43c-8dcc-4a91-b513-1766fc1f5192")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -7574,7 +7574,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4c75449-8fb4-4637-be84-1f970a19575f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 106.68 38.1 0)
 			(effects
 				(font
@@ -7708,7 +7708,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7723,7 +7723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf799dc-a63f-4503-9318-e4eebb9e2df4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 201.93 52.07 0)
 			(effects
 				(font
@@ -7773,7 +7773,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR04")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7857,7 +7857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c193010f-4c58-45f9-982b-d8cad7cabba0")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 200.025 154.94 0)
 			(effects
 				(font
@@ -7911,7 +7911,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7b1e306-3071-42bc-a918-bed5158bee4b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -7976,7 +7976,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7991,7 +7991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d28dd854-5989-4f29-aa78-64e476c76373")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 208.28 97.79 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8125,7 +8125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7e462d5-684c-43fd-88d6-cc939b054beb")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR01"
 			(at 35.56 74.93 0)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR018")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d987358c-546c-4052-919d-d2d38a251ccd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR05"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR011")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8255,7 +8255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c80d05-2324-4aca-a90d-e98476c158d8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR018"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR01")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3f7c738-def6-494d-b8df-178d640e158c")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 101.6 151.13 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8401,7 +8401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4d6e57d-d2d1-4e49-9a37-1bc284452636")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 201.93 124.46 0)
 			(effects
 				(font
@@ -8451,7 +8451,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8466,7 +8466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e621c121-b9b8-4929-934c-38bb9d7cb3f8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 208.28 170.18 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8600,7 +8600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f959f732-1591-4ff1-84fe-b43a00421215")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 120.65 154.94 0)
 			(effects
 				(font
@@ -8652,7 +8652,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8667,7 +8667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd4882eb-e48e-400c-826d-f64bfcf3bf46")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR02"
 			(at 35.56 127 0)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR020")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
