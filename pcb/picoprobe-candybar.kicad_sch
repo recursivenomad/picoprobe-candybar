@@ -5072,6 +5072,32 @@
 		)
 		(uuid "fe319396-6d70-497d-80c5-6328f6f41d24")
 	)
+	(text "CANDYBAR UART"
+		(exclude_from_sim no)
+		(at 165.1 129.54 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "26ad955b-c878-4d31-942a-ec4fa31420ad")
+	)
+	(text "POWER OUTPUT SELECT"
+		(exclude_from_sim no)
+		(at 102.235 170.815 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "306c2de6-cd36-454d-a581-b8211842e9a4")
+	)
 	(text "CB_~{RST}"
 		(exclude_from_sim no)
 		(at 196.85 26.67 0)
@@ -5083,6 +5109,58 @@
 			(justify left bottom)
 		)
 		(uuid "435dd332-2ed9-4d99-bc79-d45503c528a5")
+	)
+	(text "DEBUG INTERFACE (IN)"
+		(exclude_from_sim no)
+		(at 30.48 54.61 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "60858287-1b23-443d-b563-ada729b0b27d")
+	)
+	(text "ON/OFF"
+		(exclude_from_sim no)
+		(at 50.8 125.095 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "98a67642-ae29-457e-b4b8-cb931ef15642")
+	)
+	(text "DEBUG INTERFACE\n(OUT)"
+		(exclude_from_sim no)
+		(at 251.46 81.915 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "b41553cd-e536-4357-ada6-3ae21c9d88f8")
+	)
+	(text "CANDYBAR SWD"
+		(exclude_from_sim no)
+		(at 165.1 57.15 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "c861cdac-2dda-46ab-91cd-2feeb2f2508b")
 	)
 	(label "GPIO14"
 		(at 167.64 36.83 0)
@@ -5569,7 +5647,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 304.8 190.5 180)
+		(at 307.34 190.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5577,7 +5655,7 @@
 		(dnp no)
 		(uuid "189063b5-9e3e-4e6e-98ba-5f22b161203e")
 		(property "Reference" "#FLG01"
-			(at 304.8 192.405 0)
+			(at 307.34 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5664,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 304.8 194.31 0)
+			(at 307.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5690,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5777,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 304.8 190.5 0)
+		(at 307.34 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5707,7 +5785,7 @@
 		(dnp no)
 		(uuid "209e3649-0454-48d5-b6b3-d7533ca51ce1")
 		(property "Reference" "#PWR020"
-			(at 304.8 194.31 0)
+			(at 307.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5794,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 304.8 186.944 0)
+			(at 307.34 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 304.8 190.5 0)
+			(at 307.34 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
