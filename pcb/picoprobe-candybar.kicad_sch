@@ -6205,7 +6205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "Orange"
 			(at 200.025 90.17 0)
 			(effects
 				(font
@@ -7100,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "Orange"
 			(at 200.025 162.56 0)
 			(effects
 				(font
@@ -7944,7 +7944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Yellow"
 			(at 200.025 157.48 0)
 			(effects
 				(font
