@@ -6683,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_IDC_Cable"
+		(property "Value" "PinHeader_2x04"
 			(at 251.46 76.2 0)
 			(effects
 				(font
