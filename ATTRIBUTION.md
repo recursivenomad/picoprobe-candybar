@@ -24,6 +24,7 @@ This project relies almost entirely on Raspberry Pi's [Debug Probe repository][U
 For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe hardware][URL-Debug-Probe-Brief], documentation was acquired from Raspberry Pi for reference in 2024:
 
 - [Raspberry Pi Pico datasheet (schematic)][URL-Pico-Schematic]
+- [Raspberry Pi Pico 2 datasheet (schematic)][URL-Pico-2-Schematic]
 - [Debug Probe documentation][URL-Debug-Probe-Docs]
   - [Debug Probe schematic][URL-Debug-Probe-Schematic]
 
@@ -65,6 +66,7 @@ Various aspects of the schematic layout were inspired by the Debug Probe schemat
 [URL-Debug-Probe-Docs]: <https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html>
 [URL-Debug-Probe-Schematic]: <https://datasheets.raspberrypi.com/debug/raspberry-pi-debug-probe-schematics.pdf>
 [URL-Pico-Schematic]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf#pico-schematic>
+[URL-Pico-2-Schematic]: <https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf#schematic>
 
 [URL-KiCad]: <https://www.kicad.org/>
 [URL-Pico-SDK]: <https://github.com/raspberrypi/pico-sdk>
