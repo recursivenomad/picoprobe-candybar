@@ -223,7 +223,7 @@
 			)
 		)
 	)
-	(symbol "MBR120VLSF"
+	(symbol "PMEG6010ELR"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -237,7 +237,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120VLSF"
+		(property "Value" "PMEG6010ELR"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -245,7 +245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 0 -4.445 0)
 			(effects
 				(font
@@ -254,7 +254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr120vlsft1-d.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010ELR.pdf"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -272,7 +272,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SOD?123F*"
+		(property "ki_fp_filters" "*SOD?123W*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -281,7 +281,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MBR120VLSF_1_1"
+		(symbol "PMEG6010ELR_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
