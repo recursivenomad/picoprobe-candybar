@@ -3723,10 +3723,16 @@
 		(uuid "4dd4a18f-8553-42a2-b599-c35aedff1e02")
 	)
 	(junction
-		(at 66.04 100.33)
+		(at 58.42 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "722d03ae-ca02-41a0-9e44-5f8bfc1f57c8")
+		(uuid "6a6862aa-5ea5-4ebd-941b-934605cfdbfa")
+	)
+	(junction
+		(at 55.88 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee7d837-dcf2-4dec-9b78-9f6186637eed")
 	)
 	(junction
 		(at 208.28 88.9)
@@ -3861,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "08e0546d-db04-469f-8f81-a8af5dfa63c6")
+	)
+	(wire
+		(pts
+			(xy 55.88 100.33) (xy 58.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0932d3ad-74b5-4460-9eb5-9e30e8d7a552")
 	)
 	(wire
 		(pts
@@ -4004,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 85.09) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2a41be-679c-4df8-94fa-a7414ddb3e75")
+	)
+	(wire
+		(pts
 			(xy 245.11 73.66) (xy 226.06 73.66)
 		)
 		(stroke
@@ -4094,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 100.33) (xy 66.04 100.33)
+			(xy 53.34 100.33) (xy 55.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4114,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 120.65) (xy 35.56 118.11)
+			(xy 33.02 120.65) (xy 33.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4484,16 +4510,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 100.33) (xy 78.74 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907a2c94-82c5-482b-9b9e-ba1701a70b55")
-	)
-	(wire
-		(pts
 			(xy 173.99 129.54) (xy 176.53 129.54)
 		)
 		(stroke
@@ -4514,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 118.11) (xy 45.72 118.11)
+			(xy 33.02 118.11) (xy 40.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4614,7 +4630,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 118.11) (xy 66.04 118.11)
+			(xy 50.8 118.11) (xy 55.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4734,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 66.04 100.33)
+			(xy 55.88 118.11) (xy 55.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4821,6 +4837,16 @@
 			(type default)
 		)
 		(uuid "c8ee6af2-ea1d-4d7f-ba67-0dc13ee060bd")
+	)
+	(wire
+		(pts
+			(xy 58.42 100.33) (xy 78.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ffacf8-6d5f-4742-ab25-effdd2f33e83")
 	)
 	(wire
 		(pts
@@ -4944,6 +4970,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 95.25) (xy 58.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8826ed7-c930-4229-8b72-4e2fc84ca2d9")
+	)
+	(wire
+		(pts
 			(xy 124.46 62.23) (xy 137.16 62.23)
 		)
 		(stroke
@@ -4951,6 +4987,16 @@
 			(type default)
 		)
 		(uuid "e8f970e1-4b96-4c8f-9cba-f7733d973474")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 55.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf029fc-ccfd-47aa-90e4-ea999305970b")
 	)
 	(wire
 		(pts
@@ -5125,7 +5171,7 @@
 	)
 	(text "ON/OFF"
 		(exclude_from_sim no)
-		(at 50.8 125.095 0)
+		(at 45.72 125.73 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5449,6 +5495,75 @@
 		(uuid "fed246fe-5bcb-453a-9d69-bf5dc4e6fb6f")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05a68594-0e34-423c-a615-acf450ee21ab")
+		(property "Reference" "R11"
+			(at 57.785 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470R"
+			(at 57.785 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.658 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dda967ca-3251-4550-967f-29c98f98daf0")
+		)
+		(pin "2"
+			(uuid "e3c6b631-ed98-491d-97c1-c929707b359b")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 140.97 0)
 		(unit 1)
@@ -5515,7 +5630,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 50.8 118.11 0)
+		(at 45.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5523,7 +5638,7 @@
 		(dnp no)
 		(uuid "0c3850d4-048f-46a5-85ed-af9361def9e0")
 		(property "Reference" "SW1"
-			(at 50.8 114.935 0)
+			(at 45.72 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5646,7 @@
 			)
 		)
 		(property "Value" "SW-R1-1A-E-1-0"
-			(at 50.8 120.65 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5654,7 @@
 			)
 		)
 		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal"
-			(at 50.8 118.11 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf"
-			(at 50.8 118.11 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5672,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 50.8 118.11 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,6 +6642,71 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd223eb-04be-4eb5-aaf2-bc3b593c5296")
+		(property "Reference" "#PWR021"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2234f9d-19de-4cad-8e96-15a9d144742d")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7737,6 +7917,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af251d44-047b-4f9a-bda7-c9cf44c3efe6")
+		(property "Reference" "C3"
+			(at 59.055 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.055 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.3852 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d196b61f-a1b6-4d2c-9497-6a74d5583ed5")
+		)
+		(pin "2"
+			(uuid "c6aeab15-2493-4296-b2ca-050e47456749")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 106.68 34.29 0)
 		(unit 1)
@@ -8747,7 +8996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 120.65 0)
+		(at 33.02 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8755,7 +9004,7 @@
 		(dnp no)
 		(uuid "fd4882eb-e48e-400c-826d-f64bfcf3bf46")
 		(property "Reference" "#PWR02"
-			(at 35.56 127 0)
+			(at 33.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +9013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 124.46 0)
+			(at 33.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +9021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 120.65 0)
+			(at 33.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +9030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 120.65 0)
+			(at 33.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +9039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 120.65 0)
+			(at 33.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
