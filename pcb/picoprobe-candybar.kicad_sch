@@ -7226,7 +7226,7 @@
 		(dnp no)
 		(uuid "89fdefc9-5a95-4d56-9dd7-695d3abefac7")
 		(property "Reference" "Q1"
-			(at 86.36 144.78 0)
+			(at 86.36 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7235,7 @@
 			)
 		)
 		(property "Value" "BSS806N"
-			(at 86.36 147.32 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7270,16 @@
 				(hide yes)
 			)
 		)
-		(property "Specification" "500mA 5V"
+		(property "Specification" "Vgs@Min:Rds(on) <3.3V"
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Specification 2" "Id ≥500mA"
 			(at 86.36 149.86 0)
 			(effects
 				(font
@@ -8441,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specification" "500mA 5V DC"
+		(property "Specification" "≥500mA 5V DC"
 			(at 101.6 166.37 0)
 			(effects
 				(font
