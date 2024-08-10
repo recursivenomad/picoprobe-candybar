@@ -3870,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 55.88) (xy 264.16 71.12)
+			(xy 265.43 55.88) (xy 265.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3980,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 264.16 71.12)
+			(xy 257.81 71.12) (xy 265.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5898,7 +5898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VOUT"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
+		(property "Description" "Power symbol creates a global label with name \"VOUT\""
 			(at 134.62 138.43 0)
 			(effects
 				(font
@@ -5963,8 +5963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 307.34 186.944 0)
+		(property "Value" "VOUT"
+			(at 307.34 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +5989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
+		(property "Description" "Power symbol creates a global label with name \"VOUT\""
 			(at 307.34 190.5 0)
 			(effects
 				(font
@@ -8375,7 +8375,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 264.16 55.88 0)
+		(at 265.43 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8383,7 +8383,7 @@
 		(dnp no)
 		(uuid "c7b1e306-3071-42bc-a918-bed5158bee4b")
 		(property "Reference" "#PWR019"
-			(at 264.16 59.69 0)
+			(at 265.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,8 +8391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 264.16 52.07 0)
+		(property "Value" "VOUT"
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 55.88 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 55.88 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,8 +8417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 264.16 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"VOUT\""
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
