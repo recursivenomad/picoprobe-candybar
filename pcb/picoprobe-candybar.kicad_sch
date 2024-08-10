@@ -6785,7 +6785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 73.66 134.62 0)
 			(effects
 				(font
@@ -6811,7 +6811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -8124,11 +8124,12 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 110.49 30.48 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8188,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -8214,7 +8215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -8655,12 +8656,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 97.79 30.48 0)
+		(property "Value" "3V3"
+			(at 100.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8681,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 99.06 34.29 0)
 			(effects
 				(font
@@ -8866,7 +8868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -8892,7 +8894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 201.93 120.65 0)
 			(effects
 				(font
