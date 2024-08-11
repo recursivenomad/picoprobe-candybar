@@ -7933,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP31D1U.pdf"
 			(at 73.66 156.21 0)
 			(effects
 				(font
