@@ -3205,7 +3205,7 @@
 					(start -1.5875 4.7625)
 					(end 1.5875 -4.7625)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
