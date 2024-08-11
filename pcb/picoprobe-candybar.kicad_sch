@@ -5472,7 +5472,7 @@
 	)
 	(text "CANDYBAR UART"
 		(exclude_from_sim no)
-		(at 165.1 129.54 90)
+		(at 163.83 129.54 90)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5485,7 +5485,7 @@
 	)
 	(text "POWER OUTPUT SELECT"
 		(exclude_from_sim no)
-		(at 104.14 175.895 0)
+		(at 104.14 174.625 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5510,7 +5510,7 @@
 	)
 	(text "DEBUG INTERFACE (IN)"
 		(exclude_from_sim no)
-		(at 30.48 54.61 90)
+		(at 28.575 54.61 90)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5536,7 +5536,7 @@
 	)
 	(text "DEBUG INTERFACE\n(OUT)"
 		(exclude_from_sim no)
-		(at 251.46 81.915 0)
+		(at 251.46 82.55 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5549,7 +5549,7 @@
 	)
 	(text "CANDYBAR SWD"
 		(exclude_from_sim no)
-		(at 165.1 57.15 90)
+		(at 163.195 57.15 90)
 		(effects
 			(font
 				(size 2.54 2.54)
