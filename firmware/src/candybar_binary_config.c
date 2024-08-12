@@ -22,6 +22,10 @@ void bi_decl_config() {
     bi_decl(bi_1pin_with_name(PROBE_UART_TX, "PROBE UART_TX"));
     bi_decl(bi_1pin_with_name(PROBE_UART_RX, "PROBE UART_RX"));
 
+    bi_decl(bi_1pin_with_name(PROBE_UART_CTS, "PROBE UART_CTS"));
+    bi_decl(bi_1pin_with_name(PROBE_UART_RTS, "PROBE UART_RTS"));
+    bi_decl(bi_1pin_with_name(PROBE_UART_DTR, "PROBE UART_DTR"));
+
     bi_decl(bi_1pin_with_name(PROBE_USB_CONNECTED_LED, "LED_USB_CONN"));
     bi_decl(bi_1pin_with_name(PROBE_DAP_CONNECTED_LED, "LED_DAP_CONN"));
     bi_decl(bi_1pin_with_name(PROBE_DAP_RUNNING_LED,   "LED_DAP_RUN" ));
