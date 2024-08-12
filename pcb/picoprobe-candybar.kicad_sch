@@ -4714,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 26.67) (xy 231.14 26.67)
+			(xy 167.64 26.67) (xy 180.34 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5811,6 +5811,16 @@
 			(type default)
 		)
 		(uuid "f3a8f720-e72f-4de9-afbf-8d445f6c1ce2")
+	)
+	(wire
+		(pts
+			(xy 187.96 26.67) (xy 231.14 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6392ffc-091b-4c71-9ffd-9f4c6a6493d7")
 	)
 	(wire
 		(pts
@@ -10599,6 +10609,75 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f71039d0-1faa-40ec-aced-a4aed48aa5bc")
+		(property "Reference" "R17"
+			(at 180.975 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 187.325 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13359d3f-da8d-4d4f-896b-5e0d657b796e")
+		)
+		(pin "2"
+			(uuid "6b41d4f7-3b4a-46b8-b42a-3468c69dc44c")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R17")
 					(unit 1)
 				)
 			)
