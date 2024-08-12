@@ -14,6 +14,116 @@
 		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -4265,10 +4375,6 @@
 		(uuid "8994ad6a-6671-4434-918f-2251cf1b8110")
 	)
 	(no_connect
-		(at 81.28 82.55)
-		(uuid "e5aed171-8c91-49ef-b367-2001a84cac3b")
-	)
-	(no_connect
 		(at 127 92.71)
 		(uuid "e7836123-0be5-48ea-b3f9-da8ffaafa04e")
 	)
@@ -4818,6 +4924,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 146.05) (xy 262.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c093e01-8f19-4bb9-8ae8-88a4040a3c56")
+	)
+	(wire
+		(pts
 			(xy 104.14 34.29) (xy 104.14 36.83)
 		)
 		(stroke
@@ -4965,6 +5081,16 @@
 			(type default)
 		)
 		(uuid "87cda76b-b7f1-438c-9a58-2ef4679e9847")
+	)
+	(wire
+		(pts
+			(xy 220.98 146.05) (xy 233.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88627504-9eae-45de-ac80-8df345675fb2")
 	)
 	(wire
 		(pts
@@ -5135,6 +5261,16 @@
 			(type default)
 		)
 		(uuid "9e7b0c9f-61f2-46fa-9b74-52324346b1b6")
+	)
+	(wire
+		(pts
+			(xy 68.58 82.55) (xy 81.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b9cc46-9546-41eb-a6d2-91c3ff7f3f5c")
 	)
 	(wire
 		(pts
@@ -6055,6 +6191,17 @@
 		)
 		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
+	(label "GPIO11"
+		(at 68.58 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76d8a065-78f3-41d0-b572-cbbfe051365f")
+	)
 	(label "GPIO16"
 		(at 167.64 88.9 0)
 		(fields_autoplaced yes)
@@ -6131,6 +6278,17 @@
 			(justify left bottom)
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
+	)
+	(label "GPIO11"
+		(at 220.98 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6dafbf-cb84-46c2-b8af-9dd2bba700e7")
 	)
 	(label "GPIO2"
 		(at 68.58 59.69 0)
@@ -6579,6 +6737,70 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 267.97 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14dc143d-32fb-4247-8b7d-4e7fc55b7f78")
+		(property "Reference" "J4"
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x01"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76205830-9c2c-4435-b8f3-3aa770c37c24")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10239,6 +10461,75 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36a13e5-1319-45c1-807e-f83600cb4266")
+		(property "Reference" "R16"
+			(at 234.315 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 240.665 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b25b785-41ef-4e28-b5b6-0ff5a06d3e7d")
+		)
+		(pin "2"
+			(uuid "78ed4771-7631-4d03-a910-8aa2c9a5cbd4")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R16")
 					(unit 1)
 				)
 			)
