@@ -6004,7 +6004,7 @@
 		)
 		(uuid "c861cdac-2dda-46ab-91cd-2feeb2f2508b")
 	)
-	(text "UART HW FLOW CONTROL"
+	(text "UART HW FLOW CONTROL (OUT)"
 		(exclude_from_sim no)
 		(at 243.205 60.325 0)
 		(effects
