@@ -14,6 +14,174 @@
 		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -4077,16 +4245,8 @@
 		(uuid "25bd3ae0-2d8c-454f-bbbc-8ed1caf35047")
 	)
 	(no_connect
-		(at 81.28 72.39)
-		(uuid "2d975966-3620-4db2-bc23-e3334e26d8f5")
-	)
-	(no_connect
 		(at 127 69.85)
 		(uuid "31b81c0b-882e-4def-8224-b3a630df9ac4")
-	)
-	(no_connect
-		(at 81.28 62.23)
-		(uuid "467eccbf-d343-4d3d-8964-8e7ac06d33d1")
 	)
 	(no_connect
 		(at 127 72.39)
@@ -4099,10 +4259,6 @@
 	(no_connect
 		(at 127 77.47)
 		(uuid "7cf2d67d-9321-4d57-940a-fd76fcd50e1b")
-	)
-	(no_connect
-		(at 81.28 69.85)
-		(uuid "819f0077-f85c-4404-8c23-2b206458570f")
 	)
 	(no_connect
 		(at 127 87.63)
@@ -4119,6 +4275,16 @@
 	(no_connect
 		(at 127 67.31)
 		(uuid "f14e8b93-cef4-43bc-bf71-81a836116a54")
+	)
+	(wire
+		(pts
+			(xy 220.98 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017bb415-4845-4ac0-99c5-cbb32bc26773")
 	)
 	(wire
 		(pts
@@ -4269,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "203fbf05-9697-4678-995a-7060330cb443")
+	)
+	(wire
+		(pts
+			(xy 220.98 129.54) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f5adaf-dad1-4dc2-90f0-a935b40a1240")
 	)
 	(wire
 		(pts
@@ -4612,6 +4788,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680d58d5-609d-4701-b14b-59de85d74d9c")
+	)
+	(wire
+		(pts
 			(xy 167.64 156.21) (xy 180.34 156.21)
 		)
 		(stroke
@@ -4642,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 127) (xy 262.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b79b0d-49e3-46ee-8399-d3d6c02684aa")
+	)
+	(wire
+		(pts
 			(xy 109.22 160.02) (xy 109.22 161.29)
 		)
 		(stroke
@@ -4669,6 +4865,16 @@
 			(type default)
 		)
 		(uuid "7d3d9a74-939b-42bb-94ab-8eb3598ef9ce")
+	)
+	(wire
+		(pts
+			(xy 259.08 134.62) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcf0443-8d77-49ab-b0ab-a580ff908131")
 	)
 	(wire
 		(pts
@@ -4812,6 +5018,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 132.08) (xy 262.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b000ab-0c42-440e-9345-e1a95d6f2592")
+	)
+	(wire
+		(pts
 			(xy 173.99 129.54) (xy 176.53 129.54)
 		)
 		(stroke
@@ -4869,6 +5085,16 @@
 			(type default)
 		)
 		(uuid "97dd0510-8a38-4d1a-a2ee-f9de61053f02")
+	)
+	(wire
+		(pts
+			(xy 259.08 124.46) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b7b55f-fc7d-4344-a65f-9605fcc3e448")
 	)
 	(wire
 		(pts
@@ -5052,6 +5278,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 129.54) (xy 262.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b887fca2-21c3-4926-b1d9-0b68eaed39c7")
+	)
+	(wire
+		(pts
 			(xy 167.64 83.82) (xy 180.34 83.82)
 		)
 		(stroke
@@ -5112,6 +5348,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c362b282-3698-40bd-83e7-f58ea6079c39")
+	)
+	(wire
+		(pts
 			(xy 194.31 36.83) (xy 226.06 36.83)
 		)
 		(stroke
@@ -5119,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "c49a97fa-341e-41f1-bc86-68603255f22a")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e7c7b9-4649-4a83-9755-f29eab747f1a")
 	)
 	(wire
 		(pts
@@ -5332,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 134.62) (xy 259.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc9a20b-9e34-4cac-9bc0-d4673becb6f4")
+	)
+	(wire
+		(pts
 			(xy 48.26 157.48) (xy 48.26 158.75)
 		)
 		(stroke
@@ -5339,6 +5605,16 @@
 			(type default)
 		)
 		(uuid "ed1db50c-e4ed-4cce-9c90-9b815f6b51c2")
+	)
+	(wire
+		(pts
+			(xy 220.98 134.62) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed88b229-a225-436f-aa47-e6aaa3713b06")
 	)
 	(wire
 		(pts
@@ -5369,6 +5645,16 @@
 			(type default)
 		)
 		(uuid "f10ad6a4-8397-4463-bf8f-8531d95ca105")
+	)
+	(wire
+		(pts
+			(xy 241.3 124.46) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24870f6-047a-4b21-a0cd-c43caaec7af0")
 	)
 	(wire
 		(pts
@@ -5582,6 +5868,17 @@
 		)
 		(uuid "073345bb-13a7-4722-83ba-7cb0eccfac78")
 	)
+	(label "GPIO6"
+		(at 220.98 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07854440-5358-4355-b117-d77000c99845")
+	)
 	(label "GPIO14"
 		(at 68.58 90.17 0)
 		(fields_autoplaced yes)
@@ -5604,6 +5901,17 @@
 		)
 		(uuid "0e1e4215-be0a-4104-b7f5-2cfe29aa1a40")
 	)
+	(label "GPIO3"
+		(at 220.98 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e92a12e-dcf1-4fa8-b42b-6f1f63d3e563")
+	)
 	(label "GPIO8"
 		(at 68.58 74.93 0)
 		(fields_autoplaced yes)
@@ -5614,6 +5922,17 @@
 			(justify left bottom)
 		)
 		(uuid "118ea663-3482-4638-b504-7e86eea06ead")
+	)
+	(label "CB_CTS"
+		(at 250.19 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16f56fa6-07ee-4cb8-bd8c-76de717dd1f9")
 	)
 	(label "GPIO15"
 		(at 167.64 83.82 0)
@@ -5681,6 +6000,28 @@
 		)
 		(uuid "31191d65-6686-4c97-b1d4-fe26fa96ab7d")
 	)
+	(label "CB_RTS"
+		(at 250.19 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "567f1b91-db37-4945-9fdd-2aad8e881ab1")
+	)
+	(label "GPIO7"
+		(at 220.98 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa1cbe0-ffeb-4be5-a6cd-8e6ea6615c66")
+	)
 	(label "CB_TX"
 		(at 196.85 104.14 0)
 		(fields_autoplaced yes)
@@ -5724,6 +6065,39 @@
 			(justify left bottom)
 		)
 		(uuid "7b62c24c-aff2-4b75-b480-6f6b3b4a2be4")
+	)
+	(label "GPIO6"
+		(at 68.58 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8314aa47-f58f-41e6-ae9f-d4e7f8f043dc")
+	)
+	(label "GPIO3"
+		(at 68.58 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89f14ca3-e25b-4e1f-aba5-13f93108d758")
+	)
+	(label "GPIO7"
+		(at 68.58 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e4b8340-8fca-482f-a1a2-44abd2b11201")
 	)
 	(label "3V3_EN"
 		(at 31.75 163.83 0)
@@ -5856,6 +6230,17 @@
 			(justify right bottom)
 		)
 		(uuid "f75c0742-ac18-4b5a-954b-aabfaf261d98")
+	)
+	(label "CB_DTR"
+		(at 250.19 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa325171-b51e-4e16-84dc-bc8c362b5e3a")
 	)
 	(label "GPIO13"
 		(at 68.58 87.63 0)
@@ -6194,6 +6579,76 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 267.97 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1709109b-a14b-48c6-a310-195a34586227")
+		(property "Reference" "J3"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x03"
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d6fd6df-eda7-4a34-b993-933029c0fb7a")
+		)
+		(pin "2"
+			(uuid "7e9a33d5-cce1-4131-8905-378b2ceb53a1")
+		)
+		(pin "3"
+			(uuid "e528cc97-7d1d-4cbe-9c1c-148bec49becc")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6736,6 +7191,75 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33a8282a-9781-4c39-931e-42f5d04b3ee3")
+		(property "Reference" "R14"
+			(at 234.315 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 240.665 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27933aca-aa03-450d-aa37-3863b456f0a9")
+		)
+		(pin "2"
+			(uuid "d1c19f7d-a909-41ec-b98e-24ba09d5b4f6")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7773,6 +8297,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80e2fe70-2479-4b4b-9a68-8b565acfcfef")
+		(property "Reference" "R13"
+			(at 234.315 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 240.665 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29172787-a56d-4488-a6ef-3dd22d5cfb6a")
+		)
+		(pin "2"
+			(uuid "c4f73dc1-a8ef-428b-b887-3647c4beb67e")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 201.93 161.29 180)
 		(unit 1)
@@ -8222,6 +8815,75 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ea12661-25a6-4f40-b5b4-c972260a4c5f")
+		(property "Reference" "R15"
+			(at 234.315 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 240.665 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca1ff7c7-06ac-4df9-a0db-8d86bad045de")
+		)
+		(pin "2"
+			(uuid "144c2b81-9780-496e-bc79-25aee33eb92f")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R15")
 					(unit 1)
 				)
 			)
