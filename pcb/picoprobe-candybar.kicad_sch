@@ -7514,12 +7514,14 @@
 		)
 		(pin "14"
 			(uuid "67f9f55d-b0d9-48c4-a21f-825a9205fd61")
+			(alternate "UART1_CTS")
 		)
 		(pin "10"
 			(uuid "d99444a4-d10e-4cc1-8842-cda32afbb4ca")
 		)
 		(pin "15"
 			(uuid "989a88f2-0db7-467a-bdc9-3748bd655167")
+			(alternate "UART1_RTS")
 		)
 		(pin "17"
 			(uuid "a2cc7226-974d-4b6b-a333-d708dc7f37ec")
