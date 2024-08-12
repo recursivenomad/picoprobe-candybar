@@ -4085,12 +4085,12 @@
 		(uuid "31b81c0b-882e-4def-8224-b3a630df9ac4")
 	)
 	(no_connect
-		(at 127 72.39)
-		(uuid "4b72399c-288f-4b28-92e8-61c4c3cc0fee")
+		(at 81.28 62.23)
+		(uuid "467eccbf-d343-4d3d-8964-8e7ac06d33d1")
 	)
 	(no_connect
-		(at 81.28 59.69)
-		(uuid "5c567d34-17c0-4f57-b5ce-70779c867232")
+		(at 127 72.39)
+		(uuid "4b72399c-288f-4b28-92e8-61c4c3cc0fee")
 	)
 	(no_connect
 		(at 81.28 97.79)
@@ -4962,16 +4962,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3cb86b-f817-4d6e-893c-d5ca1775af5f")
-	)
-	(wire
-		(pts
 			(xy 68.58 74.93) (xy 81.28 74.93)
 		)
 		(stroke
@@ -5019,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "b48fee55-c69c-4dcf-968c-e9af5ec432fc")
+	)
+	(wire
+		(pts
+			(xy 68.58 59.69) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6033f37-5272-4065-ae5b-93b112fbcd50")
 	)
 	(wire
 		(pts
@@ -5637,7 +5637,7 @@
 		)
 		(uuid "223e81d1-810e-458e-87f5-043dfddbe281")
 	)
-	(label "GPIO3"
+	(label "GPIO2"
 		(at 167.64 26.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5758,6 +5758,17 @@
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
+	(label "GPIO2"
+		(at 68.58 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bddab5d3-b6aa-4789-a6be-49b67323efe9")
+	)
 	(label "GPIO12"
 		(at 68.58 85.09 0)
 		(fields_autoplaced yes)
@@ -5812,17 +5823,6 @@
 			(justify left bottom)
 		)
 		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
-	)
-	(label "GPIO3"
-		(at 68.58 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6cacb5d-ebdf-4e06-8be5-765032ba3b09")
 	)
 	(label "GPIO10"
 		(at 68.58 80.01 0)
