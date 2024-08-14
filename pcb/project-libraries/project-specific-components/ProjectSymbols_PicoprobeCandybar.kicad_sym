@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "74AUP1T17"
+	(symbol "NC7WZ17"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 8.89 0)
+			(at 1.27 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,8 +15,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUP1T17"
-			(at 1.27 -8.89 0)
+		(property "Value" "NC7WZ17"
+			(at 1.27 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 0 -20.955 0)
+			(at 0 -22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
-			(at 0 -22.86 0)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nc7wz17-d.pdf"
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +43,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SC?88?6 SC?70?6 SOT?363*6 UDFN?6 OnSemi?SIP?6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,19 +60,36 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*sot?353* *X2SON?5*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "NC7WZ17_0_1"
+			(polyline
+				(pts
+					(xy -1.651 -0.635) (xy 1.651 -2.54) (xy -1.651 -4.445) (xy -1.651 -0.635)
 				)
-				(hide yes)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 4.445) (xy 1.651 2.54) (xy -1.651 0.635) (xy -1.651 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
-		(symbol "74AUP1T17_1_1"
+		(symbol "NC7WZ17_1_1"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -72,20 +98,9 @@
 					(type background)
 				)
 			)
-			(rectangle
-				(start -1.905 1.905)
-				(end 1.905 -1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -3.175 0) (xy -1.905 0)
+					(xy -3.175 -2.54) (xy -1.651 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -97,7 +112,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 0) (xy 3.175 0)
+					(xy -3.175 2.54) (xy -1.651 2.54)
 				)
 				(stroke
 					(width 0)
@@ -109,7 +124,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -1.27) (xy 0 -1.27) (xy 0.635 1.27)
+					(xy 1.651 -2.54) (xy 3.175 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -121,7 +136,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -0.635 -1.27) (xy 0 1.27) (xy 1.27 1.27)
+					(xy 1.651 2.54) (xy 3.175 2.54)
 				)
 				(stroke
 					(width 0)
@@ -131,10 +146,58 @@
 					(type none)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 -7.62 90)
-				(length 2.54) hide
-				(name "NC"
+			(polyline
+				(pts
+					(xy -1.016 -3.175) (xy -0.635 -3.175) (xy -0.254 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.905) (xy -0.635 1.905) (xy -0.254 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.175) (xy -1.016 -3.175) (xy -0.635 -1.905) (xy 0 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.905) (xy -1.016 1.905) (xy -0.635 3.175) (xy 0 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -149,10 +212,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0 0)
+			(pin power_in line
+				(at 0 -11.43 90)
 				(length 2.54)
-				(name "A"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -167,10 +230,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 90)
+			(pin input line
+				(at -8.89 -2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -185,10 +248,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 10.16 270)
+			(pin output line
+				(at 8.89 -2.54 180)
 				(length 2.54)
-				(name "VCC"
+				(name "Y2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -203,10 +266,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin power_in line
+				(at 0 11.43 270)
 				(length 2.54)
-				(name "Y"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -214,6 +277,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
