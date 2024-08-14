@@ -5338,7 +5338,7 @@
 		)
 		(uuid "67cbe64a-7a83-4161-86d0-bc703233fa62")
 	)
-	(label "GPIO9"
+	(label "GPIO8"
 		(at 152.4 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5591,7 +5591,7 @@
 		)
 		(uuid "ecdb293b-828e-49e4-b4b6-be5eeb3bdeba")
 	)
-	(label "GPIO8"
+	(label "GPIO9"
 		(at 152.4 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7435,7 +7435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Yellow"
 			(at 184.785 142.24 0)
 			(effects
 				(font
@@ -8366,7 +8366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Yellow"
+		(property "Value" "Orange"
 			(at 184.785 137.16 0)
 			(effects
 				(font
