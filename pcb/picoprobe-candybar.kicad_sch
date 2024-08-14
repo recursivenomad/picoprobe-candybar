@@ -3950,12 +3950,6 @@
 		(uuid "40ae935c-e38d-4a38-a7c5-b2fea70c3594")
 	)
 	(junction
-		(at 187.96 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45626eac-82f5-4a5e-a9c8-656e3d29c719")
-	)
-	(junction
 		(at 57.15 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4030,6 +4024,10 @@
 	(no_connect
 		(at 127 77.47)
 		(uuid "7cf2d67d-9321-4d57-940a-fd76fcd50e1b")
+	)
+	(no_connect
+		(at 81.28 77.47)
+		(uuid "822dc09b-d5a7-4b3c-8b44-471a5c755a7c")
 	)
 	(no_connect
 		(at 127 87.63)
@@ -4122,16 +4120,6 @@
 			(type default)
 		)
 		(uuid "0f9051b3-0ed9-4c39-a31d-f5abbfe73bcb")
-	)
-	(wire
-		(pts
-			(xy 181.61 109.22) (xy 187.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec7f6fd-80a3-498e-b358-5c8a30c70900")
 	)
 	(wire
 		(pts
@@ -4255,16 +4243,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 161.29 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353a48d1-2e32-40a5-a14c-d380a6711e2a")
-	)
-	(wire
-		(pts
 			(xy 181.61 31.75) (xy 208.28 31.75)
 		)
 		(stroke
@@ -4325,17 +4303,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 114.3) (xy 187.96 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40936999-4aa8-431c-8cc8-9eb0f97c2e2c")
-	)
-	(wire
-		(pts
-			(xy 187.96 109.22) (xy 233.68 109.22)
+			(xy 181.61 109.22) (xy 233.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4452,16 +4420,6 @@
 			(type default)
 		)
 		(uuid "5fbbc4ce-92ed-4f28-9746-666ef94a564f")
-	)
-	(wire
-		(pts
-			(xy 68.58 77.47) (xy 81.28 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6304414f-7aa5-4e4e-b810-ef84be2605e7")
 	)
 	(wire
 		(pts
@@ -4952,16 +4910,6 @@
 			(type default)
 		)
 		(uuid "c6df9b83-a462-463b-8205-3d2c168eac5c")
-	)
-	(wire
-		(pts
-			(xy 187.96 114.3) (xy 187.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d086e9-ec51-44ad-af42-2830c5941682")
 	)
 	(wire
 		(pts
@@ -5629,28 +5577,6 @@
 		)
 		(uuid "947a6479-b94d-4101-8d0a-27ebf097c24d")
 	)
-	(label "GPIO9"
-		(at 68.58 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97077e6f-4573-47f7-92f0-712f50ded13d")
-	)
-	(label "GPIO5"
-		(at 161.29 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98ef0318-83a4-4b8f-8907-8e877bad3152")
-	)
 	(label "GPIO15"
 		(at 68.58 92.71 0)
 		(fields_autoplaced yes)
@@ -5717,7 +5643,7 @@
 		)
 		(uuid "d4e3709b-5264-48e1-8fc8-bde119242daf")
 	)
-	(label "GPIO9"
+	(label "GPIO5"
 		(at 161.29 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6935,75 +6861,6 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58b7d8f6-c0cc-487a-99f8-e433288f536f")
-		(property "Reference" "R8"
-			(at 174.625 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 180.975 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74806a4f-56ed-405a-8c26-95e04e890761")
-		)
-		(pin "2"
-			(uuid "74b9f82c-5118-431d-b5cf-ebf8fb876c68")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R8")
 					(unit 1)
 				)
 			)
