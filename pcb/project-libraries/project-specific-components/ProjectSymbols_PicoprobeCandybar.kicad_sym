@@ -7,16 +7,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 10.795 0)
+			(at -6.985 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NC7WZ17"
-			(at 1.27 -10.795 0)
+			(at 6.985 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,8 +88,8 @@
 		)
 		(symbol "NC7WZ17_1_1"
 			(rectangle
-				(start -6.35 8.89)
-				(end 6.35 -8.89)
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -213,7 +213,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -267,7 +267,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 11.43 270)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
