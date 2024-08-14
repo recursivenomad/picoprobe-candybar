@@ -3044,227 +3044,6 @@
 				)
 			)
 		)
-		(symbol "ProjectSymbols_PicoprobeCandybar:74AUP1T17"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "74AUP1T17"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 -20.955 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*sot?353* *X2SON?5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AUP1T17_1_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.905 1.905)
-					(end 1.905 -1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy 0 -1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -0.635 -1.27) (xy 0 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -7.62 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ProjectSymbols_PicoprobeCandybar:SW_Slide_SP3T"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4177,12 +3956,6 @@
 		(uuid "45626eac-82f5-4a5e-a9c8-656e3d29c719")
 	)
 	(junction
-		(at 195.58 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dd4a18f-8553-42a2-b599-c35aedff1e02")
-	)
-	(junction
 		(at 57.15 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4217,12 +3990,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5016ef2-2152-4cd2-93aa-1984a8b8ba95")
-	)
-	(junction
-		(at 195.58 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb89b45f-e48c-4e40-af57-ca2fee1e872d")
 	)
 	(no_connect
 		(at 127 82.55)
@@ -4358,56 +4125,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1108c039-15f3-4fff-9720-b2e892d0f5e8")
-	)
-	(wire
-		(pts
-			(xy 167.64 41.91) (xy 167.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c53a74-66e5-4aa2-8f3e-18c572e936f4")
-	)
-	(wire
-		(pts
-			(xy 187.96 123.19) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b0f2ec-9260-463c-9927-c5dfdf24eedf")
-	)
-	(wire
-		(pts
-			(xy 187.96 76.2) (xy 187.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16250d31-a519-4f12-8858-72a965db0b13")
-	)
-	(wire
-		(pts
-			(xy 177.8 118.11) (xy 177.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae238ab-c136-4bae-a7f3-d844a756bfa5")
-	)
-	(wire
-		(pts
 			(xy 181.61 109.22) (xy 187.96 109.22)
 		)
 		(stroke
@@ -4488,26 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 45.72) (xy 195.58 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0ed6db-6f79-41c1-8947-5a659ebc3ee7")
-	)
-	(wire
-		(pts
-			(xy 187.96 148.59) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef00fc5-032d-430b-a446-7ec1d344e588")
-	)
-	(wire
-		(pts
 			(xy 210.82 26.67) (xy 210.82 76.2)
 		)
 		(stroke
@@ -4548,7 +4245,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 41.91) (xy 167.64 41.91)
+			(xy 173.99 41.91) (xy 161.29 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4558,7 +4255,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 167.64 114.3)
+			(xy 173.99 114.3) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4585,16 +4282,6 @@
 			(type default)
 		)
 		(uuid "3601af58-a0a1-4e33-ae6a-7ac4ad427669")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 167.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "388f7dec-90b0-4126-8eb9-d4ab7694a7cb")
 	)
 	(wire
 		(pts
@@ -4635,16 +4322,6 @@
 			(type default)
 		)
 		(uuid "3eb12deb-7f88-42ff-9eb9-12cd64127d6b")
-	)
-	(wire
-		(pts
-			(xy 177.8 140.97) (xy 177.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6d2465-41e9-412a-819a-e6c3dbbc27c5")
 	)
 	(wire
 		(pts
@@ -4858,16 +4535,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d3d9a74-939b-42bb-94ab-8eb3598ef9ce")
-	)
-	(wire
-		(pts
 			(xy 257.81 55.88) (xy 257.81 53.34)
 		)
 		(stroke
@@ -4875,16 +4542,6 @@
 			(type default)
 		)
 		(uuid "7fcf0443-8d77-49ab-b0ab-a580ff908131")
-	)
-	(wire
-		(pts
-			(xy 177.8 68.58) (xy 177.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b4cdba-24a5-4d97-9747-40c5a35d2e3c")
 	)
 	(wire
 		(pts
@@ -4905,26 +4562,6 @@
 			(type default)
 		)
 		(uuid "827ed964-2d2d-44cf-886b-92a228fbc9c1")
-	)
-	(wire
-		(pts
-			(xy 187.96 129.54) (xy 185.42 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828ae8a3-06a5-4094-8e43-bf01cc5be5d5")
-	)
-	(wire
-		(pts
-			(xy 195.58 50.8) (xy 195.58 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835059e9-ddf7-4353-a310-5154745a7fd3")
 	)
 	(wire
 		(pts
@@ -4965,16 +4602,6 @@
 			(type default)
 		)
 		(uuid "87cda76b-b7f1-438c-9a58-2ef4679e9847")
-	)
-	(wire
-		(pts
-			(xy 195.58 118.11) (xy 195.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f4424b-a1f0-411a-b1e4-1739433b1146")
 	)
 	(wire
 		(pts
@@ -5028,16 +4655,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 129.54) (xy 170.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930dbf89-796f-4d23-888a-695aac2681a2")
-	)
-	(wire
-		(pts
 			(xy 109.22 158.75) (xy 109.22 160.02)
 		)
 		(stroke
@@ -5068,16 +4685,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 195.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974e1a8d-1f6f-450b-b091-2d646f2681c8")
-	)
-	(wire
-		(pts
 			(xy 31.75 163.83) (xy 40.64 163.83)
 		)
 		(stroke
@@ -5098,16 +4705,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 148.59) (xy 161.29 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be457c8-69f2-4728-b98d-db9e0242c4a2")
-	)
-	(wire
-		(pts
 			(xy 266.7 91.44) (xy 266.7 96.52)
 		)
 		(stroke
@@ -5125,16 +4722,6 @@
 			(type default)
 		)
 		(uuid "9d7c7633-58a9-4ae9-8597-0adc48f09acc")
-	)
-	(wire
-		(pts
-			(xy 195.58 50.8) (xy 187.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7b0c9f-61f2-46fa-9b74-52324346b1b6")
 	)
 	(wire
 		(pts
@@ -5178,16 +4765,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 45.72) (xy 177.8 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7d5b63-73cb-4f6c-bfa9-2eda39575a44")
-	)
-	(wire
-		(pts
 			(xy 68.58 74.93) (xy 81.28 74.93)
 		)
 		(stroke
@@ -5195,16 +4772,6 @@
 			(type default)
 		)
 		(uuid "afe2faa8-0b09-4f4b-b5ed-e7f4ec753384")
-	)
-	(wire
-		(pts
-			(xy 187.96 57.15) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b102d047-4fde-4581-8af0-27d9ca59347d")
 	)
 	(wire
 		(pts
@@ -5428,36 +4995,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f0f640-d162-4304-adcb-22064f92e767")
-	)
-	(wire
-		(pts
-			(xy 177.8 45.72) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf18655-fc45-48c4-befb-47959a103c98")
-	)
-	(wire
-		(pts
-			(xy 187.96 76.2) (xy 161.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2da3ec2-72e3-47b7-a845-d53224541924")
-	)
-	(wire
-		(pts
 			(xy 199.39 83.82) (xy 201.93 83.82)
 		)
 		(stroke
@@ -5495,16 +5032,6 @@
 			(type default)
 		)
 		(uuid "d9182f0c-464b-4762-b00d-a8e4830c61f4")
-	)
-	(wire
-		(pts
-			(xy 195.58 123.19) (xy 187.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da02c16b-c859-4a7a-9d30-48b8a6a9fe17")
 	)
 	(wire
 		(pts
@@ -5658,16 +5185,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 133.35) (xy 195.58 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35df068-b9ea-49bf-a1d1-5b0218f96258")
-	)
-	(wire
-		(pts
 			(xy 35.56 35.56) (xy 35.56 41.91)
 		)
 		(stroke
@@ -5735,16 +5252,6 @@
 			(type default)
 		)
 		(uuid "fa8ea3d1-1566-4e18-820d-c63d8e608479")
-	)
-	(wire
-		(pts
-			(xy 195.58 123.19) (xy 195.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce3cd39-6ee9-4b0f-abe7-53d3cd662a41")
 	)
 	(wire
 		(pts
@@ -5968,17 +5475,6 @@
 		)
 		(uuid "1c43d6ef-9cd3-47d9-936d-736c6507388c")
 	)
-	(label "GPIO5"
-		(at 161.29 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "223e81d1-810e-458e-87f5-043dfddbe281")
-	)
 	(label "GPIO2"
 		(at 161.29 26.67 0)
 		(fields_autoplaced yes)
@@ -6011,17 +5507,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b4451af-731d-419e-b824-1bbf22681bdb")
-	)
-	(label "GPIO13"
-		(at 161.29 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31191d65-6686-4c97-b1d4-fe26fa96ab7d")
 	)
 	(label "CB_RTS"
 		(at 248.92 55.88 0)
@@ -6122,6 +5607,17 @@
 		)
 		(uuid "8e4b8340-8fca-482f-a1a2-44abd2b11201")
 	)
+	(label "GPIO13"
+		(at 161.29 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "934cb162-029e-4168-a087-977c507cb61c")
+	)
 	(label "3V3_EN"
 		(at 31.75 163.83 0)
 		(fields_autoplaced yes)
@@ -6143,6 +5639,17 @@
 			(justify left bottom)
 		)
 		(uuid "97077e6f-4573-47f7-92f0-712f50ded13d")
+	)
+	(label "GPIO5"
+		(at 161.29 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ef0318-83a4-4b8f-8907-8e877bad3152")
 	)
 	(label "GPIO15"
 		(at 68.58 92.71 0)
@@ -6340,71 +5847,6 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08bc2020-437b-4d66-9862-1a56aec531ed")
-		(property "Reference" "#PWR011"
-			(at 177.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea42f885-97e9-45e0-a746-ed1348cf5614")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7023,153 +6465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectSymbols_PicoprobeCandybar:74AUP1T17")
-		(at 177.8 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21a66944-2457-4952-bc90-369274383d1a")
-		(property "Reference" "U2"
-			(at 172.085 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "74AUP1T17"
-			(at 172.085 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 177.8 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
-			(at 177.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c94848f5-4846-44cf-9168-9855697a0491")
-		)
-		(pin "3"
-			(uuid "e23ac178-62f3-49a4-ac7b-b467b2f619da")
-		)
-		(pin "2"
-			(uuid "0e91f20d-ef30-4a36-a4d1-14510c76b6e4")
-		)
-		(pin "1"
-			(uuid "1d184984-40e6-415c-ae71-7916338a9d29")
-		)
-		(pin "5"
-			(uuid "8c8cc625-9351-4bf7-a03d-4f018ee3a42c")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25145651-ee8b-49f6-bfb2-352126329b5a")
-		(property "Reference" "C1"
-			(at 196.215 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 196.215 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.5452 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d1b3fbc-db6f-4fac-afa1-680914e7ce46")
-		)
-		(pin "2"
-			(uuid "8bad8158-f139-48a8-b6bc-7c4041e1307d")
-		)
-		(instances
-			(project ""
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico_InternalPullUp-3V3_EN")
 		(at 81.28 100.33 0)
 		(unit 1)
@@ -7230,71 +6525,6 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#INT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ac8c4fe-97dd-4656-880f-80f19cf5be45")
-		(property "Reference" "#PWR013"
-			(at 195.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ec9a9cf-a539-4f02-b2e8-feb0e40b0640")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8267,71 +7497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 177.8 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e552fe4-b636-40bd-8781-9a54aac743d6")
-		(property "Reference" "#PWR010"
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb83e356-a568-41a2-879f-e05f9e5a9637")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 177.8 83.82 90)
 		(unit 1)
@@ -9063,84 +8228,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectSymbols_PicoprobeCandybar:74AUP1T17")
-		(at 177.8 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f639884-1165-4595-999a-d84d0771f195")
-		(property "Reference" "U1"
-			(at 172.085 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "74AUP1T17"
-			(at 172.085 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 177.8 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf"
-			(at 177.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "73912312-46f6-47fb-8e94-d8eb2a0dff96")
-		)
-		(pin "3"
-			(uuid "aa362219-e87c-42eb-9410-ba74f92ba5c7")
-		)
-		(pin "2"
-			(uuid "34af1603-33d1-489b-bff0-b0c39ecec876")
-		)
-		(pin "1"
-			(uuid "fa48c1de-ddaa-43cc-b209-d83a7247d5af")
-		)
-		(pin "5"
-			(uuid "f31e3e3c-9332-4e70-b5b0-ea6763ee5603")
-		)
-		(instances
-			(project ""
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 73.66 142.24 0)
 		(unit 1)
@@ -9200,71 +8287,6 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a748a43c-8dcc-4a91-b513-1766fc1f5192")
-		(property "Reference" "#PWR015"
-			(at 195.58 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68d02794-573e-4764-9699-7f18ad8b1118")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9469,71 +8491,6 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 195.58 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baf799dc-a63f-4503-9318-e4eebb9e2df4")
-		(property "Reference" "#PWR012"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 195.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3\""
-			(at 195.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69f61572-6f18-409a-a69b-c4735de2c8d5")
-		)
-		(instances
-			(project ""
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10154,71 +9111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 195.58 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4d6e57d-d2d1-4e49-9a37-1bc284452636")
-		(property "Reference" "#PWR014"
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 195.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3\""
-			(at 195.58 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf051482-0150-4dbe-b906-cc7cf183780b")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 48.26 170.18 0)
 		(unit 1)
@@ -10343,75 +9235,6 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5c864e5-bad6-476d-ad66-4845e64f0009")
-		(property "Reference" "C2"
-			(at 196.215 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 196.215 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.5452 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "376bb831-9b5c-46eb-b13d-9d7c291c8ece")
-		)
-		(pin "2"
-			(uuid "80228991-643c-4394-bfcc-64660aa3ef74")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "C2")
 					(unit 1)
 				)
 			)
