@@ -8220,6 +8220,14 @@
 				(hide yes)
 			)
 		)
+		(property "Specification" "≤1.8V ~ ≥5V"
+			(at 187.96 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da548517-3496-4ae5-a64d-27232155af7b")
 		)
