@@ -4026,7 +4026,7 @@
 		(uuid "7cf2d67d-9321-4d57-940a-fd76fcd50e1b")
 	)
 	(no_connect
-		(at 81.28 77.47)
+		(at 81.28 80.01)
 		(uuid "822dc09b-d5a7-4b3c-8b44-471a5c755a7c")
 	)
 	(no_connect
@@ -4953,7 +4953,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 80.01) (xy 81.28 80.01)
+			(xy 68.58 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +5500,7 @@
 		)
 		(uuid "67cbe64a-7a83-4161-86d0-bc703233fa62")
 	)
-	(label "GPIO10"
+	(label "GPIO9"
 		(at 161.29 156.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5654,8 +5654,8 @@
 		)
 		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
 	)
-	(label "GPIO10"
-		(at 68.58 80.01 0)
+	(label "GPIO9"
+		(at 68.58 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
