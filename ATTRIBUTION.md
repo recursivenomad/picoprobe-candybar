@@ -39,6 +39,7 @@ Various aspects of the schematic layout were inspired by the Debug Probe schemat
 
 > *Additional attributions specific to certain elements can be found at the following locations:*  
 > `./pcb/project-libraries/ki-lime-pi-pico/ATTRIBUTION.md` ([local link](./pcb/project-libraries/ki-lime-pi-pico/ATTRIBUTION.md)) ([online link](https://github.com/recursivenomad/ki-lime-pi-to-go/blob/main/ATTRIBUTION.md))  
+> `./pcb/project-libraries/picoprobe-candybar-interface/ATTRIBUTION.md` ([local link](./pcb/project-libraries/picoprobe-candybar-interface/ATTRIBUTION.md)) ([online link](https://gitlab.com/recursivenomad/picoprobe-candybar-interface/-/blob/main/ATTRIBUTION.md))
 
 &nbsp;
 
