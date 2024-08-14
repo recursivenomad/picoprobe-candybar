@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 0 -22.225 0)
 			(effects
 				(font
@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SC?88?6 SC?70?6 SOT?363*6 UDFN?6 OnSemi?SIP?6"
+		(property "ki_fp_filters" "SC?88?6 SC?70?6 SOT?363*6 UDFN?6 OnSemi?SIP?6 *MicroPak?6* *MicroPak2?6*"
 			(at 0 0 0)
 			(effects
 				(font
