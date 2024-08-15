@@ -863,7 +863,7 @@
 		)
 		(symbol "SW_Slide_SP3T_Common_MBBR_0_1"
 			(circle
-				(center -0.635 -5.08)
+				(center -0.254 -5.08)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -874,7 +874,7 @@
 				)
 			)
 			(circle
-				(center -0.635 -2.54)
+				(center -0.254 -2.54)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -885,7 +885,7 @@
 				)
 			)
 			(circle
-				(center -0.635 5.08)
+				(center -0.254 5.08)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -897,7 +897,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 0.381) (xy 1.905 2.159)
+					(xy 1.524 0.381) (xy 1.524 2.159)
 				)
 				(stroke
 					(width 0)
@@ -908,7 +908,7 @@
 				)
 			)
 			(circle
-				(center 1.905 0)
+				(center 1.524 0)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -919,7 +919,7 @@
 				)
 			)
 			(circle
-				(center 1.905 2.54)
+				(center 1.524 2.54)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -932,8 +932,8 @@
 		)
 		(symbol "SW_Slide_SP3T_Common_MBBR_1_1"
 			(rectangle
-				(start -1.524 6.985)
-				(end 2.794 -6.985)
+				(start -1.27 6.985)
+				(end 2.54 -6.985)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -943,8 +943,8 @@
 				)
 			)
 			(rectangle
-				(start -0.254 1.27)
-				(end 1.524 -1.27)
+				(start 0.127 1.27)
+				(end 1.143 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -954,8 +954,8 @@
 				)
 			)
 			(rectangle
-				(start -0.254 6.35)
-				(end 1.524 3.81)
+				(start 0.127 6.35)
+				(end 1.143 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -965,8 +965,8 @@
 				)
 			)
 			(rectangle
-				(start 0.381 3.81)
-				(end 0.889 1.27)
+				(start 0.508 3.81)
+				(end 0.762 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -977,7 +977,7 @@
 			)
 			(pin passive line
 				(at -3.81 5.08 0)
-				(length 2.794)
+				(length 3.175)
 				(name "~"
 					(effects
 						(font
@@ -995,7 +995,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 2.794)
+				(length 3.175)
 				(name "~"
 					(effects
 						(font
@@ -1013,7 +1013,7 @@
 			)
 			(pin passive line
 				(at -3.81 -2.54 0)
-				(length 2.794)
+				(length 3.175)
 				(name "~"
 					(effects
 						(font
@@ -1031,7 +1031,7 @@
 			)
 			(pin passive line
 				(at -3.81 -5.08 0)
-				(length 2.794)
+				(length 3.175)
 				(name "~"
 					(effects
 						(font
