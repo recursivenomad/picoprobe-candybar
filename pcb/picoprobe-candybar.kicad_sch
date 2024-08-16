@@ -6323,7 +6323,7 @@
 	(junction
 		(at 71.12 100.33)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 255 255 0)
 		(uuid "e8ee34fa-e931-4557-8736-cbe6eacc3f28")
 	)
 	(no_connect
