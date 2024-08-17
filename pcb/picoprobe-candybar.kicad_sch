@@ -14,6 +14,145 @@
 		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -6383,16 +6522,8 @@
 		(uuid "6f8da1af-df38-42ed-81cc-bdc9c94eb132")
 	)
 	(no_connect
-		(at 71.12 82.55)
-		(uuid "7b251ebb-5cf2-4839-b16e-bd9caa7391e9")
-	)
-	(no_connect
 		(at 116.84 77.47)
 		(uuid "7cf2d67d-9321-4d57-940a-fd76fcd50e1b")
-	)
-	(no_connect
-		(at 71.12 80.01)
-		(uuid "822dc09b-d5a7-4b3c-8b44-471a5c755a7c")
 	)
 	(no_connect
 		(at 116.84 87.63)
@@ -6635,6 +6766,16 @@
 			(type default)
 		)
 		(uuid "2b2a41be-679c-4df8-94fa-a7414ddb3e75")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 241.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd5c62d-81f0-4bc2-b399-540d7381d1b5")
 	)
 	(wire
 		(pts
@@ -7055,6 +7196,16 @@
 			(type default)
 		)
 		(uuid "6ecf70ce-3f1d-47b6-8d7a-94f98eb8a5f5")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.55) (xy 71.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b9fb92-4de9-4478-b4c0-49a8f3797148")
 	)
 	(wire
 		(pts
@@ -7708,6 +7859,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 100.33) (xy 241.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddffcefb-0299-4c9a-b883-48f21cc27343")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 203.2 83.82)
 		)
 		(stroke
@@ -7795,6 +7956,16 @@
 			(type default)
 		)
 		(uuid "e8f970e1-4b96-4c8f-9cba-f7733d973474")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea502c47-fc32-4dba-8889-b87c96707302")
 	)
 	(wire
 		(pts
@@ -8080,6 +8251,18 @@
 		)
 		(uuid "98a67642-ae29-457e-b4b8-cb931ef15642")
 	)
+	(text "Reserved for future use"
+		(exclude_from_sim no)
+		(at 246.38 109.22 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(italic yes)
+			)
+			(justify top)
+		)
+		(uuid "a2e7e167-5569-4c9b-b282-a5f1a7fe316a")
+	)
 	(text "DEBUG INTERFACE\n(OUT)"
 		(exclude_from_sim no)
 		(at 246.38 52.07 0)
@@ -8194,6 +8377,17 @@
 		)
 		(uuid "118ea663-3482-4638-b504-7e86eea06ead")
 	)
+	(label "GPIO10"
+		(at 60.96 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11e8f86d-58a3-4896-93e7-5f8e7b26bc4c")
+	)
 	(label "CB_CTS"
 		(at 228.6 76.2 0)
 		(fields_autoplaced yes)
@@ -8204,6 +8398,17 @@
 			(justify left bottom)
 		)
 		(uuid "16f56fa6-07ee-4cb8-bd8c-76de717dd1f9")
+	)
+	(label "GPIO11"
+		(at 60.96 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b1c850b-af20-4a5a-9ed4-9b680428d74b")
 	)
 	(label "GPIO15"
 		(at 228.6 157.48 0)
@@ -8259,6 +8464,17 @@
 			(justify right bottom)
 		)
 		(uuid "2b4451af-731d-419e-b824-1bbf22681bdb")
+	)
+	(label "GPIO11"
+		(at 228.6 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37c15c9e-14de-42ea-8617-db582e21b340")
 	)
 	(label "CB_DTR"
 		(at 196.85 41.91 180)
@@ -8435,6 +8651,17 @@
 			(justify left bottom)
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
+	)
+	(label "GPIO10"
+		(at 228.6 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7cb52a-b09f-4481-bec4-ff7a267d082c")
 	)
 	(label "CB_IO"
 		(at 196.85 97.79 180)
@@ -14093,6 +14320,73 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 246.38 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1c2de21-bd02-4942-9344-eaf039ab2185")
+		(property "Reference" "J4"
+			(at 246.38 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 246.38 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8831d23d-80d1-44ee-b641-e2da61a69c22")
+		)
+		(pin "1"
+			(uuid "18cf87c5-b174-4abd-96a6-cadade807a5a")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J4")
 					(unit 1)
 				)
 			)
