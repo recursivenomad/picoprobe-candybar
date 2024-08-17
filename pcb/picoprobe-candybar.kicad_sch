@@ -6474,20 +6474,8 @@
 		(uuid "0ea6dbc5-3b56-4204-bb34-e9c3114d1e6b")
 	)
 	(no_connect
-		(at 116.84 87.63)
-		(uuid "0fed4333-182c-4ae3-b16c-4dd83b90ab1b")
-	)
-	(no_connect
 		(at 71.12 95.25)
 		(uuid "675135f7-7104-4d47-a621-0f39ca071b92")
-	)
-	(no_connect
-		(at 116.84 85.09)
-		(uuid "8994ad6a-6671-4434-918f-2251cf1b8110")
-	)
-	(no_connect
-		(at 116.84 90.17)
-		(uuid "e7836123-0be5-48ea-b3f9-da8ffaafa04e")
 	)
 	(wire
 		(pts
@@ -6731,7 +6719,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 83.82) (xy 241.3 83.82)
+			(xy 228.6 78.74) (xy 241.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6748,6 +6736,16 @@
 			(type default)
 		)
 		(uuid "2c6b6ec9-c46b-463c-b9ca-7847e8c05c31")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 241.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e13786a-5991-46ce-ab99-cb8f0de8e22f")
 	)
 	(wire
 		(pts
@@ -7051,7 +7049,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 101.6) (xy 241.3 101.6)
+			(xy 228.6 93.98) (xy 241.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7131,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 104.14) (xy 241.3 104.14)
+			(xy 228.6 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7321,7 +7319,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 123.19) (xy 241.3 123.19)
+			(xy 228.6 113.03) (xy 241.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7408,6 +7406,26 @@
 			(type default)
 		)
 		(uuid "8790df29-be68-413d-a882-1fe37764f1da")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d0b870-24d9-4fe5-8026-1b14b1df48ef")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af13775-d5e8-48eb-92f6-7ad615d19828")
 	)
 	(wire
 		(pts
@@ -7521,7 +7539,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 241.3 99.06)
+			(xy 228.6 91.44) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7591,7 +7609,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 63.5) (xy 241.3 63.5)
+			(xy 228.6 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7991,6 +8009,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4247217-8248-4e7a-b2d0-872888eeb72e")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 71.12 74.93)
 		)
 		(stroke
@@ -8041,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 81.28) (xy 241.3 81.28)
+			(xy 228.6 76.2) (xy 241.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8068,6 +8096,16 @@
 			(type default)
 		)
 		(uuid "e0667d47-e689-47fa-85cf-6470e3da1c90")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 241.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07d2d65-2267-416e-9200-4c3c05bae2fb")
 	)
 	(wire
 		(pts
@@ -8171,7 +8209,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 66.04) (xy 241.3 66.04)
+			(xy 228.6 63.5) (xy 241.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8181,7 +8219,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 120.65) (xy 241.3 120.65)
+			(xy 228.6 110.49) (xy 241.3 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8231,7 +8269,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 241.3 60.96)
+			(xy 228.6 58.42) (xy 241.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8321,7 +8359,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 118.11) (xy 241.3 118.11)
+			(xy 228.6 107.95) (xy 241.3 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8371,6 +8409,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 127) (xy 241.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc8cc00-bce6-4b91-85d0-99062258dccc")
+	)
+	(wire
+		(pts
 			(xy 248.92 142.24) (xy 259.08 142.24)
 		)
 		(stroke
@@ -8404,7 +8452,7 @@
 	)
 	(text "Reserved for\nfuture use"
 		(exclude_from_sim no)
-		(at 260.985 101.6 0)
+		(at 260.985 93.98 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8465,7 +8513,7 @@
 	)
 	(text "Reserved for\nfuture use"
 		(exclude_from_sim no)
-		(at 260.35 80.01 0)
+		(at 260.35 74.93 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8488,6 +8536,17 @@
 		)
 		(uuid "b41553cd-e536-4357-ada6-3ae21c9d88f8")
 	)
+	(text "Reserved for\nfuture use"
+		(exclude_from_sim no)
+		(at 260.985 127 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(italic yes)
+			)
+		)
+		(uuid "b994f31e-9b3d-48bb-b729-daea5ac6067c")
+	)
 	(text "Logic level-shifting"
 		(exclude_from_sim no)
 		(at 161.29 29.21 0)
@@ -8502,7 +8561,7 @@
 	)
 	(text "UART hardware\nflow control"
 		(exclude_from_sim no)
-		(at 260.985 63.5 0)
+		(at 260.985 60.96 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8513,7 +8572,7 @@
 	)
 	(text "Reserved for\nfuture use"
 		(exclude_from_sim no)
-		(at 260.985 120.65 0)
+		(at 260.985 110.49 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8611,7 +8670,7 @@
 		(uuid "11e8f86d-58a3-4896-93e7-5f8e7b26bc4c")
 	)
 	(label "GPIO20"
-		(at 228.6 118.11 0)
+		(at 228.6 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8622,7 +8681,7 @@
 		(uuid "143bf50e-454d-4cd2-a00a-c739533c675a")
 	)
 	(label "CB_CTS"
-		(at 228.6 63.5 0)
+		(at 228.6 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8642,6 +8701,17 @@
 			(justify right bottom)
 		)
 		(uuid "170cad9d-7259-47ba-8ce0-96efa155bc8b")
+	)
+	(label "ADC2"
+		(at 228.6 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "179d97b3-96c2-445e-96d5-03c46a8b5243")
 	)
 	(label "GPIO11"
 		(at 60.96 80.01 0)
@@ -8721,7 +8791,7 @@
 		(uuid "2b4451af-731d-419e-b824-1bbf22681bdb")
 	)
 	(label "GPIO21"
-		(at 228.6 120.65 0)
+		(at 228.6 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8732,7 +8802,7 @@
 		(uuid "2c93b0b2-2581-4504-ae24-ed327b266f14")
 	)
 	(label "GPIO11"
-		(at 228.6 83.82 0)
+		(at 228.6 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8775,6 +8845,17 @@
 		)
 		(uuid "48c02c3a-8420-4e33-b7e1-dbccdbe4dcef")
 	)
+	(label "ADC1"
+		(at 127 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eb38136-3b37-4f60-8a3f-82337eed4893")
+	)
 	(label "GPIO18"
 		(at 127 64.77 180)
 		(fields_autoplaced yes)
@@ -8809,7 +8890,7 @@
 		(uuid "552319f6-5766-4682-9761-9a33fb10fc66")
 	)
 	(label "CB_RTS"
-		(at 228.6 66.04 0)
+		(at 228.6 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8852,6 +8933,28 @@
 		)
 		(uuid "67cbe64a-7a83-4161-86d0-bc703233fa62")
 	)
+	(label "ADC2"
+		(at 127 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e63101e-4469-4324-8c60-ab7ef529b027")
+	)
+	(label "ADC0"
+		(at 228.6 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "712a9f7c-6bd9-4890-a98e-c794a9962621")
+	)
 	(label "GPIO8"
 		(at 228.6 142.24 0)
 		(fields_autoplaced yes)
@@ -8864,7 +8967,7 @@
 		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
 	(label "RSV_1"
-		(at 228.6 99.06 0)
+		(at 228.6 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9029,7 +9132,7 @@
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
 	(label "GPIO10"
-		(at 228.6 81.28 0)
+		(at 228.6 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9062,7 +9165,7 @@
 		(uuid "afb9a0ba-5554-4eb8-a7cb-8256b0a9ce7e")
 	)
 	(label "GPIO22"
-		(at 228.6 123.19 0)
+		(at 228.6 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9073,7 +9176,7 @@
 		(uuid "b6da5700-0ec5-4e84-a2ff-22268e32628b")
 	)
 	(label "RSV_2"
-		(at 228.6 101.6 0)
+		(at 228.6 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9182,8 +9285,19 @@
 		)
 		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
 	)
+	(label "ADC1"
+		(at 228.6 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc43f4a2-2e1a-44e7-984a-f7bd543e880f")
+	)
 	(label "RSV_3"
-		(at 228.6 104.14 0)
+		(at 228.6 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9192,6 +9306,17 @@
 			(justify left bottom)
 		)
 		(uuid "dc74c6cb-f5fd-4225-8279-238219f03326")
+	)
+	(label "ADC0"
+		(at 127 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4686550-b8b1-4774-a8a9-50b8f2d674e7")
 	)
 	(label "GPIO9"
 		(at 60.96 74.93 0)
@@ -9238,7 +9363,7 @@
 		(uuid "f75c0742-ac18-4b5a-954b-aabfaf261d98")
 	)
 	(label "CB_DTR"
-		(at 228.6 60.96 0)
+		(at 228.6 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9722,7 +9847,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 246.38 63.5 0)
+		(at 246.38 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9730,7 +9855,7 @@
 		(dnp no)
 		(uuid "1709109b-a14b-48c6-a310-195a34586227")
 		(property "Reference" "J3"
-			(at 246.38 57.785 0)
+			(at 246.38 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9863,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x03"
-			(at 246.38 69.215 0)
+			(at 246.38 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 63.5 0)
+			(at 246.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,7 +9880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 63.5 0)
+			(at 246.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9889,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 63.5 0)
+			(at 246.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9982,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 246.38 120.65 0)
+		(at 246.38 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9865,7 +9990,7 @@
 		(dnp no)
 		(uuid "1c0be23b-5960-47cd-9fb9-a38f6c47208a")
 		(property "Reference" "J6"
-			(at 246.38 114.935 0)
+			(at 246.38 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9998,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x03"
-			(at 246.38 126.365 0)
+			(at 246.38 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +10006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 120.65 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 120.65 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10024,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 120.65 0)
+			(at 246.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10920,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 246.38 101.6 0)
+		(at 246.38 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10803,7 +10928,7 @@
 		(dnp no)
 		(uuid "42898dd1-1bab-4102-b177-7c151f735a88")
 		(property "Reference" "J5"
-			(at 246.38 95.885 0)
+			(at 246.38 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +10936,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x03"
-			(at 246.38 107.315 0)
+			(at 246.38 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 101.6 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 101.6 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +10962,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 101.6 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,6 +11727,76 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 246.38 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58376930-abf5-4007-9bc5-77e4b36d9631")
+		(property "Reference" "J7"
+			(at 246.38 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x03"
+			(at 246.38 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc3920f-bda1-4cc3-80ac-51687be2036b")
+		)
+		(pin "2"
+			(uuid "0bb89aa1-9152-4d77-a8dd-7aecf07b4df0")
+		)
+		(pin "3"
+			(uuid "7acb5172-a705-442b-b052-423beea58b64")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -15025,7 +15220,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 246.38 81.28 0)
+		(at 246.38 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15033,7 +15228,7 @@
 		(dnp no)
 		(uuid "f1c2de21-bd02-4942-9344-eaf039ab2185")
 		(property "Reference" "J4"
-			(at 246.38 78.105 0)
+			(at 246.38 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15236,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x02"
-			(at 246.38 86.995 0)
+			(at 246.38 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15049,7 +15244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 81.28 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15058,7 +15253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 81.28 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15067,7 +15262,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 81.28 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
