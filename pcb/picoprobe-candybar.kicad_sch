@@ -6569,12 +6569,6 @@
 		(color 0 0 0 0)
 		(uuid "db32b71c-373f-4276-8926-86586ada5acd")
 	)
-	(junction
-		(at 71.12 97.79)
-		(diameter 0)
-		(color 255 255 255 0)
-		(uuid "e8ee34fa-e931-4557-8736-cbe6eacc3f28")
-	)
 	(no_connect
 		(at 116.84 80.01)
 		(uuid "0cbd0da5-108d-466d-ac0b-252c9de89067")
@@ -10610,72 +10604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico_InternalPullUp-3V3_EN")
-		(at 71.12 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "25a50c9d-3b27-45a7-9643-81b74b685fd8")
-		(property "Reference" "#INT1"
-			(at 71.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "InternalPullUp_3V3_EN"
-			(at 71.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Symbol for the internal pull-up resistor on the Raspberry Pi Pico 3V3_EN pin, to make ERC happy when connecting to open collectors"
-			(at 71.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c2af66f-809e-40e9-8a9d-5e32e39071a7")
-		)
-		(instances
-			(project ""
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "#INT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 307.34 165.1 180)
 		(unit 1)
@@ -14074,6 +14002,72 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico_InternalPullUp-3V3_EN")
+		(at 71.12 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ba457533-332e-421f-aa0d-f15130e09770")
+		(property "Reference" "#INT1"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "InternalPullUp_3V3_EN"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for the internal pull-up resistor on the Raspberry Pi Pico 3V3_EN pin, to make ERC happy when connecting to open collectors"
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6406aef9-f5e3-4568-adab-375b7c1e0896")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#INT1")
 					(unit 1)
 				)
 			)
