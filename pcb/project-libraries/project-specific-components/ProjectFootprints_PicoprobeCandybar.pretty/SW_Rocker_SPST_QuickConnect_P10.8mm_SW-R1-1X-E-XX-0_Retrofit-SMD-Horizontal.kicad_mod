@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf")
 	(property "Reference" "REF**"
-		(at -5.3975 0.635 0)
+		(at -5.3975 25.835 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "26979f8d-f7c9-49bb-88e3-3d179e427cc9")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SW_Rocker_SPST_P10.8mm_QuickConnect_SW-R1-1X-E-XX-0_SMD-Retrofit-Horizontal"
-		(at 0 -35.96 0)
+		(at 0 -10.76 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "979db058-e006-4799-84cb-973d4942dc2f")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 -0.4 0)
+		(at 0 24.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -0.4 0)
+		(at 0 24.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -0.4 0)
+		(at 0 24.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,8 @@
 	)
 	(attr exclude_from_pos_files)
 	(fp_line
-		(start 6.35 -22.225)
-		(end 3.81 -22.225)
+		(start 6.35 2.975)
+		(end 3.81 2.975)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "81ca74c8-804e-4b70-8f8e-1bcef96b0a44")
 	)
 	(fp_circle
-		(center -5.08 -22.225)
-		(end -3.81 -22.225)
+		(center -5.08 2.975)
+		(end -3.81 2.975)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -90,8 +90,8 @@
 		(uuid "88649156-498c-480c-b919-0e9a790d0a13")
 	)
 	(fp_rect
-		(start -15.5 -27.45)
-		(end 15.5 -24.95)
+		(start -15.5 -2.25)
+		(end 15.5 0.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -102,8 +102,8 @@
 	)
 	(fp_poly
 		(pts
-			(xy -17.399 -33.42) (xy 17.399 -33.42) (xy 17.399 -5) (xy 0.65 -5) (xy 0.65 4.65) (xy -0.65 4.65)
-			(xy -0.65 -5) (xy -10.145 -5) (xy -10.145 4.65) (xy -11.445 4.65) (xy -11.445 -5) (xy -17.399 -5)
+			(xy -17.399 -8.22) (xy 17.399 -8.22) (xy 17.399 20.2) (xy 0.65 20.2) (xy 0.65 29.85) (xy -0.65 29.85)
+			(xy -0.65 20.2) (xy -10.145 20.2) (xy -10.145 29.85) (xy -11.445 29.85) (xy -11.445 20.2) (xy -17.399 20.2)
 		)
 		(stroke
 			(width 0.05)
@@ -114,8 +114,8 @@
 		(uuid "d0f94ad1-3ed3-4137-b692-5bc5eb031554")
 	)
 	(fp_line
-		(start 10.16 -27.319809)
-		(end 10.16 -27.2)
+		(start 10.16 -2.119809)
+		(end 10.16 -2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -124,8 +124,8 @@
 		(uuid "5b85c624-9e18-4316-9116-341ad6914cde")
 	)
 	(fp_rect
-		(start -15.25 -27.2)
-		(end 15.25 -25.2)
+		(start -15.25 -2)
+		(end 15.25 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -135,8 +135,8 @@
 		(uuid "a723a14f-6f25-4d9e-94cc-baf3b1790855")
 	)
 	(fp_rect
-		(start -12 -25.2)
-		(end 12 -5.2)
+		(start -12 0)
+		(end 12 20)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -146,9 +146,9 @@
 		(uuid "6c49e0ea-d6f2-4159-95ff-4eb3977f2439")
 	)
 	(fp_arc
-		(start -10.159998 -27.2)
-		(mid -8.05793 -30.596139)
-		(end -4.87338 -33.00676)
+		(start -10.159998 -2)
+		(mid -8.05793 -5.396139)
+		(end -4.87338 -7.80676)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -157,9 +157,9 @@
 		(uuid "c6c66b3e-9368-4938-a3c6-be8dec139b0a")
 	)
 	(fp_arc
-		(start 10.16 -27.319809)
-		(mid 2.124105 -28.790774)
-		(end -4.873381 -33.006759)
+		(start 10.16 -2.119809)
+		(mid 2.124105 -3.590774)
+		(end -4.873381 -7.806759)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -168,7 +168,7 @@
 		(uuid "685b2473-03fd-4662-ab30-79e4d6e6bdf2")
 	)
 	(fp_text user "Switch Overhang Keep Out Board"
-		(at 0 -26.2 0)
+		(at 0 -1 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "62865912-7528-4396-b590-d954e783a0b6")
@@ -180,7 +180,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -15.2 0)
+		(at 0 10 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "21c5c1a6-1549-4151-b722-d1e49c5a5f46")
@@ -192,7 +192,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -10.795 0)
+		(at -10.795 25.2)
 		(size 2.4 10.4)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -201,7 +201,7 @@
 		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
 	)
 	(pad "2" smd roundrect
-		(at 0 0)
+		(at 0 25.2)
 		(size 2.4 10.4)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -234,13 +234,13 @@
 		)
 		(polygon
 			(pts
-				(xy -15.6932 -24.7562) (xy 15.6932 -24.7562) (xy 15.6932 -27.6438) (xy -15.6932 -27.6438)
+				(xy -15.6932 0.4438) (xy 15.6932 0.4438) (xy 15.6932 -2.4438) (xy -15.6932 -2.4438)
 			)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 		(offset
-			(xyz 0 5.2 4.15)
+			(xyz 0 -20 4.15)
 		)
 		(scale
 			(xyz 33.5 20 88)
