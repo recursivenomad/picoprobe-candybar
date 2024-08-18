@@ -1,0 +1,302 @@
+(footprint "SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal_Mirrored"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf")
+	(property "Reference" "REF**"
+		(at -10.795 21.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26979f8d-f7c9-49bb-88e3-3d179e427cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Rocker_SPST_P10.8mm_QuickConnect_SW-R1-1X-E-XX-0_SMD-Retrofit-Horizontal"
+		(at 0 -10.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "979db058-e006-4799-84cb-973d4942dc2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 24.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35d27196-ecc6-4a7e-bd83-0dfb289014fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 24.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96a866ed-6b3a-478f-b287-cdaacca21c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 24.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf914bf-631a-4a19-8ee6-ad9d7bdd1362")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_line
+		(start -14.11 10)
+		(end -14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb7eac84-6413-4810-beb8-503cb68370e2")
+	)
+	(fp_line
+		(start -1.46 20.11)
+		(end -14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7bc6186e-85d6-4411-8b08-3f43d04f93f8")
+	)
+	(fp_line
+		(start 9.335 20.11)
+		(end 1.46 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75a2c42e-74a0-4097-9277-d5c9d05233f5")
+	)
+	(fp_line
+		(start 14.11 10)
+		(end 14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d8b230b-6ddb-4e02-b6ba-c34a8e8f6324")
+	)
+	(fp_line
+		(start 14.11 20.11)
+		(end 12.255 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df36401d-180e-4164-ba81-8da1fc7520ea")
+	)
+	(fp_line
+		(start -6.35 2.975)
+		(end -3.81 2.975)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "81ca74c8-804e-4b70-8f8e-1bcef96b0a44")
+	)
+	(fp_circle
+		(center 5.08 2.975)
+		(end 3.81 2.975)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "88649156-498c-480c-b919-0e9a790d0a13")
+	)
+	(fp_rect
+		(start 15.5 -2.25)
+		(end -15.5 0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "f88830eb-0ce5-4329-9625-0f5e11cbf9fa")
+	)
+	(fp_poly
+		(pts
+			(xy 17.399 -8.22) (xy -17.399 -8.22) (xy -17.399 20.2) (xy -0.65 20.2) (xy -0.65 29.85) (xy 0.65 29.85)
+			(xy 0.65 20.2) (xy 10.145 20.2) (xy 10.145 29.85) (xy 11.445 29.85) (xy 11.445 20.2) (xy 17.399 20.2)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d0f94ad1-3ed3-4137-b692-5bc5eb031554")
+	)
+	(fp_line
+		(start -10.16 -2.119809)
+		(end -10.16 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b85c624-9e18-4316-9116-341ad6914cde")
+	)
+	(fp_rect
+		(start 14 0)
+		(end -14 20)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6c49e0ea-d6f2-4159-95ff-4eb3977f2439")
+	)
+	(fp_rect
+		(start 15.25 -2)
+		(end -15.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a723a14f-6f25-4d9e-94cc-baf3b1790855")
+	)
+	(fp_arc
+		(start 4.87338 -7.80676)
+		(mid 8.05793 -5.396139)
+		(end 10.159998 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c6c66b3e-9368-4938-a3c6-be8dec139b0a")
+	)
+	(fp_arc
+		(start 4.873381 -7.806759)
+		(mid -2.124105 -3.590774)
+		(end -10.16 -2.119809)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "685b2473-03fd-4662-ab30-79e4d6e6bdf2")
+	)
+	(fp_text user "Switch Overhang Keep Out Board"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "62865912-7528-4396-b590-d954e783a0b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21c5c1a6-1549-4151-b722-d1e49c5a5f46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 10.795 25.2)
+		(size 2.4 10.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
+	)
+	(pad "2" smd roundrect
+		(at 0 25.2)
+		(size 2.4 10.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "c9ab0e5f-9a6f-49f6-a837-41b9c635fce7")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Edge.Cuts")
+		(uuid "bac0bf91-d13d-4332-9988-395a7a0a85df")
+		(name "Switch Overhang Keep Out Board")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 15.6932 0.4438) (xy -15.6932 0.4438) (xy -15.6932 -2.4438) (xy 15.6932 -2.4438)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(offset
+			(xyz 0 -20 4.15)
+		)
+		(scale
+			(xyz 33.5 20 88)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

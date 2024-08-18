@@ -9808,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal_Mirrored"
 			(at 40.64 110.49 0)
 			(effects
 				(font
