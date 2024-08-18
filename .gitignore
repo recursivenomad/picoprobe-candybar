@@ -5,6 +5,9 @@
 _untracked/
 *.code-workspace
 
+# Release files
+releases/
+
 
 
 # KiCad 8.0

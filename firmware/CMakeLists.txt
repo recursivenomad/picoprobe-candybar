@@ -83,7 +83,7 @@ target_compile_definitions (${PROJECT_NAME} PRIVATE
 
 
 pico_set_program_name(${PROJECT_NAME}        "Picoprobe Candybar")
-pico_set_program_version(${PROJECT_NAME}     "0.0.0-dev")
+pico_set_program_version(${PROJECT_NAME}     "0.1.0")
 pico_set_program_url(${PROJECT_NAME}         "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 pico_set_program_description(${PROJECT_NAME} "A charming debug probe using the Raspberry Pi Pico")
 

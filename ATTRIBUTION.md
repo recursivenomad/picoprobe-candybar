@@ -21,7 +21,7 @@ KiCad libraries created from 2022-2024 with the same permissions.
 
 This project relies almost entirely on Raspberry Pi's [Debug Probe repository][URL-Debug-Probe] for its firmware source, which is incorporated into this project as a git submodule in the directory [`./firmware/lib/`](./firmware/lib/).
 
-For feature parity and firmware compatibility with Raspberry Pi's [Debug Probe hardware][URL-Debug-Probe-Brief], documentation was acquired from Raspberry Pi for reference in 2024:
+For achieving a feature superset of Raspberry Pi's [Debug Probe hardware][URL-Debug-Probe-Brief], documentation was acquired from Raspberry Pi for reference in 2024:
 
 - [Raspberry Pi Pico datasheet (schematic)][URL-Pico-Schematic]
 - [Raspberry Pi Pico 2 datasheet (schematic)][URL-Pico-2-Schematic]
@@ -50,7 +50,7 @@ Various aspects of the schematic layout were inspired by the Debug Probe schemat
 
 # Tools utilized
 
-- [KiCad][URL-KiCad] - PCB design
+- [KiCad][URL-KiCad] - Circuit design
 - [VSCodium][URL-VSCodium] - Firmware composition
 - [Raspberry Pi Pico SDK][URL-Pico-SDK]
 
@@ -70,5 +70,5 @@ Various aspects of the schematic layout were inspired by the Debug Probe schemat
 [URL-Pico-2-Schematic]: <https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf#schematic>
 
 [URL-KiCad]: <https://www.kicad.org/>
-[URL-Pico-SDK]: <https://github.com/raspberrypi/pico-sdk>
 [URL-VSCodium]: <https://vscodium.com/>
+[URL-Pico-SDK]: <https://github.com/raspberrypi/pico-sdk>

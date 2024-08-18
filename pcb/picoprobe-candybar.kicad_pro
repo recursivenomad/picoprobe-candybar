@@ -564,7 +564,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "project-libraries/compact-title-block/compact-title-block.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./build/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
