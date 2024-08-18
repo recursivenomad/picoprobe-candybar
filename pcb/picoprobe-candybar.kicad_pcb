@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Picoprobe Candybar")
-		(date "25 June 2024")
-		(rev "0")
+		(date "In-progress")
+		(rev "0-dev")
 		(comment 1 "Peter S. Hollander")
 		(comment 2 "recursivenomad@protonmail.com")
 		(comment 3 "MIT-0 OR CC0-1.0")
