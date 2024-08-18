@@ -9808,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal_Mirrored"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Rocker_SPST_QuickConnect_P10.8mm_SW-R1-1X-E-XX-0_Retrofit-SMD-Horizontal"
 			(at 40.64 110.49 0)
 			(effects
 				(font
@@ -11672,7 +11672,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 190.5 135.89 0)
+		(at 177.8 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11680,7 +11680,7 @@
 		(dnp no)
 		(uuid "52731802-3005-4132-b79c-c041c5f78607")
 		(property "Reference" "#PWR028"
-			(at 190.5 139.7 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11689,7 @@
 			)
 		)
 		(property "Value" "1V8"
-			(at 190.5 132.08 0)
+			(at 177.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 135.89 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 135.89 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"1V8\""
-			(at 190.5 135.89 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14405,7 +14405,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 177.8 135.89 0)
+		(at 190.5 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14413,7 +14413,7 @@
 		(dnp no)
 		(uuid "cd7a5908-7bc2-49c5-83e0-174d34860f1e")
 		(property "Reference" "#PWR026"
-			(at 177.8 139.7 0)
+			(at 190.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,7 +14422,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 177.8 132.08 0)
+			(at 190.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 135.89 0)
+			(at 190.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +14439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 135.89 0)
+			(at 190.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 177.8 135.89 0)
+			(at 190.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
