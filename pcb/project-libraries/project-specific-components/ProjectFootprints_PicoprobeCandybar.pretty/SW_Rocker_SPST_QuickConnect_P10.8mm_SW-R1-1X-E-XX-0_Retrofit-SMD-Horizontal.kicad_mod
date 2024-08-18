@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "https://app.adam-tech.com/products/download/data_sheet/203480/sw-r1-1x-e-xx-0-data-sheet.pdf")
 	(property "Reference" "REF**"
-		(at -5.3975 25.835 0)
+		(at 10.795 21.59 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "26979f8d-f7c9-49bb-88e3-3d179e427cc9")
@@ -68,6 +68,56 @@
 		)
 	)
 	(attr exclude_from_pos_files)
+	(fp_line
+		(start -14.11 10)
+		(end -14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d8b230b-6ddb-4e02-b6ba-c34a8e8f6324")
+	)
+	(fp_line
+		(start -14.11 20.11)
+		(end -12.255 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df36401d-180e-4164-ba81-8da1fc7520ea")
+	)
+	(fp_line
+		(start -9.335 20.11)
+		(end -1.46 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75a2c42e-74a0-4097-9277-d5c9d05233f5")
+	)
+	(fp_line
+		(start 1.46 20.11)
+		(end 14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7bc6186e-85d6-4411-8b08-3f43d04f93f8")
+	)
+	(fp_line
+		(start 14.11 10)
+		(end 14.11 20.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb7eac84-6413-4810-beb8-503cb68370e2")
+	)
 	(fp_line
 		(start 6.35 2.975)
 		(end 3.81 2.975)
@@ -135,8 +185,8 @@
 		(uuid "a723a14f-6f25-4d9e-94cc-baf3b1790855")
 	)
 	(fp_rect
-		(start -12 0)
-		(end 12 20)
+		(start -14 0)
+		(end 14 20)
 		(stroke
 			(width 0.1)
 			(type default)
