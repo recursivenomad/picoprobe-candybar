@@ -100,16 +100,18 @@
 		(layer "B.CrtYd")
 		(uuid "f88830eb-0ce5-4329-9625-0f5e11cbf9fa")
 	)
-	(fp_rect
-		(start -17.399 -33.42)
-		(end 17.399 -5)
+	(fp_poly
+		(pts
+			(xy -17.399 -33.42) (xy 17.399 -33.42) (xy 17.399 -5) (xy 0.65 -5) (xy 0.65 4.65) (xy -0.65 4.65)
+			(xy -0.65 -5) (xy -10.145 -5) (xy -10.145 4.65) (xy -11.445 4.65) (xy -11.445 -5) (xy -17.399 -5)
+		)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "4b27d520-80ae-4579-bfce-61a3c2eab77c")
+		(uuid "d0f94ad1-3ed3-4137-b692-5bc5eb031554")
 	)
 	(fp_line
 		(start 10.16 -27.319809)
@@ -166,7 +168,7 @@
 		(uuid "685b2473-03fd-4662-ab30-79e4d6e6bdf2")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -17.145 0)
+		(at 0 -15.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "21c5c1a6-1549-4151-b722-d1e49c5a5f46")
