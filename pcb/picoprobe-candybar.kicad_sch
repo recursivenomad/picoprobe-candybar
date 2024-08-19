@@ -13002,7 +13002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K35AMFV"
+		(property "Value" "T2N7002AK"
 			(at 72.39 158.75 0)
 			(effects
 				(font
@@ -13011,7 +13011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 72.39 156.21 0)
 			(effects
 				(font
@@ -13020,7 +13020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K35AMFV_datasheet_en_20170217.pdf?did=55390&prodName=SSM3K35AMFV"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002AK_datasheet_en_20150401.pdf"
 			(at 67.31 158.75 0)
 			(effects
 				(font
@@ -13038,7 +13038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specification" "Vgs@Min:Rds(on) <4.6V"
+		(property "Specification" "Vgs(th) <4.6V"
 			(at 72.39 161.29 0)
 			(effects
 				(font
