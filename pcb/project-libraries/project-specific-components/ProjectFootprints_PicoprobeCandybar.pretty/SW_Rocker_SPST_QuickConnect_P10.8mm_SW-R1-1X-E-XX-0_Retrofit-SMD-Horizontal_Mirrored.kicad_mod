@@ -242,8 +242,11 @@
 		)
 	)
 	(pad "1" connect roundrect
-		(at 10.795 25.2)
-		(size 2.4 10.4)
+		(at 10.795 20)
+		(size 2.4 9.6)
+		(drill
+			(offset 0 4.8)
+		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0)
@@ -251,8 +254,11 @@
 		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
 	)
 	(pad "2" connect roundrect
-		(at 0 25.2)
-		(size 2.4 10.4)
+		(at 0 20)
+		(size 2.4 9.6)
+		(drill
+			(offset 0 4.8)
+		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0)
