@@ -318,13 +318,13 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Straight_CK_OS102011MS2Q.wrl"
 		(offset
-			(xyz -3.55 3.2 0)
+			(xyz -3.55 6.7 0.2)
 		)
 		(scale
 			(xyz 1.8 1.4 1.4)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
