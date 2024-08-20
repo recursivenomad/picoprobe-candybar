@@ -269,11 +269,8 @@
 		)
 	)
 	(pad "1" connect roundrect
-		(at 4.8 -6.4)
+		(at 4.8 -7.875)
 		(size 1 2.45)
-		(drill
-			(offset 0 -1.475)
-		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0)
@@ -281,11 +278,8 @@
 		(uuid "ccef845f-2b24-40c0-82e5-90bfe1bb624b")
 	)
 	(pad "2" connect roundrect
-		(at 1.6 -6.4)
+		(at 1.6 -7.875)
 		(size 1 2.45)
-		(drill
-			(offset 0 -1.475)
-		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0)
@@ -293,11 +287,8 @@
 		(uuid "0798be84-afcd-47ce-a5f4-b3b5776b6836")
 	)
 	(pad "3" connect roundrect
-		(at -1.6 -6.4)
+		(at -1.6 -7.875)
 		(size 1 2.45)
-		(drill
-			(offset 0 -1.475)
-		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0)
@@ -305,11 +296,8 @@
 		(uuid "fc004914-a020-486b-a23b-b8ef3314875f")
 	)
 	(pad "4" connect roundrect
-		(at -4.8 -6.4)
+		(at -4.8 -7.875)
 		(size 1 2.45)
-		(drill
-			(offset 0 -1.475)
-		)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0)
