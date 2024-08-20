@@ -242,15 +242,6 @@
 		)
 	)
 	(pad "1" connect roundrect
-		(at 10.795 24.8)
-		(size 2.4 9.6)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(chamfer_ratio 0)
-		(chamfer top_left top_right)
-		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
-	)
-	(pad "2" connect roundrect
 		(at 0 24.8)
 		(size 2.4 9.6)
 		(layers "F.Cu" "F.Mask")
@@ -258,6 +249,15 @@
 		(chamfer_ratio 0)
 		(chamfer top_left top_right)
 		(uuid "c9ab0e5f-9a6f-49f6-a837-41b9c635fce7")
+	)
+	(pad "2" connect roundrect
+		(at 10.795 24.8)
+		(size 2.4 9.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
 	)
 	(zone
 		(net 0)
