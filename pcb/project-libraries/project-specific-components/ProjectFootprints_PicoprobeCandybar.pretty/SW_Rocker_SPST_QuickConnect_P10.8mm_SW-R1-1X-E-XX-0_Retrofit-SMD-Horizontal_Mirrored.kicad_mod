@@ -241,7 +241,7 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" connect roundrect
 		(at 10.795 25.2)
 		(size 2.4 10.4)
 		(layers "F.Cu" "F.Mask")
@@ -250,7 +250,7 @@
 		(chamfer top_left top_right)
 		(uuid "475e895c-13f9-4819-a422-e25de5918dbe")
 	)
-	(pad "2" smd roundrect
+	(pad "2" connect roundrect
 		(at 0 25.2)
 		(size 2.4 10.4)
 		(layers "F.Cu" "F.Mask")
