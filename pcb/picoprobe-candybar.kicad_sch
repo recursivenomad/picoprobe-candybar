@@ -14,116 +14,6 @@
 		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -6666,10 +6556,6 @@
 		(uuid "db32b71c-373f-4276-8926-86586ada5acd")
 	)
 	(no_connect
-		(at 116.84 80.01)
-		(uuid "0cbd0da5-108d-466d-ac0b-252c9de89067")
-	)
-	(no_connect
 		(at 240.03 40.64)
 		(uuid "0ea6dbc5-3b56-4204-bb34-e9c3114d1e6b")
 	)
@@ -7139,6 +7025,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 132.08) (xy 241.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc97085-935d-4c25-9290-9d7c212c7ea6")
+	)
+	(wire
+		(pts
 			(xy 182.88 99.06) (xy 196.85 99.06)
 		)
 		(stroke
@@ -7519,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 132.08) (xy 233.68 129.54)
+			(xy 228.6 133.35) (xy 228.6 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8399,6 +8295,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7206f2-5e61-4e00-b39c-889ff1409d3f")
+	)
+	(wire
+		(pts
 			(xy 53.34 100.33) (xy 53.34 97.79)
 		)
 		(stroke
@@ -8519,7 +8425,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 129.54) (xy 241.3 129.54)
+			(xy 228.6 129.54) (xy 241.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8900,7 +8806,7 @@
 		)
 		(uuid "11e8f86d-58a3-4896-93e7-5f8e7b26bc4c")
 	)
-	(label "GPIO20"
+	(label "GPIO22"
 		(at 228.6 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8933,7 +8839,7 @@
 		)
 		(uuid "170cad9d-7259-47ba-8ce0-96efa155bc8b")
 	)
-	(label "ADC2"
+	(label "ADC0"
 		(at 228.6 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8976,6 +8882,17 @@
 			(justify right bottom)
 		)
 		(uuid "1dac0df5-6f84-484a-838f-c7b33fe02cc6")
+	)
+	(label "ADC_VREF"
+		(at 127 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "218fb430-95ce-40a9-add8-2007ae7bad3e")
 	)
 	(label "GPIO2"
 		(at 139.7 53.34 0)
@@ -9032,7 +8949,7 @@
 		)
 		(uuid "2c93b0b2-2581-4504-ae24-ed327b266f14")
 	)
-	(label "GPIO11"
+	(label "GPIO10"
 		(at 228.6 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9175,7 +9092,7 @@
 		)
 		(uuid "6e63101e-4469-4324-8c60-ab7ef529b027")
 	)
-	(label "ADC0"
+	(label "ADC2"
 		(at 228.6 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9197,7 +9114,7 @@
 		)
 		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
-	(label "RSV_1"
+	(label "RSV_3"
 		(at 228.6 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9362,7 +9279,7 @@
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
-	(label "GPIO10"
+	(label "GPIO11"
 		(at 228.6 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9395,7 +9312,7 @@
 		)
 		(uuid "afb9a0ba-5554-4eb8-a7cb-8256b0a9ce7e")
 	)
-	(label "GPIO22"
+	(label "GPIO20"
 		(at 228.6 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9527,7 +9444,7 @@
 		)
 		(uuid "dc43f4a2-2e1a-44e7-984a-f7bd543e880f")
 	)
-	(label "RSV_3"
+	(label "RSV_1"
 		(at 228.6 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9570,6 +9487,17 @@
 			(justify right bottom)
 		)
 		(uuid "ecdb293b-828e-49e4-b4b6-be5eeb3bdeba")
+	)
+	(label "ADC_VREF"
+		(at 228.6 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1356964-f360-48c8-b30e-a436eb4474f6")
 	)
 	(label "GPIO9"
 		(at 228.6 149.86 0)
@@ -13383,6 +13311,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 246.38 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98970e13-8b19-4faf-94e1-27c57cb00349")
+		(property "Reference" "J7"
+			(at 246.38 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x02"
+			(at 246.38 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+			(at 246.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ad822f1-8140-43b6-9390-a5b14e5e0631")
+		)
+		(pin "1"
+			(uuid "187fbb52-2cde-401d-8e6e-6e64c8ff2a2e")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 82.55 135.89 0)
 		(unit 1)
@@ -14240,70 +14235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 246.38 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2605c13-c560-4c6d-b33f-e8351e50ed56")
-		(property "Reference" "J7"
-			(at 246.38 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinSocket_1x01"
-			(at 246.38 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal"
-			(at 246.38 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2aae825b-8822-477c-926f-cb9de9b91f41")
-		)
-		(instances
-			(project ""
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 119.38 97.79 0)
 		(unit 1)
@@ -14634,7 +14565,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 233.68 132.08 0)
+		(at 228.6 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14642,7 +14573,7 @@
 		(dnp no)
 		(uuid "d7b4eec7-7b65-46ba-b667-09fc6e06e57a")
 		(property "Reference" "#PWR018"
-			(at 233.68 138.43 0)
+			(at 228.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14582,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 233.68 135.89 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14659,7 +14590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 132.08 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14668,7 +14599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 132.08 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +14608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AGND\" , analog ground"
-			(at 233.68 132.08 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +14987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Slide_SP3T_Vertical_P3.2mm_CUI_SLW-156646-5A-N-D"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:SW_Slide_SP3T_P3.2mm_CUI_SLW-156646-5A-N-D_Retrofit-SMD-Horizontal"
 			(at 138.43 157.48 0)
 			(effects
 				(font
