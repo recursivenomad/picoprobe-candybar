@@ -7025,7 +7025,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 132.08) (xy 241.3 132.08)
+			(xy 234.95 132.08) (xy 241.3 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7415,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 133.35) (xy 228.6 132.08)
+			(xy 234.95 133.35) (xy 234.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -14565,7 +14565,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 228.6 133.35 0)
+		(at 234.95 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14573,7 +14573,7 @@
 		(dnp no)
 		(uuid "d7b4eec7-7b65-46ba-b667-09fc6e06e57a")
 		(property "Reference" "#PWR018"
-			(at 228.6 139.7 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14582,7 +14582,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 228.6 137.16 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,7 +14590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 133.35 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14599,7 +14599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 133.35 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14608,7 +14608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AGND\" , analog ground"
-			(at 228.6 133.35 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
