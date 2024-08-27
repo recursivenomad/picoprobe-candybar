@@ -21,6 +21,7 @@
    [3]: <https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-I-dir>
 */
 
+
 #ifndef OVERRIDE_BOARD_DEBUG_PROBE_H_
 #define OVERRIDE_BOARD_DEBUG_PROBE_H_
 
@@ -38,9 +39,9 @@
 #define PROBE_PIN_RESET 2
 
 #ifdef PROBE_UART_HWFC
-  #define PROBE_UART_DTR 3
-  #define PROBE_UART_CTS 6
-  #define PROBE_UART_RTS 7
+    #define PROBE_UART_DTR 3
+    #define PROBE_UART_CTS 6
+    #define PROBE_UART_RTS 7
 #endif
 
 #undef  PROBE_UART_RX_LED
