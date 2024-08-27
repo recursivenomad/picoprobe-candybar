@@ -2,6 +2,14 @@
 \*    Authored 2024 by Peter S. Hollander    */
 
 
+/*
+   debugprobe calls bi_decl_config() from the top of main().
+   We point to _this_ file in our CMakeLists.txt - both to add custom binary
+   declarations, but also to hook into the start of execution and inject our
+   own features on top of debugprobe's, without modifying its source.
+*/
+
+
 #include "probe_config.h"
 #include "pico/binary_info.h"
 
@@ -12,7 +20,13 @@
 #define STR(x) STR_LITERAL(x)
 
 
+void candybar_hook() {
+}
+
+
 void bi_decl_config() {
+
+    candybar_hook();
 
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWCLK, "PROBE SWCLK"));
     bi_decl(bi_1pin_with_name(PROBE_PIN_SWDIO, "PROBE SWDIO"));

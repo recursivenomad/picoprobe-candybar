@@ -37,7 +37,7 @@ pico_sdk_init()
 # Below is informed by lib/debugprobe/CMakeLists.txt:
 
 add_executable(${PROJECT_NAME}
-    src/candybar_binary_config.c
+    src/candybar_hook.c
     lib/debugprobe/src/led.c
     lib/debugprobe/src/main.c
     lib/debugprobe/src/usb_descriptors.c
