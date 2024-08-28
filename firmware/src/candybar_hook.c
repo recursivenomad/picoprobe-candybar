@@ -10,7 +10,10 @@
 */
 
 
+#include <stdbool.h>
+
 #include "probe_config.h"
+#include "hardware/gpio.h"
 #include "pico/binary_info.h"
 
 #include "pico_binary_license_info.h"
@@ -20,7 +23,13 @@
 #define STR(x) STR_LITERAL(x)
 
 
+void DAP_inject_halt_callback(unsigned int gpio, unsigned long event_mask) {
+}
+
+
 void candybar_hook() {
+    gpio_set_irq_enabled_with_callback(PROBE_PIN_IRQ_RISING, GPIO_IRQ_EDGE_RISE, true, &DAP_inject_halt_callback);
+    gpio_set_irq_enabled_with_callback(PROBE_PIN_IRQ_FALLING, GPIO_IRQ_EDGE_FALL, true, &DAP_inject_halt_callback);
 }
 
 
