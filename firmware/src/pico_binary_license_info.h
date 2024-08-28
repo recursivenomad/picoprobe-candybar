@@ -7,6 +7,7 @@
 
 
 #include "pico/binary_info/code.h"
+#include "pico/binary_info/structure.h"
 
 
 #define BINARY_INFO_TAG_LICENSE_INFO BINARY_INFO_MAKE_TAG('L','I')
