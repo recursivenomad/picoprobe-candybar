@@ -4,6 +4,7 @@
 # Misc intermediary/meta files
 _untracked/
 *.code-workspace
+*clangd
 
 # Release files
 releases/
