@@ -10,18 +10,18 @@
 */
 
 
-#include <stdbool.h>
-#include <stdint.h>
-
-#include "probe_config.h"
-#include "hardware/gpio.h"
-#include "pico/binary_info.h"
+#include "pico_binary_license_info.h"
 
 #include "DAP_config.h"
+#include "probe_config.h"
 
 #include "DAP.h"
 
-#include "pico_binary_license_info.h"
+#include "hardware/gpio.h"
+#include "pico/binary_info.h"
+
+#include <stdbool.h>
+#include <stdint.h>
 
 
 #define STR_LITERAL(x) #x
