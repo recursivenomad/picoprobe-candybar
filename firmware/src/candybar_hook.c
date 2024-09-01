@@ -11,10 +11,15 @@
 
 
 #include <stdbool.h>
+#include <stdint.h>
 
 #include "probe_config.h"
 #include "hardware/gpio.h"
 #include "pico/binary_info.h"
+
+#include "DAP_config.h"
+
+#include "DAP.h"
 
 #include "pico_binary_license_info.h"
 
@@ -23,7 +28,27 @@
 #define STR(x) STR_LITERAL(x)
 
 
+#define DHCSR_DBGKEY      0xA05F
+#define DHCSR_C_DEBUGEN  (1U << 0)
+#define DHCSR_C_HALT     (1U << 1)
+
+
+static const uint8_t HaltInjectionBuffer[] = {
+        ID_DAP_Transfer,                // DAP_ProcessCommand() ID; incremented in switch()
+        0x00,                           // DAP_SWD_Transfer() "Ignore DAP index" ?
+        0x01,                           // DAP_SWD_Transfer() request_count
+        DAP_TRANSFER_APnDP,             // DAP_SWD_Transfer() request_value
+        DHCSR_C_DEBUGEN | DHCSR_C_HALT, // DAP_SWD_Transfer() data [7:0]
+        0x00,                           //                    data [15:8]
+        (uint8_t)(DHCSR_DBGKEY),        //                    data [23:16]
+        (uint8_t)(DHCSR_DBGKEY >> 8)    //                    data [31:24]
+    };
+
+
 void DAP_inject_halt_callback(unsigned int gpio, unsigned long event_mask) {
+    // TODO: Is this interrupt safe if another transfer is already in progress?
+    uint8_t ThrowawayReceiveBuffer[DAP_PACKET_COUNT];
+    DAP_ProcessCommand(HaltInjectionBuffer, ThrowawayReceiveBuffer);
 }
 
 
