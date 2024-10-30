@@ -47,6 +47,7 @@ static const uint8_t HaltInjectionBuffer[] = {
 
 void DAP_inject_halt_callback(unsigned int gpio, unsigned long event_mask) {
     // TODO: Is this interrupt safe if another transfer is already in progress?
+    // TODO: Is this interrupt safe if another interrupt occurs during it?
     uint8_t ThrowawayReceiveBuffer[DAP_PACKET_COUNT];
     DAP_ProcessCommand(HaltInjectionBuffer, ThrowawayReceiveBuffer);
 }
