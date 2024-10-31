@@ -21,6 +21,7 @@
    [3]: <https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-I-dir>
 */
 
+
 #ifndef OVERRIDE_BOARD_DEBUG_PROBE_H_
 #define OVERRIDE_BOARD_DEBUG_PROBE_H_
 
@@ -38,9 +39,9 @@
 #define PROBE_PIN_RESET 2
 
 #ifdef PROBE_UART_HWFC
-  #define PROBE_UART_DTR 3
-  #define PROBE_UART_CTS 6
-  #define PROBE_UART_RTS 7
+    #define PROBE_UART_DTR 3
+    #define PROBE_UART_CTS 6
+    #define PROBE_UART_RTS 7
 #endif
 
 #undef  PROBE_UART_RX_LED
@@ -48,6 +49,9 @@
 
 #undef  PROBE_USB_CONNECTED_LED
 #define PROBE_USB_CONNECTED_LED PICO_DEFAULT_LED_PIN
+
+#define PROBE_PIN_IRQ_RISING  10
+#define PROBE_PIN_IRQ_FALLING 11
 
 #undef  PROBE_PRODUCT_STRING
 #define PROBE_PRODUCT_STRING "Picoprobe Candybar (CMSIS-DAP)"

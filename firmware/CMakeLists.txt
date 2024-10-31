@@ -7,6 +7,9 @@ cmake_minimum_required(VERSION 3.13...3.30.2)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 11)
 
+# Option to output extra compiler warnings for non-imported files (expensive)
+set(NON_IMPORTED_COMPILER_WARNINGS ON)
+
 # Pico SDK option to define which variant of the Pico we are using
 set(PICO_BOARD pico CACHE STRING "Board type")
 # Pico SDK option to not optimize anything during debug builds
@@ -37,7 +40,7 @@ pico_sdk_init()
 # Below is informed by lib/debugprobe/CMakeLists.txt:
 
 add_executable(${PROJECT_NAME}
-    src/candybar_binary_config.c
+    src/candybar_hook.c
     lib/debugprobe/src/led.c
     lib/debugprobe/src/main.c
     lib/debugprobe/src/usb_descriptors.c
@@ -53,7 +56,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE
+# Include library headers as SYSTEM to suppress header compiler warnings
+target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE
     lib/debugprobe/src/
     lib/debugprobe/include/
     lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/
@@ -79,6 +83,26 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 target_compile_definitions (${PROJECT_NAME} PRIVATE
 	PICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1
 )
+
+
+
+if(${NON_IMPORTED_COMPILER_WARNINGS})
+
+    # Assert additional compiler warnings for non-imported files
+
+    file(GLOB_RECURSE WARN_DIRECTORIES CONFIGURE_DEPENDS
+        src/*
+        override/*
+    )
+
+    set_source_files_properties(${WARN_DIRECTORIES} PROPERTIES
+        COMPILE_FLAGS "-Wall -Wextra -Wpedantic"
+    )
+
+    # Redefine the Pico SDK as INTERFACE_SYSTEM to suppress header warnings
+    set_target_properties(pico_base PROPERTIES INTERFACE_SYSTEM_INCLUDE_DIRECTORIES $<TARGET_PROPERTY:pico_base,INTERFACE_INCLUDE_DIRECTORIES>)
+
+endif()
 
 
 

@@ -7,6 +7,7 @@
 
 
 #include "pico/binary_info/code.h"
+#include "pico/binary_info/structure.h"
 
 
 #define BINARY_INFO_TAG_LICENSE_INFO BINARY_INFO_MAKE_TAG('L','I')
@@ -17,8 +18,8 @@
 #define bi_program_author(author) bi_string(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_AUTHOR, author)
 #define bi_program_license(license) bi_string(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_LICENSE, license)
 
-bi_decl(bi_program_feature_group(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_AUTHOR, "author"));
-bi_decl(bi_program_feature_group_with_flags(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_LICENSE, "license", BI_NAMED_GROUP_SHOW_IF_EMPTY));
+bi_decl(bi_program_feature_group(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_AUTHOR, "author"))
+bi_decl(bi_program_feature_group_with_flags(BINARY_INFO_TAG_LICENSE_INFO, BINARY_INFO_ID_LI_LICENSE, "license", BI_NAMED_GROUP_SHOW_IF_EMPTY))
 
 
 #endif  // PICO_BINARY_LICENSE_INFO_H_

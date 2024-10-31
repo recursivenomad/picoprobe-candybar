@@ -8648,15 +8648,14 @@
 		)
 		(uuid "98a67642-ae29-457e-b4b8-cb931ef15642")
 	)
-	(text "Reserved for\nfuture use"
+	(text "SWD interrupt\nhalting"
 		(exclude_from_sim no)
-		(at 260.35 69.85 0)
+		(at 260.35 72.39 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 				(italic yes)
 			)
-			(justify top)
 		)
 		(uuid "a2e7e167-5569-4c9b-b282-a5f1a7fe316a")
 	)
@@ -8795,7 +8794,7 @@
 		)
 		(uuid "118ea663-3482-4638-b504-7e86eea06ead")
 	)
-	(label "GPIO10"
+	(label "INT_RISE"
 		(at 60.96 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8850,7 +8849,7 @@
 		)
 		(uuid "179d97b3-96c2-445e-96d5-03c46a8b5243")
 	)
-	(label "GPIO11"
+	(label "INT_FALL"
 		(at 60.96 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8949,7 +8948,7 @@
 		)
 		(uuid "2c93b0b2-2581-4504-ae24-ed327b266f14")
 	)
-	(label "GPIO10"
+	(label "INT_FALL"
 		(at 228.6 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9279,7 +9278,7 @@
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
-	(label "GPIO11"
+	(label "INT_RISE"
 		(at 228.6 71.12 0)
 		(fields_autoplaced yes)
 		(effects
