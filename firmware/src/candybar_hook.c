@@ -54,6 +54,10 @@ void DAP_inject_halt_callback(unsigned int gpio, unsigned long event_mask) {
 
 
 void candybar_hook() {
+    // These pulls will weakly influence the target circuit
+    gpio_pull_down(PROBE_PIN_IRQ_RISING);
+    gpio_pull_up(PROBE_PIN_IRQ_FALLING);
+
     gpio_set_irq_enabled_with_callback(PROBE_PIN_IRQ_RISING, GPIO_IRQ_EDGE_RISE, true, &DAP_inject_halt_callback);
     gpio_set_irq_enabled_with_callback(PROBE_PIN_IRQ_FALLING, GPIO_IRQ_EDGE_FALL, true, &DAP_inject_halt_callback);
 }
