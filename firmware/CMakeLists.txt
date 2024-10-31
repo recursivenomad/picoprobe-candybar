@@ -80,7 +80,22 @@ target_compile_definitions (${PROJECT_NAME} PRIVATE
 	PICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1
 )
 
-#target_compile_options (${PROJECT_NAME} PRIVATE -Wall -Wextra -Wpedantic)
+
+
+if(TRUE)
+
+    # Assert additional compiler warnings for non-imported files
+
+    file(GLOB_RECURSE WARN_DIRECTORIES CONFIGURE_DEPENDS
+        src/*
+        override/*
+    )
+
+    set_source_files_properties(${WARN_DIRECTORIES} PROPERTIES
+        COMPILE_FLAGS "-Wall -Wextra -Wpedantic"
+    )
+
+endif()
 
 
 
