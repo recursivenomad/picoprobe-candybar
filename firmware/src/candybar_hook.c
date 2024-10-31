@@ -20,11 +20,11 @@
 #define STR(x) STR_LITERAL(x)
 
 
-void candybar_hook() {
+void candybar_hook(void) {
 }
 
 
-void bi_decl_config() {
+void bi_decl_config(void) {
 
     candybar_hook();
 
