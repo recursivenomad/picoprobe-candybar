@@ -80,6 +80,8 @@ target_compile_definitions (${PROJECT_NAME} PRIVATE
 	PICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1
 )
 
+#target_compile_options (${PROJECT_NAME} PRIVATE -Wall -Wextra -Wpedantic)
+
 
 
 pico_set_program_name(${PROJECT_NAME}        "Picoprobe Candybar")
