@@ -7,6 +7,9 @@ cmake_minimum_required(VERSION 3.13...3.30.2)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 11)
 
+# Option to output extra compiler warnings for non-imported files (expensive)
+set(NON_IMPORTED_COMPILER_WARNINGS ON)
+
 # Pico SDK option to define which variant of the Pico we are using
 set(PICO_BOARD pico CACHE STRING "Board type")
 # Pico SDK option to not optimize anything during debug builds
@@ -82,7 +85,7 @@ target_compile_definitions (${PROJECT_NAME} PRIVATE
 
 
 
-if(TRUE)
+if(${NON_IMPORTED_COMPILER_WARNINGS})
 
     # Assert additional compiler warnings for non-imported files
 
