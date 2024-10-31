@@ -56,7 +56,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE
+# Include library headers as SYSTEM to suppress header compiler warnings
+target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE
     lib/debugprobe/src/
     lib/debugprobe/include/
     lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/
@@ -97,6 +98,9 @@ if(${NON_IMPORTED_COMPILER_WARNINGS})
     set_source_files_properties(${WARN_DIRECTORIES} PROPERTIES
         COMPILE_FLAGS "-Wall -Wextra -Wpedantic"
     )
+
+    # Redefine the Pico SDK as INTERFACE_SYSTEM to suppress header warnings
+    set_target_properties(pico_base PROPERTIES INTERFACE_SYSTEM_INCLUDE_DIRECTORIES $<TARGET_PROPERTY:pico_base,INTERFACE_INCLUDE_DIRECTORIES>)
 
 endif()
 
