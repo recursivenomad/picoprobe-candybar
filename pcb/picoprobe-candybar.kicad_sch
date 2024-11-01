@@ -8685,14 +8685,14 @@
 	)
 	(text "ON/OFF"
 		(exclude_from_sim no)
-		(at 40.64 118.11 0)
+		(at 40.64 121.92 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify top)
+			(justify bottom)
 		)
 		(uuid "98a67642-ae29-457e-b4b8-cb931ef15642")
 	)
@@ -11211,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Red"
 			(at 244.475 166.37 0)
 			(effects
 				(font
