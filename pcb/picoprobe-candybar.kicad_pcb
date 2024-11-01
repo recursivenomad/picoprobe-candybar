@@ -48,6 +48,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -870,7 +909,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.357949 25.493953)
+			(mid 10.357946 25.493957)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -4692,7 +4731,8 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
+			(clearance 0.9)
 			(uuid "c29ef0ef-bc3e-4542-9897-f8dbadc8290c")
 		)
 	)
@@ -11754,14 +11794,15 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
+			(clearance 0.9)
 			(uuid "51cf1c4d-602d-43e4-94a7-052f236cd95a")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "4571de20-6536-4a5c-9a71-c09aabf3e3e6")
-		(at 107.315 81.915 180)
+		(at 107.315 80.645 180)
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J6"
@@ -12425,7 +12466,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "4fbc9729-92d0-4528-ba93-78faf237bbba")
-		(at 95.885 117.475)
+		(at 95.885 127)
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
@@ -13405,7 +13446,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "afbe925d-a181-4f64-aa44-6ca00370c682")
-		(at 107.315 92.075 180)
+		(at 107.315 90.805 180)
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
@@ -14417,7 +14458,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "c59e74d0-c9ff-4fbc-bd4f-283c211daf67")
-		(at 107.315 102.235 180)
+		(at 107.315 100.965 180)
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
@@ -15081,7 +15122,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "c97e77ad-65bf-4cdc-bf66-83bdbbaa7db2")
-		(at 107.315 71.755 180)
+		(at 107.315 73.025 180)
 		(descr "Through hole angled socket strip, 1x02, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
@@ -15674,7 +15715,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "dcaae2d0-b93b-4457-9209-19b4724e737a")
-		(at 95.885 107.315)
+		(at 95.885 106.045)
 		(descr "Through hole angled socket strip, 1x02, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
@@ -17008,16 +17049,6 @@
 		(uuid "28bc6517-310b-4f9e-b194-83630e68771b")
 	)
 	(gr_line
-		(start 115.57 145.21)
-		(end 115.57 155.198)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "28bc6517-310b-4f9e-b194-83630e68771b")
-	)
-	(gr_line
 		(start 109.73 145.21)
 		(end 115.57 145.21)
 		(stroke
@@ -17038,36 +17069,6 @@
 		(uuid "3efb92cb-e474-446e-96e5-451a083374ea")
 	)
 	(gr_line
-		(start 97.775 61.725)
-		(end 105.425 61.725)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3efb92cb-e474-446e-96e5-451a083374ea")
-	)
-	(gr_line
-		(start 87.63 60.198)
-		(end 97.775 60.198)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3efb92cb-e474-446e-96e5-451a083374ea")
-	)
-	(gr_line
-		(start 105.425 60.198)
-		(end 115.57 60.198)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3efb92cb-e474-446e-96e5-451a083374ea")
-	)
-	(gr_line
 		(start 105.425 60.198)
 		(end 105.425 61.725)
 		(stroke
@@ -17078,6 +17079,36 @@
 		(uuid "44ee87d6-342a-40c8-873f-58d9ff137de2")
 	)
 	(gr_line
+		(start 115.57 145.21)
+		(end 115.57 155.198)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6a60a134-2cf9-47d6-a87d-9a6e6e75ae7c")
+	)
+	(gr_line
+		(start 87.63 60.198)
+		(end 97.775 60.198)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b4629947-c293-46a7-a6ce-fce898921c90")
+	)
+	(gr_line
+		(start 97.775 61.725)
+		(end 105.425 61.725)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc05c604-f8da-429c-8a56-5daa41326016")
+	)
+	(gr_line
 		(start 109.73 129.11)
 		(end 115.57 129.11)
 		(stroke
@@ -17086,6 +17117,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d2fdb65e-13f1-4937-95bc-9af8df687865")
+	)
+	(gr_line
+		(start 105.425 60.198)
+		(end 115.57 60.198)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd3525ad-09b0-4c74-a125-f7894fab6263")
 	)
 	(gr_text "5V/-/3.3V"
 		(at 114.3 150.1775 90)
@@ -17169,7 +17210,7 @@
 			)
 		)
 	)
-	(gr_text "LOGIC OUT SELECT"
+	(gr_text "< LOGIC OUT SELECT"
 		(at 90.805 140.335 0)
 		(layer "F.SilkS")
 		(uuid "b29ce542-d802-4de3-aba1-32981e7641b5")
@@ -17183,7 +17224,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 91.7575 153.0985 90)
+		(at 91.7575 153.0985 270)
 		(layer "F.SilkS")
 		(uuid "bca1c802-af33-408a-b851-a42f6198acb7")
 		(effects
@@ -17191,11 +17232,11 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
+			(justify top)
 		)
 	)
 	(gr_text "RX"
-		(at 91.7575 147.955 90)
+		(at 91.7575 147.955 270)
 		(layer "F.SilkS")
 		(uuid "d9e71799-7d4d-4efc-a64c-73b51bf94e23")
 		(effects
@@ -17203,7 +17244,7 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
+			(justify top)
 		)
 	)
 	(gr_text "CONN"
@@ -17230,7 +17271,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "VCC OUT SELECT"
+	(gr_text "VCC OUT SELECT >"
 		(at 108.2675 133.985 0)
 		(layer "F.SilkS")
 		(uuid "ffa3db2d-1e1f-41ac-8986-08fd5121ccd2")
