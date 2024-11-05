@@ -518,6 +518,10 @@
       {
         "netclass": "Power",
         "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },
