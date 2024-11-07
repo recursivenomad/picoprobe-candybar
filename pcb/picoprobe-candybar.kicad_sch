@@ -6478,6 +6478,12 @@
 		(uuid "3bfba690-9609-4aad-bddf-7d17cd547fec")
 	)
 	(junction
+		(at 222.25 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58e2f73d-e699-4c75-9ca3-e0c21f33d9c7")
+	)
+	(junction
 		(at 43.18 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6720,16 +6726,6 @@
 			(type default)
 		)
 		(uuid "1f0314d2-5933-4506-8f30-5d74cd75e7fa")
-	)
-	(wire
-		(pts
-			(xy 252.73 43.18) (xy 270.51 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fbfc5a6-c8ff-4011-a83d-3bf117d70282")
 	)
 	(wire
 		(pts
@@ -7463,6 +7459,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 40.64) (xy 222.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872890eb-f4d8-435c-8ed0-131cb79a1b60")
+	)
+	(wire
+		(pts
 			(xy 232.41 165.1) (xy 242.57 165.1)
 		)
 		(stroke
@@ -7660,6 +7666,16 @@
 			(type default)
 		)
 		(uuid "a63e126f-921a-458b-bbef-604a231e5ec8")
+	)
+	(wire
+		(pts
+			(xy 270.51 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9393e1a-95a8-4310-95a7-996c92af0d58")
 	)
 	(wire
 		(pts
@@ -7950,6 +7966,16 @@
 			(type default)
 		)
 		(uuid "c6df9b83-a462-463b-8205-3d2c168eac5c")
+	)
+	(wire
+		(pts
+			(xy 222.25 30.48) (xy 222.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7267a24-8b6d-4db9-8f9f-13c665f1e03e")
 	)
 	(wire
 		(pts
@@ -9844,6 +9870,75 @@
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d305310-b6a4-4363-945e-f33590738be7")
+		(property "Reference" "C4"
+			(at 222.885 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 222.885 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 223.2152 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66268a73-3cd2-415f-b0ae-95c85101e049")
+		)
+		(pin "2"
+			(uuid "da925761-2454-4051-82bc-5318e5a9bda6")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11934,6 +12029,71 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 222.25 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65ba3b34-a103-4a91-9a33-b4ffff30ba7c")
+		(property "Reference" "#PWR038"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOUT\""
+			(at 222.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c210a4-4031-456f-a15d-fccc604765b9")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
