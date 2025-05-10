@@ -11168,6 +11168,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 152.4) (xy 307.34 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dff1ebc-97fa-4e9d-b875-a275df4b444a")
+	)
+	(wire
+		(pts
 			(xy 48.26 154.94) (xy 48.26 153.67)
 		)
 		(stroke
@@ -11185,6 +11195,16 @@
 			(type default)
 		)
 		(uuid "9336bfa6-ada1-47af-ae8a-3ac9441ad51a")
+	)
+	(wire
+		(pts
+			(xy 307.34 149.86) (xy 320.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951e994a-6e5a-4553-a153-85ce5990fe45")
 	)
 	(wire
 		(pts
@@ -12666,6 +12686,17 @@
 			(justify left bottom)
 		)
 		(uuid "567f1b91-db37-4945-9fdd-2aad8e881ab1")
+	)
+	(label "ADC_VREF"
+		(at 320.04 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e8d2d16-75e0-433e-a93a-d0598698b33d")
 	)
 	(label "RTS"
 		(at 139.7 48.26 0)
@@ -17551,6 +17582,71 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 307.34 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "997ebb9f-59cf-4702-a492-f6be3a5914c7")
+		(property "Reference" "#FLG04"
+			(at 307.34 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 307.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0434628-60f8-4efd-806b-71459b680ec6")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
