@@ -58,9 +58,21 @@ void DAP_inject_halt_callback(unsigned int gpio, unsigned long event_mask) {
 }
 
 
+static inline void gpio_pull_down_fallback_up(uint gpio) {
+    #if PICO_RP2350
+        gpio_pull_up(gpio);
+    #else
+        gpio_pull_down(gpio);
+    #endif
+}
+
+
 void candybar_hook(void) {
     // These pulls will weakly influence the target circuit
-    gpio_pull_down(PROBE_PIN_IRQ_RISING);
+    // Due to RP2350 errata E9: Fallback to pull-up for rising interrupt
+    // Ensures a weaker pull compared to latching leakage current
+    // (But still prefer pull-down on other platforms)
+    gpio_pull_down_fallback_up(PROBE_PIN_IRQ_RISING);
     gpio_pull_up(PROBE_PIN_IRQ_FALLING);
 
     gpio_set_irq_enabled_with_callback(PROBE_PIN_IRQ_RISING, GPIO_IRQ_EDGE_RISE, true, &DAP_inject_halt_callback);
