@@ -9707,16 +9707,16 @@
 		(uuid "0ea6dbc5-3b56-4204-bb34-e9c3114d1e6b")
 	)
 	(no_connect
-		(at 241.3 76.2)
-		(uuid "19aff3c7-b722-4ae2-9f20-daa86ad9bcdd")
-	)
-	(no_connect
 		(at 71.12 95.25)
 		(uuid "675135f7-7104-4d47-a621-0f39ca071b92")
 	)
 	(no_connect
 		(at 152.4 63.5)
 		(uuid "7c10c9e9-b9c6-4162-a85d-fb5eabc4b313")
+	)
+	(no_connect
+		(at 241.3 71.12)
+		(uuid "c4811584-bc99-42aa-bf6e-b5f82256a67d")
 	)
 	(wire
 		(pts
@@ -9770,6 +9770,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 58.42) (xy 199.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09383bc9-3bae-4919-97ca-1e77b53763ef")
+	)
+	(wire
+		(pts
 			(xy 229.87 153.67) (xy 242.57 153.67)
 		)
 		(stroke
@@ -9807,16 +9817,6 @@
 			(type default)
 		)
 		(uuid "0f95253e-c885-40b8-a0ed-5439f3fc8028")
-	)
-	(wire
-		(pts
-			(xy 228.6 73.66) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12bfb87b-5fab-4fe6-8f63-0c256162f246")
 	)
 	(wire
 		(pts
@@ -9867,16 +9867,6 @@
 			(type default)
 		)
 		(uuid "1c678743-ac2f-4893-894d-72726f891b1c")
-	)
-	(wire
-		(pts
-			(xy 185.42 109.22) (xy 199.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0314d2-5933-4506-8f30-5d74cd75e7fa")
 	)
 	(wire
 		(pts
@@ -10180,13 +10170,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 199.39 93.98)
+			(xy 170.18 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b65682b-4039-4446-845b-140e1415680a")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 199.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6a52c4-3354-4160-8325-4a851dea9e52")
 	)
 	(wire
 		(pts
@@ -10230,7 +10230,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 177.8 109.22)
+			(xy 170.18 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10400,16 +10400,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 199.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6790eef0-a524-4521-ab4d-361b4dd15d5a")
-	)
-	(wire
-		(pts
 			(xy 60.96 69.85) (xy 71.12 69.85)
 		)
 		(stroke
@@ -10547,6 +10537,16 @@
 			(type default)
 		)
 		(uuid "77900f9a-0bd7-4111-8853-307faf736d78")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 241.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ca7d14-ef01-4261-bab9-f175bca493de")
 	)
 	(wire
 		(pts
@@ -10707,6 +10707,16 @@
 			(type default)
 		)
 		(uuid "8c488ef7-3dc4-4136-a20b-8c7a54667441")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.66) (xy 241.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d347e60-6b42-45f7-beaf-c77ab3f29254")
 	)
 	(wire
 		(pts
@@ -11260,7 +11270,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 199.39 58.42)
+			(xy 170.18 58.42) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11300,16 +11310,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 71.12) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddffcefb-0299-4c9a-b883-48f21cc27343")
-	)
-	(wire
-		(pts
 			(xy 205.74 76.2) (xy 205.74 80.01)
 		)
 		(stroke
@@ -11320,7 +11320,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 177.8 48.26)
+			(xy 170.18 48.26) (xy 199.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11931,7 +11931,40 @@
 		)
 		(uuid "02ce3649-2137-4d69-be82-fd9ffc9fc6d0")
 	)
-	(label "IO_IN"
+	(label "CB_RX"
+		(at 199.39 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07bddc1a-0c0e-43db-8d80-f6be1239430b")
+	)
+	(label "CB_RTS"
+		(at 199.39 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07e6ed7b-4c92-4652-9749-a35791d077b5")
+	)
+	(label "RX"
+		(at 139.7 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc87891-e4e4-4c1f-9023-03d679551f41")
+	)
+	(label "RS1"
 		(at 139.7 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11940,18 +11973,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "073345bb-13a7-4722-83ba-7cb0eccfac78")
-	)
-	(label "CTS"
-		(at 139.7 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07854440-5358-4355-b117-d77000c99845")
+		(uuid "0cc36863-c9fd-4548-8017-29cf3b782ca8")
 	)
 	(label "IO_IN"
 		(at 60.96 87.63 0)
@@ -11965,6 +11987,17 @@
 		(uuid "0d9b3dfb-14f9-4a3c-8f23-ae446a8bbf11")
 	)
 	(label "CB_CLK"
+		(at 199.39 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dab3aeb-09c9-4874-9748-12471b6bcca7")
+	)
+	(label "CB_CLK"
 		(at 264.16 38.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11974,17 +12007,6 @@
 			(justify right bottom)
 		)
 		(uuid "0e1e4215-be0a-4104-b7f5-2cfe29aa1a40")
-	)
-	(label "DTR"
-		(at 139.7 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e92a12e-dcf1-4fa8-b42b-6f1f63d3e563")
 	)
 	(label "LED_TX"
 		(at 60.96 72.39 0)
@@ -12074,17 +12096,6 @@
 		)
 		(uuid "1c43d6ef-9cd3-47d9-936d-736c6507388c")
 	)
-	(label "CB_RS3"
-		(at 199.39 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1dac0df5-6f84-484a-838f-c7b33fe02cc6")
-	)
 	(label "ADC_VREF"
 		(at 127 80.01 180)
 		(fields_autoplaced yes)
@@ -12096,27 +12107,27 @@
 		)
 		(uuid "218fb430-95ce-40a9-add8-2007ae7bad3e")
 	)
-	(label "CB_CLK"
-		(at 199.39 53.34 180)
+	(label "RS3"
+		(at 139.7 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "230a520f-9fb4-4e12-bb92-ddd93fb13542")
+		(uuid "23c72b8a-1e03-41e6-a8dd-8ac3d8200d73")
 	)
-	(label "CB_TX"
-		(at 199.39 43.18 180)
+	(label "RS2"
+		(at 139.7 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "281d4b51-2d5c-4e7f-b3b3-bf07dee9a529")
+		(uuid "29fbfe98-ed8d-43c9-aeb8-2945e9667d69")
 	)
 	(label "CB_RX"
 		(at 264.16 45.72 180)
@@ -12140,19 +12151,8 @@
 		)
 		(uuid "2c93b0b2-2581-4504-ae24-ed327b266f14")
 	)
-	(label "INT_FALL"
-		(at 228.6 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37c15c9e-14de-42ea-8617-db582e21b340")
-	)
-	(label "CB_DTR"
-		(at 199.39 38.1 180)
+	(label "IO_SHIFTED"
+		(at 199.39 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12160,29 +12160,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3bae4eaf-b942-4b1c-a3f2-1c3133fdc221")
+		(uuid "365edf00-6af1-43ed-9671-45457caa91b5")
 	)
-	(label "IO_OUT"
-		(at 139.7 58.42 0)
+	(label "CB_RS2"
+		(at 199.39 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "41b35908-c037-40f9-9635-9c2c0244a563")
-	)
-	(label "RS1"
-		(at 139.7 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "441a48df-3da8-49b8-988c-c52cbd75c442")
+		(uuid "40208d78-e2c9-4a51-912f-9eac06c95ffe")
 	)
 	(label "RS1"
 		(at 127 62.23 180)
@@ -12217,8 +12206,19 @@
 		)
 		(uuid "4ee624b2-378a-4136-b0e5-36072f863dcb")
 	)
-	(label "CB_RS2"
-		(at 199.39 104.14 180)
+	(label "CTS"
+		(at 139.7 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eeaaaf6-6066-42ee-bc89-ddc84d08e48b")
+	)
+	(label "CB_RS1"
+		(at 199.39 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12226,7 +12226,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5346dd21-c0fc-4b16-a1a0-f8883f9eb66d")
+		(uuid "52f3857c-5189-402b-a0db-4b026c206e6b")
 	)
 	(label "CB_RS4"
 		(at 127 69.85 180)
@@ -12250,6 +12250,17 @@
 		)
 		(uuid "567f1b91-db37-4945-9fdd-2aad8e881ab1")
 	)
+	(label "IO_OUT"
+		(at 139.7 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579edc3d-d9ed-4037-9698-2e5167295eb4")
+	)
 	(label "~{RST}"
 		(at 139.7 127 0)
 		(fields_autoplaced yes)
@@ -12261,6 +12272,17 @@
 		)
 		(uuid "5cb789ca-592f-41c3-a145-72e62b08d237")
 	)
+	(label "TX"
+		(at 139.7 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d15fe89-89c3-4a95-b599-31c289897c5c")
+	)
 	(label "ADC_VREF"
 		(at 320.04 149.86 180)
 		(fields_autoplaced yes)
@@ -12271,17 +12293,6 @@
 			(justify right bottom)
 		)
 		(uuid "5e8d2d16-75e0-433e-a93a-d0598698b33d")
-	)
-	(label "RTS"
-		(at 139.7 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fa1cbe0-ffeb-4be5-a6cd-8e6ea6615c66")
 	)
 	(label "CB_TX"
 		(at 228.6 45.72 0)
@@ -12305,6 +12316,17 @@
 		)
 		(uuid "67cbe64a-7a83-4161-86d0-bc703233fa62")
 	)
+	(label "CB_DTR"
+		(at 199.39 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c0b254b-9347-4a32-9e3c-523808483369")
+	)
 	(label "ADC2"
 		(at 127 90.17 180)
 		(fields_autoplaced yes)
@@ -12327,6 +12349,17 @@
 		)
 		(uuid "712a9f7c-6bd9-4890-a98e-c794a9962621")
 	)
+	(label "CB_TX"
+		(at 199.39 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74597c54-a670-499f-bfbd-8d68513ca544")
+	)
 	(label "LED_TX"
 		(at 207.01 148.59 0)
 		(fields_autoplaced yes)
@@ -12338,17 +12371,6 @@
 		)
 		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
-	(label "IO_SHIFTED"
-		(at 199.39 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "751fafc8-c21c-414b-90c4-a24d73dff70a")
-	)
 	(label "CB_RS3"
 		(at 228.6 86.36 0)
 		(fields_autoplaced yes)
@@ -12359,17 +12381,6 @@
 			(justify left bottom)
 		)
 		(uuid "7742ee09-6976-461d-94c1-40a9ad48975d")
-	)
-	(label "CLK"
-		(at 139.7 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a7fe32d-28cc-4e38-a628-7ebd526ac6da")
 	)
 	(label "LED_RUN"
 		(at 207.01 166.37 0)
@@ -12393,6 +12404,17 @@
 		)
 		(uuid "8314aa47-f58f-41e6-ae9f-d4e7f8f043dc")
 	)
+	(label "INT_RISE"
+		(at 228.6 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84afc5ca-4a67-4973-83d4-328297596b09")
+	)
 	(label "IO_SHIFTED"
 		(at 139.7 132.08 0)
 		(fields_autoplaced yes)
@@ -12415,16 +12437,16 @@
 		)
 		(uuid "854eb50b-a000-472f-8fe0-835a424c5b8a")
 	)
-	(label "RS2"
-		(at 139.7 104.14 0)
+	(label "CB_CTS"
+		(at 199.39 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8987fa8e-8bd1-46ee-834f-a2a36f33e718")
+		(uuid "86393e09-899b-48de-9ede-7148505467e2")
 	)
 	(label "DTR"
 		(at 60.96 59.69 0)
@@ -12436,17 +12458,6 @@
 			(justify left bottom)
 		)
 		(uuid "89f14ca3-e25b-4e1f-aba5-13f93108d758")
-	)
-	(label "CB_RTS"
-		(at 199.39 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c326278-f959-4b0c-acd3-ce169d8a40c4")
 	)
 	(label "RTS"
 		(at 60.96 69.85 0)
@@ -12481,17 +12492,6 @@
 		)
 		(uuid "947a6479-b94d-4101-8d0a-27ebf097c24d")
 	)
-	(label "RS3"
-		(at 139.7 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95bcfbc1-6e66-4a14-ae46-f9fb96a3df41")
-	)
 	(label "CB_~{RST}"
 		(at 264.16 40.64 180)
 		(fields_autoplaced yes)
@@ -12514,8 +12514,8 @@
 		)
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
-	(label "INT_RISE"
-		(at 228.6 71.12 0)
+	(label "INT_FALL"
+		(at 228.6 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12523,29 +12523,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e7cb52a-b09f-4481-bec4-ff7a267d082c")
+		(uuid "9f278c72-1928-4f79-967e-a89d719410bf")
 	)
-	(label "CB_RS1"
-		(at 199.39 99.06 180)
+	(label "DTR"
+		(at 139.7 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a1bdbe8c-7600-4cd5-aa65-c001138d06eb")
-	)
-	(label "IO_SHIFTED"
-		(at 199.39 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afb9a0ba-5554-4eb8-a7cb-8256b0a9ce7e")
+		(uuid "b027562e-b62b-4dc1-ad03-2178f97118a4")
 	)
 	(label "CB_RS4"
 		(at 228.6 106.68 0)
@@ -12579,6 +12568,17 @@
 			(justify left bottom)
 		)
 		(uuid "bddab5d3-b6aa-4789-a6be-49b67323efe9")
+	)
+	(label "CB_RS3"
+		(at 199.39 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfdeeaf7-f8f4-4105-8b86-a3f7f13c01aa")
 	)
 	(label "CLK"
 		(at 60.96 82.55 0)
@@ -12624,39 +12624,6 @@
 		)
 		(uuid "d0db735d-e00b-4146-a957-2f3d2d88c89e")
 	)
-	(label "TX"
-		(at 139.7 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4e3709b-5264-48e1-8fc8-bde119242daf")
-	)
-	(label "CB_CTS"
-		(at 199.39 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7d7b820-1acf-4a15-87af-df5a37a7a2bd")
-	)
-	(label "RX"
-		(at 139.7 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d905a1bd-2846-43a0-b639-4f1376a7fd22")
-	)
 	(label "ADC1"
 		(at 228.6 119.38 0)
 		(fields_autoplaced yes)
@@ -12679,6 +12646,17 @@
 		)
 		(uuid "dc74c6cb-f5fd-4225-8279-238219f03326")
 	)
+	(label "CLK"
+		(at 139.7 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e15f0a9b-5729-4603-b4e4-27d7ddf09bf3")
+	)
 	(label "ADC0"
 		(at 127 85.09 180)
 		(fields_autoplaced yes)
@@ -12689,6 +12667,17 @@
 			(justify right bottom)
 		)
 		(uuid "e4686550-b8b1-4774-a8a9-50b8f2d674e7")
+	)
+	(label "IO_SHIFTED"
+		(at 199.39 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6736285-e551-4aa3-8d1a-8bb66a1ce176")
 	)
 	(label "LED_RX"
 		(at 60.96 74.93 0)
@@ -12701,16 +12690,16 @@
 		)
 		(uuid "e92cb4a9-be1e-47b2-94e9-a9209357dea3")
 	)
-	(label "CB_RX"
-		(at 199.39 83.82 180)
+	(label "IO_IN"
+		(at 139.7 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "ecdb293b-828e-49e4-b4b6-be5eeb3bdeba")
+		(uuid "ead8a79b-f597-4250-81f4-9aab0d92af04")
 	)
 	(label "ADC_VREF"
 		(at 228.6 132.08 0)
@@ -12755,6 +12744,17 @@
 			(justify left bottom)
 		)
 		(uuid "fa325171-b51e-4e16-84dc-bc8c362b5e3a")
+	)
+	(label "RTS"
+		(at 139.7 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe454e81-c903-4473-9756-1680601a3a3b")
 	)
 	(label "CB_~{RST}"
 		(at 185.42 127 180)
@@ -13644,6 +13644,95 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Pack04_Split_7")
+		(lib_id "Device:R_Pack04_Split")
+		(at 181.61 58.42 90)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb53529-06b5-4ac7-a52a-726ebb7a1d20")
+		(property "Reference" "R3"
+			(at 178.435 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 184.785 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 181.61 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beafc1b6-6c0d-4045-a65b-b46bf8f00c76")
+		)
+		(pin "7"
+			(uuid "813b259f-85cd-49cd-864a-362bb1fabfaa")
+		)
+		(pin "8"
+			(uuid "a774b232-fe76-4560-9951-031ded3051ce")
+		)
+		(pin "6"
+			(uuid "cea6e819-aeb0-47ba-a53e-c1648a088720")
+		)
+		(pin "5"
+			(uuid "ca82ea54-633a-493f-a705-1a4c7a0c1951")
+		)
+		(pin "3"
+			(uuid "80f0faa5-e09c-4982-b263-01c3d4987b17")
+		)
+		(pin "4"
+			(uuid "08586051-faa7-41e3-bd8a-cc5a4f953134")
+		)
+		(pin "2"
+			(uuid "8b6caa6a-81a2-47b6-8a43-76ff9ceae0cf")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 246.38 104.14 0)
 		(unit 1)
@@ -14448,94 +14537,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 181.61 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40b204cf-25ae-43fd-9b89-68a16641f05b")
-		(property "Reference" "R2"
-			(at 178.435 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 184.785 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 181.61 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b439834-d4db-445d-bc32-0de445e0a41c")
-		)
-		(pin "2"
-			(uuid "9957279b-cda7-46c9-9d40-262acafbd7d7")
-		)
-		(pin "5"
-			(uuid "5a307d74-8fbb-490a-a768-1371ef7e56b9")
-		)
-		(pin "4"
-			(uuid "fadb2aa1-925e-4104-a919-44221fa04f0b")
-		)
-		(pin "6"
-			(uuid "dd760240-2a98-4d82-9793-29cd302fe02b")
-		)
-		(pin "7"
-			(uuid "5019b7f6-8f8c-436d-b531-ece25947c354")
-		)
-		(pin "8"
-			(uuid "8ba00784-4e97-493f-a285-36ef6435a4a0")
-		)
-		(pin "3"
-			(uuid "a8abfbd4-91fa-4c26-b230-753c6b38d92f")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 246.38 88.9 0)
 		(unit 1)
@@ -14807,7 +14808,8 @@
 	(symbol
 		(lib_name "R_Pack04_Split_9")
 		(lib_id "Device:R_Pack04_Split")
-		(at 181.61 38.1 270)
+		(at 181.61 38.1 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14820,7 +14822,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
@@ -14829,7 +14831,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
@@ -15388,6 +15390,94 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Pack04_Split_13")
+		(lib_id "Device:R_Pack04_Split")
+		(at 226.06 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555df19d-db6f-4938-acfe-99b9f712f83c")
+		(property "Reference" "R5"
+			(at 222.885 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470R"
+			(at 229.235 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 226.06 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a35ff480-7d6d-4372-b587-8da545cffbd8")
+		)
+		(pin "3"
+			(uuid "82d79814-0cd6-4fb5-885d-3adb390a2971")
+		)
+		(pin "2"
+			(uuid "aec93956-821f-4b38-b2b9-3e9b366ceacb")
+		)
+		(pin "8"
+			(uuid "c43dd4ea-1769-478c-b51b-6e6057643e41")
+		)
+		(pin "4"
+			(uuid "b7d11e5a-6fa4-4046-a1a7-79acd0658c8a")
+		)
+		(pin "5"
+			(uuid "7a83daf2-fa21-4f5a-a36e-1b0dfcac0434")
+		)
+		(pin "6"
+			(uuid "6d8d173b-e0ff-4f42-9d34-490aa5fac21d")
+		)
+		(pin "7"
+			(uuid "f4a0031d-874f-46a0-8a86-352692f59b7e")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 246.38 119.38 0)
 		(unit 1)
@@ -15788,7 +15878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_SMD_MountingHoles_HandSolder"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_SMD_HandSolder"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -16408,26 +16498,18 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Pack04_Split_13")
+		(lib_name "R_Pack04_Split_1")
 		(lib_id "Device:R_Pack04_Split")
-		(at 226.06 148.59 270)
+		(at 181.61 93.98 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a960633-7aa0-4414-855a-46404a1dc2e2")
-		(property "Reference" "R5"
-			(at 222.885 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470R"
-			(at 229.235 147.32 90)
+		(uuid "8a19cb94-fac2-48e8-9e22-e1c1979d5807")
+		(property "Reference" "R2"
+			(at 178.435 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,8 +16517,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100R"
+			(at 184.785 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 226.06 146.558 90)
+			(at 181.61 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 148.59 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16545,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 226.06 148.59 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,33 +16554,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d9b7a8a-3c93-4e91-9eaa-d1013d5a51f9")
-		)
-		(pin "3"
-			(uuid "82d79814-0cd6-4fb5-885d-3adb390a2971")
+			(uuid "8c3ba93d-4bde-48a0-94f2-f8aeddf888ba")
 		)
 		(pin "2"
-			(uuid "aec93956-821f-4b38-b2b9-3e9b366ceacb")
-		)
-		(pin "8"
-			(uuid "84a06dfd-e0c8-4ea1-a194-689bdec1db8c")
-		)
-		(pin "4"
-			(uuid "b7d11e5a-6fa4-4046-a1a7-79acd0658c8a")
+			(uuid "9957279b-cda7-46c9-9d40-262acafbd7d7")
 		)
 		(pin "5"
-			(uuid "7a83daf2-fa21-4f5a-a36e-1b0dfcac0434")
+			(uuid "5a307d74-8fbb-490a-a768-1371ef7e56b9")
+		)
+		(pin "4"
+			(uuid "fadb2aa1-925e-4104-a919-44221fa04f0b")
 		)
 		(pin "6"
-			(uuid "6d8d173b-e0ff-4f42-9d34-490aa5fac21d")
+			(uuid "dd760240-2a98-4d82-9793-29cd302fe02b")
 		)
 		(pin "7"
-			(uuid "f4a0031d-874f-46a0-8a86-352692f59b7e")
+			(uuid "5019b7f6-8f8c-436d-b531-ece25947c354")
+		)
+		(pin "8"
+			(uuid "f2664bfd-390e-4041-bac2-e2a4f5d65cc1")
+		)
+		(pin "3"
+			(uuid "a8abfbd4-91fa-4c26-b230-753c6b38d92f")
 		)
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17012,7 +17103,8 @@
 	(symbol
 		(lib_name "R_Pack04_Split_2")
 		(lib_id "Device:R_Pack04_Split")
-		(at 181.61 104.14 270)
+		(at 181.61 104.14 90)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17025,7 +17117,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
@@ -17034,7 +17126,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
@@ -17223,94 +17315,6 @@
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR021")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_14")
-		(lib_id "Device:R_Pack04_Split")
-		(at 226.06 153.67 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2723dd2-4b19-47d7-83b6-50120a6c6b8c")
-		(property "Reference" "R5"
-			(at 222.885 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470R"
-			(at 229.235 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 226.06 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 226.06 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79523506-3ca9-460c-8c78-ecae86b42dbb")
-		)
-		(pin "3"
-			(uuid "82d79814-0cd6-4fb5-885d-3adb390a2973")
-		)
-		(pin "2"
-			(uuid "e7334e93-24d9-43e9-b245-4be403e6af36")
-		)
-		(pin "8"
-			(uuid "8358bb8b-70fc-4ae3-ac98-0e09a58df887")
-		)
-		(pin "4"
-			(uuid "b7d11e5a-6fa4-4046-a1a7-79acd0658c8c")
-		)
-		(pin "5"
-			(uuid "7a83daf2-fa21-4f5a-a36e-1b0dfcac0436")
-		)
-		(pin "6"
-			(uuid "6d8d173b-e0ff-4f42-9d34-490aa5fac21f")
-		)
-		(pin "7"
-			(uuid "2a9503fb-6291-4eeb-937a-471c26ed03c9")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R5")
-					(unit 2)
 				)
 			)
 		)
@@ -17522,95 +17526,6 @@
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "C1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_7")
-		(lib_id "Device:R_Pack04_Split")
-		(at 181.61 48.26 90)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b16e6ebb-c6bc-4257-87a9-5ddb75a0a0b9")
-		(property "Reference" "R3"
-			(at 178.435 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 184.785 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 181.61 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 181.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beafc1b6-6c0d-4045-a65b-b46bf8f00c76")
-		)
-		(pin "7"
-			(uuid "813b259f-85cd-49cd-864a-362bb1fabfaa")
-		)
-		(pin "8"
-			(uuid "a774b232-fe76-4560-9951-031ded3051ce")
-		)
-		(pin "6"
-			(uuid "cee1834a-0832-4f36-a63b-a8c5bfe34380")
-		)
-		(pin "5"
-			(uuid "ca82ea54-633a-493f-a705-1a4c7a0c1951")
-		)
-		(pin "3"
-			(uuid "419f5f27-39ce-40c6-9087-11123f60fae7")
-		)
-		(pin "4"
-			(uuid "08586051-faa7-41e3-bd8a-cc5a4f953134")
-		)
-		(pin "2"
-			(uuid "8b6caa6a-81a2-47b6-8a43-76ff9ceae0cf")
-		)
-		(instances
-			(project "picoprobe-candybar"
-				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "R3")
-					(unit 3)
 				)
 			)
 		)
@@ -19043,7 +18958,8 @@
 	(symbol
 		(lib_name "R_Pack04_Split_3")
 		(lib_id "Device:R_Pack04_Split")
-		(at 181.61 99.06 270)
+		(at 181.61 99.06 90)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19056,7 +18972,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
@@ -19065,7 +18981,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
@@ -19189,6 +19105,94 @@
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR037")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Pack04_Split_14")
+		(lib_id "Device:R_Pack04_Split")
+		(at 226.06 148.59 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f088c395-7d15-4538-ab6a-9437919d6d03")
+		(property "Reference" "R5"
+			(at 222.885 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470R"
+			(at 229.235 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 226.06 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79523506-3ca9-460c-8c78-ecae86b42dbb")
+		)
+		(pin "3"
+			(uuid "82d79814-0cd6-4fb5-885d-3adb390a2973")
+		)
+		(pin "2"
+			(uuid "34e7f472-3b4e-4611-8405-262c22d8e501")
+		)
+		(pin "8"
+			(uuid "8358bb8b-70fc-4ae3-ac98-0e09a58df887")
+		)
+		(pin "4"
+			(uuid "b7d11e5a-6fa4-4046-a1a7-79acd0658c8c")
+		)
+		(pin "5"
+			(uuid "7a83daf2-fa21-4f5a-a36e-1b0dfcac0436")
+		)
+		(pin "6"
+			(uuid "6d8d173b-e0ff-4f42-9d34-490aa5fac21f")
+		)
+		(pin "7"
+			(uuid "b5bd43e0-1d1c-4d22-8fcf-dcdc8ea4e5fe")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "R5")
+					(unit 2)
 				)
 			)
 		)
