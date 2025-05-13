@@ -8312,7 +8312,7 @@
 	)
 	(no_connect
 		(at 241.3 71.12)
-		(uuid "c4811584-bc99-42aa-bf6e-b5f82256a67d")
+		(uuid "dbbd09c0-0394-4023-b138-891baeb3ca45")
 	)
 	(wire
 		(pts
@@ -9136,16 +9136,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 241.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ca7d14-ef01-4261-bab9-f175bca493de")
-	)
-	(wire
-		(pts
 			(xy 148.59 152.4) (xy 148.59 153.67)
 		)
 		(stroke
@@ -9256,6 +9246,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 73.66) (xy 241.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876a3bb1-67c6-4b8f-b521-86ea90322879")
+	)
+	(wire
+		(pts
 			(xy 229.87 166.37) (xy 242.57 166.37)
 		)
 		(stroke
@@ -9303,16 +9303,6 @@
 			(type default)
 		)
 		(uuid "8c488ef7-3dc4-4136-a20b-8c7a54667441")
-	)
-	(wire
-		(pts
-			(xy 228.6 73.66) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d347e60-6b42-45f7-beaf-c77ab3f29254")
 	)
 	(wire
 		(pts
@@ -9473,6 +9463,16 @@
 			(type default)
 		)
 		(uuid "a63e126f-921a-458b-bbef-604a231e5ec8")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 241.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91a777d-305c-422b-84dc-5a5bda939b79")
 	)
 	(wire
 		(pts
@@ -10626,17 +10626,6 @@
 		)
 		(uuid "11e8f86d-58a3-4896-93e7-5f8e7b26bc4c")
 	)
-	(label "CB_RS6"
-		(at 228.6 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "143bf50e-454d-4cd2-a00a-c739533c675a")
-	)
 	(label "CB_RTS"
 		(at 228.6 58.42 0)
 		(fields_autoplaced yes)
@@ -10658,17 +10647,6 @@
 			(justify right bottom)
 		)
 		(uuid "170cad9d-7259-47ba-8ce0-96efa155bc8b")
-	)
-	(label "ADC0"
-		(at 228.6 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "179d97b3-96c2-445e-96d5-03c46a8b5243")
 	)
 	(label "INT_FALL"
 		(at 60.96 80.01 0)
@@ -10714,6 +10692,28 @@
 		)
 		(uuid "23c72b8a-1e03-41e6-a8dd-8ac3d8200d73")
 	)
+	(label "CB_RS3"
+		(at 228.6 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28a8950d-8c8d-4562-942b-82cbc86bbcd9")
+	)
+	(label "ADC0"
+		(at 228.6 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29e6fbe4-a8ab-4b9e-a878-b555c5329f89")
+	)
 	(label "RS2"
 		(at 139.7 88.9 0)
 		(fields_autoplaced yes)
@@ -10747,17 +10747,6 @@
 		)
 		(uuid "2c93b0b2-2581-4504-ae24-ed327b266f14")
 	)
-	(label "CB_CTS"
-		(at 228.6 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "333018bb-f35e-4821-a84c-f774293afe4e")
-	)
 	(label "IO_SHIFTED"
 		(at 199.39 109.22 180)
 		(fields_autoplaced yes)
@@ -10769,17 +10758,6 @@
 		)
 		(uuid "365edf00-6af1-43ed-9671-45457caa91b5")
 	)
-	(label "CB_DTR"
-		(at 228.6 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e622ebd-ad45-455e-b488-3a223b379cc6")
-	)
 	(label "CB_RS2"
 		(at 199.39 88.9 180)
 		(fields_autoplaced yes)
@@ -10790,6 +10768,17 @@
 			(justify right bottom)
 		)
 		(uuid "40208d78-e2c9-4a51-912f-9eac06c95ffe")
+	)
+	(label "CB_DTR"
+		(at 228.6 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426b5bf9-0d38-4520-90a3-0d4255036e50")
 	)
 	(label "RS1"
 		(at 127 62.23 180)
@@ -10945,8 +10934,8 @@
 		)
 		(uuid "6e63101e-4469-4324-8c60-ab7ef529b027")
 	)
-	(label "ADC2"
-		(at 228.6 116.84 0)
+	(label "CB_RS6"
+		(at 228.6 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10954,7 +10943,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "712a9f7c-6bd9-4890-a98e-c794a9962621")
+		(uuid "6fd70b79-1909-433c-8db5-d07de8a37e4d")
 	)
 	(label "CB_TX"
 		(at 199.39 53.34 180)
@@ -10978,8 +10967,8 @@
 		)
 		(uuid "74c7e152-3f8f-4b47-b411-126ad56226ed")
 	)
-	(label "CB_RS3"
-		(at 228.6 86.36 0)
+	(label "CB_CTS"
+		(at 228.6 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10987,7 +10976,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7742ee09-6976-461d-94c1-40a9ad48975d")
+		(uuid "7557f92b-7721-472b-893a-2ef90f3b8a1d")
 	)
 	(label "LED_RUN"
 		(at 207.01 166.37 0)
@@ -11010,17 +10999,6 @@
 			(justify left bottom)
 		)
 		(uuid "8314aa47-f58f-41e6-ae9f-d4e7f8f043dc")
-	)
-	(label "INT_RISE"
-		(at 228.6 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84afc5ca-4a67-4973-83d4-328297596b09")
 	)
 	(label "IO_SHIFTED"
 		(at 139.7 132.08 0)
@@ -11065,6 +11043,17 @@
 			(justify left bottom)
 		)
 		(uuid "89f14ca3-e25b-4e1f-aba5-13f93108d758")
+	)
+	(label "ADC2"
+		(at 228.6 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b8d1da2-b6a4-441d-aca3-d63dd6533d6d")
 	)
 	(label "RTS"
 		(at 60.96 69.85 0)
@@ -11122,7 +11111,7 @@
 		(uuid "990f055d-0d60-473e-a118-1ea1e6e577cd")
 	)
 	(label "INT_FALL"
-		(at 228.6 73.66 0)
+		(at 228.6 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11130,7 +11119,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9f278c72-1928-4f79-967e-a89d719410bf")
+		(uuid "9d400996-1e7e-484b-b78a-72da55a8f92e")
 	)
 	(label "DTR"
 		(at 139.7 58.42 0)
@@ -11143,8 +11132,8 @@
 		)
 		(uuid "b027562e-b62b-4dc1-ad03-2178f97118a4")
 	)
-	(label "CB_RS4"
-		(at 228.6 106.68 0)
+	(label "INT_RISE"
+		(at 228.6 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11152,7 +11141,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b6da5700-0ec5-4e84-a2ff-22268e32628b")
+		(uuid "b2e2dde8-076f-4b73-86af-0c2aac5c634a")
 	)
 	(label "CB_RS2"
 		(at 228.6 88.9 0)
@@ -11242,17 +11231,6 @@
 		)
 		(uuid "dc43f4a2-2e1a-44e7-984a-f7bd543e880f")
 	)
-	(label "CB_RS1"
-		(at 228.6 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc74c6cb-f5fd-4225-8279-238219f03326")
-	)
 	(label "CLK"
 		(at 139.7 43.18 0)
 		(fields_autoplaced yes)
@@ -11330,6 +11308,28 @@
 		)
 		(uuid "f37f488b-3e54-4663-9862-8b3294960627")
 	)
+	(label "CB_RS4"
+		(at 228.6 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f455c80e-f86e-4e03-a82c-fdea8b48407d")
+	)
+	(label "CB_RS1"
+		(at 228.6 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f56142df-24aa-461f-9e75-3a3e38d66cf4")
+	)
 	(label "LED_RUN"
 		(at 127 59.69 180)
 		(fields_autoplaced yes)
@@ -11399,7 +11399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -11953,7 +11953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -12088,7 +12088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -12576,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -12980,7 +12980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -13744,7 +13744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "ProjectFootprints_PicoprobeCandybar:PinHeader_1x03_P2.54mm_Horizontal_SMD"
 			(at 246.38 119.38 0)
 			(effects
 				(font
