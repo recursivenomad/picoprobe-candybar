@@ -11,6 +11,23 @@
 
 
 
+***Features***
+==============
+
+Quick in-progress list:
+- Logic level-shifting for interfacing with 5V/2.5V/1.8V boards (left switch)
+- Power output selection (5V/none/3.3V) (right switch)
+- 2 hardware interrupt breakpoints (rising & falling edge; left side pins)
+- 9 pins wired for future implementation of a logic analyzer (3 analog, 3 logic level-shifted digital, 3 raw digital)
+- Status LEDs (UART RX/TX, debug CONNECTED/RUNNING)
+- Power rocker switch
+- Debug access port for debugging with a second Picoprobe Candybar
+
+
+
+
+
+
 ***Cloning***
 =============
 
