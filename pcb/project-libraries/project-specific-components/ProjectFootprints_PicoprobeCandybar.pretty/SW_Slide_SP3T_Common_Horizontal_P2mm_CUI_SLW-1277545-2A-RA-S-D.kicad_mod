@@ -245,10 +245,10 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.wrl"
 		(offset
-			(xyz 1 0 0)
+			(xyz 1 0.585 0)
 		)
 		(scale
-			(xyz 1.48 1.045 1)
+			(xyz 1.48 0.78 1)
 		)
 		(rotate
 			(xyz 0 0 0)
