@@ -8354,24 +8354,24 @@
 			)
 		)
 	)
-	(footprint "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_PressFit"
+	(footprint "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_PressFit_Compact"
 		(layer "F.Cu")
 		(uuid "d555aaec-8f45-4d9c-8c3d-9b09d7b460be")
 		(at 110.8075 119.38)
 		(descr "A zero-cost press-fit debug interface for the Picoprobe Candybar debug probe, providing SWD, power, and UART, https://gitlab.com/recursivenomad/picoprobe-candybar/")
 		(tags "ARM Cortex pressfit programming header")
 		(property "Reference" "J0"
-			(at 3.04 6.99 90)
+			(at -2.54 -5.334 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d900ae96-b2ba-46be-9e80-ae9ebb06d84e")
+			(uuid "24f9b01e-b172-4856-8192-cd922ba2c5a1")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.1)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify top)
+				(justify left top)
 			)
 		)
 		(property "Value" "SWD-UART_PicoprobeCandybar"
@@ -8379,7 +8379,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bf30ee5-26a3-4584-8fb0-627e5a846b58")
+			(uuid "9a8e74e9-b1d9-4035-8c90-7910ce668548")
 			(effects
 				(font
 					(size 1 1)
@@ -8387,12 +8387,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_PressFit"
+		(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_PressFit_Compact"
 			(at -1.27 -3.81 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "725800bf-67d7-43f7-8ae3-d3f0a5bb9a9f")
+			(uuid "04a03662-957a-4a60-995f-2a66f07896ba")
 			(effects
 				(font
 					(size 1 1)
@@ -8405,7 +8405,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a31063a-2cd8-477a-a0b0-befa2d884354")
+			(uuid "75d37227-1d50-40db-b689-03596154f8b7")
 			(effects
 				(font
 					(size 1 1)
@@ -8418,7 +8418,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cb87155-5803-4505-853e-41608b99b668")
+			(uuid "15d366ca-05fb-4ab7-9586-ac8b4d31146e")
 			(effects
 				(font
 					(size 1 1)
@@ -8432,34 +8432,54 @@
 		(sheetfile "picoprobe-candybar.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
-			(start -2.65 -6.604)
-			(end 2.65 -6.604)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "f08a05ef-8af3-44ce-b4a8-de013161c411")
-		)
-		(fp_line
-			(start -2.65 6.604)
-			(end -2.65 -6.604)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "05a1efab-2c47-471d-94d3-6a43ffea2a31")
-		)
-		(fp_line
-			(start 2.65 -6.604)
+			(start -2.65 -5.19)
 			(end 2.65 -5.19)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b8fbf474-7577-4cd3-8f36-b322cce35016")
+			(uuid "8235abe0-19fe-4f3b-ab75-0b103071d8e1")
+		)
+		(fp_line
+			(start -2.65 5.19)
+			(end -2.65 -5.19)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c4cfff4d-b873-427e-9bfd-ebd9852d9028")
+		)
+		(fp_line
+			(start -2.3495 -0.15875)
+			(end -2.3495 -0.60325)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8e31cfbc-c427-48e5-b63a-c8e055c7f6de")
+		)
+		(fp_line
+			(start -0.127 -0.381)
+			(end 0.3175 -0.381)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "25b4b01e-25ef-4b16-80ec-b4cef0fe2f3b")
+		)
+		(fp_line
+			(start 0.09525 -0.15875)
+			(end 0.09525 -0.60325)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0c8b0c9b-712e-4cf8-8ad8-ec04bce35532")
 		)
 		(fp_line
 			(start 2.65 -4.826)
@@ -8469,7 +8489,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "239b902d-9a1a-4915-9369-1530245e7049")
+			(uuid "6396591e-4927-4fee-b880-2ffcfef6b9ee")
 		)
 		(fp_line
 			(start 2.65 -3.556)
@@ -8479,7 +8499,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "75122c5c-d8b3-425b-b3db-9f30b7acfb9e")
+			(uuid "f3aec41c-023e-41ea-a357-977d40c71a8b")
 		)
 		(fp_line
 			(start 2.65 -2.286)
@@ -8489,7 +8509,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0b2797bf-83d6-45f6-9009-03ae9c6f3d14")
+			(uuid "c46d2ede-5c9b-4058-9c3e-c46e8ef77c6b")
 		)
 		(fp_line
 			(start 2.65 -1.016)
@@ -8499,7 +8519,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "da631f67-825b-48a6-8a9f-ec33749057c0")
+			(uuid "b5acdcb3-17be-496a-9605-77fa2f24b9ee")
 		)
 		(fp_line
 			(start 2.65 0.254)
@@ -8509,7 +8529,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "33ee3790-67b2-40fc-a2b9-a0003db84c4f")
+			(uuid "93cffdb2-34c0-4cdc-b46f-81c8c839301c")
 		)
 		(fp_line
 			(start 2.65 1.524)
@@ -8519,7 +8539,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "92abd1c6-03e0-42e1-b066-9ca0a8eb6a2e")
+			(uuid "bd47630e-da7d-4a47-8b96-e8153d36145e")
 		)
 		(fp_line
 			(start 2.65 2.794)
@@ -8529,7 +8549,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d873c1e7-dfdc-442b-9b56-292100d04ff7")
+			(uuid "c3700550-a778-46d5-ae9d-b2468ac9aa53")
 		)
 		(fp_line
 			(start 2.65 4.064)
@@ -8539,53 +8559,17 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d1c6f7ef-94ce-4b44-a173-6bc6f1451bef")
+			(uuid "5cf08d4e-a198-440e-ad11-3ae9240b8674")
 		)
 		(fp_line
 			(start 2.65 5.19)
-			(end 2.65 6.604)
+			(end -2.65 5.19)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2cc28d5e-cef7-4b79-bebc-bd8190b9df10")
-		)
-		(fp_line
-			(start 2.65 6.604)
-			(end -2.65 6.604)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a09efade-3a1f-467a-b536-ce7ceb7d850d")
-		)
-		(fp_poly
-			(pts
-				(xy -2.65 -6.604) (xy -1.544 -6.6) (xy -1.544 -5.171) (xy 1.544 -5.171) (xy 1.544 -6.604) (xy 2.65 -6.604)
-				(xy 2.65 -5.13) (xy -2.65 -5.13)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.SilkS")
-			(uuid "a9e21975-2642-48d2-ad01-d8511cbcd63c")
-		)
-		(fp_poly
-			(pts
-				(xy 2.65 6.604) (xy 1.923 6.6) (xy 1.923 5.171) (xy -1.782 5.171) (xy -1.782 6.604) (xy -2.65 6.604)
-				(xy -2.65 5.13) (xy 2.65 5.13)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.SilkS")
-			(uuid "e6ff2189-4ac3-43ce-a5c3-eac222bd8a16")
+			(uuid "d2de7ae8-3862-4fd7-9bcf-ef3cec985bf0")
 		)
 		(fp_rect
 			(start -2.54 -5.08)
@@ -8596,138 +8580,89 @@
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "b2e63d36-61de-4a0e-85b4-6e6306c64b2e")
+			(uuid "95c6560b-3fd3-4955-91e9-2c294d2e1f74")
 		)
 		(fp_rect
-			(start -3.04 -6.99)
-			(end 3.04 6.99)
+			(start -2.79 -5.33)
+			(end 2.79 5.33)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ce014988-cc36-41c4-99ed-d9b05e76ee00")
+			(uuid "f8fab640-fa2a-4bee-a3ba-aeba0efca263")
 		)
-		(fp_text user "UART"
-			(at 0 5.903 0)
+		(fp_text user "IO"
+			(at -1.27 -2.54 180)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
-			(uuid "00ad864a-96ba-430c-b6c8-3d9fd6fba805")
+			(layer "F.SilkS")
+			(uuid "030d79d4-99f1-49c2-a214-50464c933dd1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.8)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
 		(fp_text user "CLK"
-			(at 3.683 -4.191 90)
+			(at 1.27 -2.54 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "10866e54-d8e0-4741-b37f-9674a7a0fae3")
+			(uuid "0a180765-ea37-4d90-bff3-d0b49e3df8be")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.1)
-					(bold yes)
-				)
-			)
-		)
-		(fp_text user "RX"
-			(at -3.556 4.191 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "13322a27-a9cf-4b43-b527-12998354b481")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.1)
-				)
-			)
-		)
-		(fp_text user "GND"
-			(at -3.556 -1.397 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "392cd7e6-5454-4ea7-ba4c-b579a67a27eb")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.1)
-					(bold yes)
-				)
-			)
-		)
-		(fp_text user "IO"
-			(at -3.556 -4.191 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4d5f7ad3-fdcc-46f0-941b-055395a19f21")
-			(effects
-				(font
-					(size 0.8 0.8)
+					(size 0.6 0.8)
 					(thickness 0.1)
 					(bold yes)
 				)
 			)
 		)
 		(fp_text user "TX"
-			(at 3.683 4.191 90)
+			(at 1.27 2.54 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5ca3a801-b88e-49fc-8a88-29025e50c723")
+			(uuid "5a5ff715-b00a-4dc3-a4bc-06a4f8af59a1")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 0.6 0.8)
 					(thickness 0.1)
-					(bold yes)
 				)
 			)
 		)
-		(fp_text user "SWD"
-			(at 0 -5.903 180)
+		(fp_text user "RX"
+			(at -1.27 2.54 0)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
-			(uuid "7e3832a4-4aac-44cf-8542-cabbef66e847")
+			(layer "F.SilkS")
+			(uuid "b2812728-f29d-4500-8733-2999c1a7fdd6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.8)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
 		(fp_text user "~{RST}"
-			(at 3.683 1.397 90)
+			(at 0.1905 1.27 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "897f0921-d591-4f93-9e6a-d31c3bbc063c")
+			(uuid "f8ca0cde-f8b0-4990-aa3e-5a0f88e1ea5b")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 0.6 0.8)
 					(thickness 0.1)
 					(bold yes)
 				)
-			)
-		)
-		(fp_text user "VCC"
-			(at 3.683 -1.397 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "e4e5c1d7-8e58-4aed-bede-921204687d27")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.1)
-					(bold yes)
-				)
+				(justify right)
 			)
 		)
 		(fp_text user "Debug Cable"
 			(at 9.12 0 90)
 			(unlocked yes)
 			(layer "Cmts.User")
-			(uuid "6a7f97a8-a00d-4d24-8ac5-9724cb970c53")
+			(uuid "7f8ec40f-08f2-4ac0-adb7-3870f92f897a")
 			(effects
 				(font
 					(size 1 1)
@@ -8740,7 +8675,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52473458-3ad3-44a3-a388-618080e68c2e")
+			(uuid "63a6c152-a168-44d7-83c9-aa1e16183aab")
 			(effects
 				(font
 					(size 1 1)
@@ -8758,7 +8693,7 @@
 			(net 21 "Net-(A1-SWDIO)")
 			(pinfunction "SWDIO")
 			(pintype "bidirectional")
-			(uuid "5855eb01-8525-47e0-8e6b-a9e542eae781")
+			(uuid "399d51ae-cc5d-4586-a634-f693ae0c3dc0")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -4.064)
@@ -8769,7 +8704,7 @@
 			(net 17 "Net-(A1-SWCLK)")
 			(pinfunction "SWCLK")
 			(pintype "output")
-			(uuid "c93d3450-47a4-42f6-97dc-d95584ddeadf")
+			(uuid "534f7856-c408-4175-b93e-c1c9e0fbb5da")
 		)
 		(pad "3" thru_hole circle
 			(at -1.27 -1.016)
@@ -8780,7 +8715,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "fb36364c-e2e2-41f8-bf63-326f706bc8cb")
+			(uuid "502c0c97-4879-4a11-be3e-66ecb9766dd0")
 		)
 		(pad "4" thru_hole circle
 			(at 1.27 -1.016)
@@ -8791,7 +8726,7 @@
 			(net 5 "VSYS")
 			(pinfunction "VCC")
 			(pintype "power_out")
-			(uuid "d8d2aa38-3899-434a-bfee-a52406651b01")
+			(uuid "d138aa63-0d18-472f-ad01-445aaec8080f")
 		)
 		(pad "6" thru_hole circle
 			(at 1.27 1.016)
@@ -8802,7 +8737,7 @@
 			(net 8 "/3V3_EN")
 			(pinfunction "~{RESET}")
 			(pintype "open_collector")
-			(uuid "e22facd9-573c-4ab8-86e6-614bdf08cd02")
+			(uuid "94b0b60a-2777-4e29-be6f-0a36458e4d76")
 		)
 		(pad "7" thru_hole circle
 			(at -1.27 4.064)
@@ -8813,7 +8748,7 @@
 			(net 9 "Net-(A1-GPIO1)")
 			(pinfunction "UART_TX")
 			(pintype "output")
-			(uuid "4458ce52-c133-4a81-924f-e77fc43aaef4")
+			(uuid "5bce43b3-0898-4162-8cdf-9f9dc51a5123")
 		)
 		(pad "8" thru_hole circle
 			(at 1.27 4.064)
@@ -8824,13 +8759,13 @@
 			(net 27 "Net-(A1-GPIO0)")
 			(pinfunction "UART_RX")
 			(pintype "input")
-			(uuid "7cac2051-db6a-4fbb-82e3-3e7b1fcfb4e1")
+			(uuid "23226e4b-a6d0-44d9-a4f5-5f9616992d71")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.CrtYd")
-			(uuid "b0fb88fc-a945-423e-9be9-9bf4ddc878d3")
+			(uuid "8bcf207f-deeb-4c31-a901-927c2c9ea3e5")
 			(name "Debug Cable")
 			(hatch edge 0.3)
 			(connect_pads
@@ -8851,7 +8786,8 @@
 			)
 			(polygon
 				(pts
-					(xy 113.8475 113.8) (xy 126.0075 113.8) (xy 126.0075 124.96) (xy 113.8475 124.96)
+					(xy 113.8555 126.365) (xy 107.7675 126.37) (xy 107.7675 112.39) (xy 113.8475 112.39) (xy 113.8555 113.792)
+					(xy 126.0075 113.8) (xy 126.0075 124.96) (xy 113.8475 124.96)
 				)
 			)
 		)
@@ -11999,7 +11935,7 @@
 		)
 	)
 	(gr_text "DEBUG IN"
-		(at 114.3 113.3475 90)
+		(at 114.6175 119.38 90)
 		(layer "F.SilkS")
 		(uuid "360c3ccb-b3e9-4ef3-9e4d-e1e52d812d04")
 		(effects
@@ -12008,7 +11944,6 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left)
 		)
 	)
 	(gr_text "UART"
