@@ -11437,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -11447,6 +11447,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -12009,7 +12027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -12019,6 +12037,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -12144,7 +12180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -12154,6 +12190,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -12668,7 +12722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -12678,6 +12732,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -13108,7 +13180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -13118,6 +13190,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -13908,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
 			(at 246.38 119.38 0)
 			(effects
 				(font
@@ -13918,6 +14008,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
 			(at 246.38 119.38 0)
 			(effects
 				(font
