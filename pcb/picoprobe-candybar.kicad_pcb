@@ -2658,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LV6T17"
+		(property "Value" "SN74LV6T17PWR"
 			(at 0 3.45 90)
 			(layer "F.Fab")
 			(uuid "247a1ec7-9ce3-4130-aa8f-097658045b5e")
@@ -2734,7 +2734,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SN74LV6T17"
+		(property "Manufacturer Part Number" "SN74LV6T17PWR"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3649,7 +3649,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LV6T17"
+		(property "Value" "SN74LV6T17PWR"
 			(at 0 3.45 90)
 			(layer "F.Fab")
 			(uuid "ddc66c7b-8736-438f-98d6-035ee17bfef3")
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SN74LV6T17"
+		(property "Manufacturer Part Number" "SN74LV6T17PWR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5857,7 +5857,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/99dc94f0-e948-4a07-bb1f-8e7dbfa5c8bf")
+		(path "/ab44d8d4-9696-46cb-a885-f3d00c69dbcf")
 		(sheetname "Root")
 		(sheetfile "picoprobe-candybar.kicad_sch")
 		(attr smd)
@@ -6375,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "PMEG2010ER"
+		(property "Manufacturer Part Number" "PMEG2010ER,115"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

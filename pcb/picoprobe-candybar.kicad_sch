@@ -13673,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "PMEG2010ER"
+		(property "Manufacturer Part Number" "PMEG2010ER,115"
 			(at 154.94 152.4 0)
 			(effects
 				(font
@@ -14305,7 +14305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LV6T17"
+		(property "Value" "SN74LV6T17PWR"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -14357,7 +14357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SN74LV6T17"
+		(property "Manufacturer Part Number" "SN74LV6T17PWR"
 			(at 161.29 50.8 0)
 			(effects
 				(font
@@ -18060,7 +18060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LV6T17"
+		(property "Value" "SN74LV6T17PWR"
 			(at 161.29 116.84 0)
 			(effects
 				(font
@@ -18112,7 +18112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SN74LV6T17"
+		(property "Manufacturer Part Number" "SN74LV6T17PWR"
 			(at 161.29 96.52 0)
 			(effects
 				(font
