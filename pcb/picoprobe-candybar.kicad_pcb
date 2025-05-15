@@ -869,7 +869,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.357946 25.493957)
+			(mid 10.357958 25.493991)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -8079,7 +8079,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP31D1U"
+		(property "Value" "GSFC02501"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "f6e8e190-8d42-4e92-add0-745675b88d33")
@@ -8103,7 +8103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP31D1U.pdf"
+		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/GSFC02501.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8811,7 +8811,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at -2.8575 -0.0635 360)
+			(at -2.8575 -0.0635 0)
 			(layer "F.SilkS")
 			(uuid "c872c143-0be7-4214-89d0-6bdaed6cfdeb")
 			(effects
@@ -8822,7 +8822,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "9b4506b3-80da-45eb-b6d3-de252e46c4c6")
 			(effects
@@ -8977,7 +8977,7 @@
 			(uuid "d522c91f-997f-4964-8d53-c253e1b94713")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.635 0 360)
+			(at -0.635 0 0)
 			(layer "F.Fab")
 			(uuid "a65a3047-14f3-456f-a123-5ebf90175576")
 			(effects
