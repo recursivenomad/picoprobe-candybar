@@ -14143,7 +14143,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "334c4fa9-c3dc-44c2-89bc-6cc40f15d235")
-		(property "Reference" "J107"
+		(property "Reference" "P107"
 			(at 393.7 53.975 0)
 			(effects
 				(font
@@ -14225,7 +14225,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J107")
+					(reference "P107")
 					(unit 1)
 				)
 			)
@@ -15465,7 +15465,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "58a6895b-2d71-47df-9b5b-ca613dab9df9")
-		(property "Reference" "J100"
+		(property "Reference" "P100"
 			(at 342.9 31.115 0)
 			(effects
 				(font
@@ -15553,7 +15553,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J100")
+					(reference "P100")
 					(unit 1)
 				)
 			)
@@ -15936,7 +15936,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "63e8d3d2-1871-4615-8f37-1564d44d0671")
-		(property "Reference" "J105"
+		(property "Reference" "P105"
 			(at 368.3 83.185 0)
 			(effects
 				(font
@@ -16009,7 +16009,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J105")
+					(reference "P105")
 					(unit 1)
 				)
 			)
@@ -17475,7 +17475,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "9953cf28-580c-4b0b-b779-583efaf9dc55")
-		(property "Reference" "J104"
+		(property "Reference" "P104"
 			(at 368.3 57.785 0)
 			(effects
 				(font
@@ -17548,7 +17548,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J104")
+					(reference "P104")
 					(unit 1)
 				)
 			)
@@ -19598,7 +19598,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "e3ed8664-6e1c-4c90-a5cc-b65fc52af062")
-		(property "Reference" "J103"
+		(property "Reference" "P103"
 			(at 368.3 32.385 0)
 			(effects
 				(font
@@ -19671,7 +19671,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J103")
+					(reference "P103")
 					(unit 1)
 				)
 			)
@@ -20344,7 +20344,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "fa08263d-ab9b-4366-8ada-ae26e6897aa8")
-		(property "Reference" "J108"
+		(property "Reference" "P108"
 			(at 393.7 79.375 0)
 			(effects
 				(font
@@ -20426,7 +20426,7 @@
 		(instances
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J108")
+					(reference "P108")
 					(unit 1)
 				)
 			)
@@ -20660,7 +20660,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "fe7ff03e-8dd1-427e-92dc-c31355c9947b")
-		(property "Reference" "J106"
+		(property "Reference" "P106"
 			(at 393.7 33.655 0)
 			(effects
 				(font
@@ -20730,7 +20730,7 @@
 		(instances
 			(project ""
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
-					(reference "J106")
+					(reference "P106")
 					(unit 1)
 				)
 			)
