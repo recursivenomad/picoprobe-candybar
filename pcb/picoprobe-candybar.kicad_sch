@@ -15023,7 +15023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002AK"
+		(property "Value" "SSF2320Y"
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -15041,7 +15041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002AK_datasheet_en_20150401.pdf"
+		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/SSF2320Y.pdf"
 			(at 80.01 171.45 0)
 			(effects
 				(font

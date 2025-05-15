@@ -4149,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Value" "T2N7002AK"
+		(property "Value" "SSF2320Y"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "6e68b8ce-fbe5-4e83-8aba-75a3148bacf3")
@@ -4173,7 +4173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002AK_datasheet_en_20150401.pdf"
+		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/SSF2320Y.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
