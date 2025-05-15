@@ -9034,7 +9034,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9304,7 +9304,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10122,7 +10122,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10624,7 +10624,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10778,7 +10778,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10932,7 +10932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 1.27 -5.08 0)
 			(unlocked yes)
 			(layer "B.Fab")

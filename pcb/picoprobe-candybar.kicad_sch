@@ -11420,7 +11420,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 140.335 0)
 			(effects
 				(font
@@ -11974,7 +11974,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 64.135 0)
 			(effects
 				(font
@@ -12109,7 +12109,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 109.855 0)
 			(effects
 				(font
@@ -12597,7 +12597,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 79.375 0)
 			(effects
 				(font
@@ -13001,7 +13001,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 94.615 0)
 			(effects
 				(font
@@ -13765,7 +13765,7 @@
 				)
 			)
 		)
-		(property "Value" "PinSocket_1x03"
+		(property "Value" "PinHeader_1x03"
 			(at 246.38 125.095 0)
 			(effects
 				(font
