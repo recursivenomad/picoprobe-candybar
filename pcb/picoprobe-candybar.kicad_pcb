@@ -6013,7 +6013,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ab44d8d4-9696-46cb-a885-f3d00c69dbcf")
+		(path "/99dc94f0-e948-4a07-bb1f-8e7dbfa5c8bf")
 		(sheetname "Root")
 		(sheetfile "picoprobe-candybar.kicad_sch")
 		(attr smd)

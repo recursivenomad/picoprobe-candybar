@@ -9324,8 +9324,24 @@
 		(uuid "86856e64-fe3a-4e52-b963-7af9f1172b6d")
 	)
 	(no_connect
+		(at 388.62 92.71)
+		(uuid "88e40bd1-acf5-467a-a0a1-ccb8d227cb44")
+	)
+	(no_connect
+		(at 388.62 87.63)
+		(uuid "89b7b961-6cca-4782-809a-9c6155161c0d")
+	)
+	(no_connect
+		(at 388.62 85.09)
+		(uuid "8ea0fb71-eaae-44ed-b245-baec1f500caf")
+	)
+	(no_connect
 		(at 336.55 62.23)
 		(uuid "9091ece9-6de5-4c58-a7ce-8a908f9d9c31")
+	)
+	(no_connect
+		(at 388.62 95.25)
+		(uuid "92f85333-725c-4b5c-b079-52e0e82f9249")
 	)
 	(no_connect
 		(at 336.55 59.69)
@@ -9372,6 +9388,10 @@
 		(uuid "dbbd09c0-0394-4023-b138-891baeb3ca45")
 	)
 	(no_connect
+		(at 388.62 90.17)
+		(uuid "de11e9b1-f70d-4127-b913-1d9f51583d01")
+	)
+	(no_connect
 		(at 336.55 39.37)
 		(uuid "dfcc3d01-ae31-4ab4-921f-dafada27a71a")
 	)
@@ -9382,6 +9402,10 @@
 	(no_connect
 		(at 363.22 60.96)
 		(uuid "e822aa09-3bf9-4816-983a-aa1d1ce1dbc9")
+	)
+	(no_connect
+		(at 388.62 82.55)
+		(uuid "f58f793a-de7c-43c2-b52b-424a407dda6e")
 	)
 	(no_connect
 		(at 349.25 36.83)
@@ -20306,6 +20330,103 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 393.7 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fa08263d-ab9b-4366-8ada-ae26e6897aa8")
+		(property "Reference" "J108"
+			(at 393.7 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestHooks_x06"
+			(at 393.7 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4322"
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4322"
+			(at 393.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f021fa2-28e4-4d90-ae7a-bff460d52eb6")
+		)
+		(pin "5"
+			(uuid "9822683e-19b9-4303-ae2d-9374944e6ea5")
+		)
+		(pin "6"
+			(uuid "29197151-bbcd-4228-a893-b75df65b554f")
+		)
+		(pin "1"
+			(uuid "1c34fd88-495d-4a0e-91e6-0b5ab728b44a")
+		)
+		(pin "4"
+			(uuid "b18aa53c-da0c-45e6-a28c-3ba6edebcea8")
+		)
+		(pin "2"
+			(uuid "ceb71d27-e00b-467d-845a-bf43c47a72be")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J108")
 					(unit 1)
 				)
 			)
