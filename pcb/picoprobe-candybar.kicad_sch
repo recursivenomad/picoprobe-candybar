@@ -11437,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -12027,7 +12027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -12180,7 +12180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -12268,7 +12268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-1277545-2a-ra-s-d.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-1277545-2a-ra-s-d.pdf"
 			(at 188.595 161.29 0)
 			(effects
 				(font
@@ -12722,7 +12722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -13180,7 +13180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -13998,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/2.54mm-header-spec.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at 246.38 119.38 0)
 			(effects
 				(font
@@ -17597,7 +17597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-156646-5a-n-d.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-156646-5a-n-d.pdf"
 			(at 143.51 161.29 0)
 			(effects
 				(font
