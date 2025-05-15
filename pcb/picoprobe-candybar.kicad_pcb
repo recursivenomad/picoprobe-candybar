@@ -269,6 +269,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13c90a95-ef73-4a11-93a2-c6646c9b3b99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SC0915"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1359ae17-977d-4446-99f3-5d76d3a37c5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "RaspberryPi?Pico?Original?SMD*")
 		(path "/6a0e91cf-ba66-4cbf-a337-9641d5d61225")
 		(sheetname "Root")
@@ -2695,6 +2721,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d52e938a-8d66-47cf-99f1-c296142b817b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LV6T17"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac454e3-9c54-4545-8ccb-1beb7908320a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP?14_*P0.65mm* *QFN-14-1EP*3mm*P0.5mm*")
 		(path "/40a427ea-8f2d-49ac-a531-b44241370a8f")
 		(sheetname "Root")
@@ -3073,6 +3125,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5592290-0e83-48b2-80a5-16a52fae1832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TLV77318PDBVR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "623b9a42-7a1d-483f-8cb2-fe1c18c2a0aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/4dbcd804-8a9c-49ad-93d0-0b5a55f86b7f")
 		(sheetname "Root")
@@ -3334,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/2a42f64b7940249a/original/LO-R976.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3356,6 +3434,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ams-OSRAM USA INC."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8030ea12-6d88-42d9-a170-e11feef74db0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LO R976-PS-1-0-20-R18"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dd967c6-acd3-4c9d-bc48-22d306cd4bdd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3601,6 +3705,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e0fa7e6-b5cc-4ded-994d-e40e5baf8f81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9ac663-3beb-47cc-8176-bbbdd0cd8989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LV6T17"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "424c595e-ee7d-48e3-a63c-236c50632e59")
 			(effects
 				(font
 					(size 1 1)
@@ -4205,6 +4335,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab0323d5-6e07-4a28-8dbe-a92251f58ad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Good-Ark Semiconductor"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df0ed126-9167-4176-bbdd-dd99bdfbcc54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SSF2320Y"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a905e1b-714e-487f-918b-7118d1e54c1d")
 			(effects
 				(font
 					(size 1 1)
@@ -4959,7 +5115,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ff54a5b3-aaad-4600-959c-feafbb07b016")
+		(path "/a48c3e02-3305-41ad-90d6-cf8f034dcece")
 		(sheetname "Root")
 		(sheetfile "picoprobe-candybar.kicad_sch")
 		(attr smd)
@@ -5413,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/2da6f2ceeebf8fac/original/LG-R971.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5435,6 +5591,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ams-OSRAM USA INC."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92f941ba-4220-4744-b7d9-177703c07e55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LG R971-KN-1-0-20-R18"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1966163-32bc-4d9f-8faa-d3cb329d2267")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5675,7 +5857,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/ab44d8d4-9696-46cb-a885-f3d00c69dbcf")
+		(path "/99dc94f0-e948-4a07-bb1f-8e7dbfa5c8bf")
 		(sheetname "Root")
 		(sheetfile "picoprobe-candybar.kicad_sch")
 		(attr smd)
@@ -6173,6 +6355,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3867533-87b3-4282-bfe1-a65e2716f977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia USA Inc."
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2797ba20-873f-48fa-8864-5cea890ddf23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PMEG2010ER"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da5a1abf-5d35-42aa-8f51-baffee5a065d")
 			(effects
 				(font
 					(size 1 1)
@@ -7131,7 +7339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/10c6779dc4088077/original/LY-R976.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7153,6 +7361,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ams-OSRAM USA INC."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35f7b158-698a-456c-b576-374a2cce829a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LY R976-PS-36-0-20-R18"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9fdb91b-2b11-4769-9dc7-674983b6c6c6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7389,6 +7623,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e021b1ab-6237-4602-944f-9852afb9f5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TLV77325PDBVR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b43cce28-d74b-430a-b338-e9c568abeb6b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7868,7 +8128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/330c725e4ebb09ab/original/LS-R976.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7890,6 +8150,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ams-OSRAM USA INC."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072682c4-9aa1-4829-84d7-1b8db856bcc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LS R976-NR-1-0-20-R18"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02dcb2f1-ad87-448c-be16-228e687c434d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8148,6 +8434,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "daf348b4-bcba-4d7f-a642-8b524d6cc854")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Good-Ark Semiconductor"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d264996e-6dbd-40ba-93a1-b908197fe68d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GSFC02501"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b9837f-70ce-4790-acf1-05cb3e855961")
 			(effects
 				(font
 					(size 1 1)
@@ -9061,7 +9373,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9081,6 +9393,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e05127a6-6d35-4c29-a67e-15e9bbd30bbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e5a8bc6-f95a-4148-a212-9e05a359bd29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e09214d2-2f9b-427e-ab48-e178a6caa42e")
 			(effects
 				(font
 					(size 1 1)
@@ -9331,7 +9671,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9351,6 +9691,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "210fabfb-11e3-494b-bede-9df785e9c916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "041f5b89-9505-4880-81b4-c0eeb01a480b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8eed63a9-3756-46d0-8055-736b8aea2c48")
 			(effects
 				(font
 					(size 1 1)
@@ -9862,6 +10230,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "Adam Tech"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c06b4c96-9d91-44f7-a360-d4fe7a7f2d22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "SW-R1-1A-E-1-0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "def247e7-3c48-45a5-b369-d44e5d105d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/0c3850d4-048f-46a5-85ed-af9361def9e0")
 		(sheetname "Root")
 		(sheetfile "picoprobe-candybar.kicad_sch")
@@ -10149,7 +10545,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10169,6 +10565,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b78093ad-b97d-417c-bc9d-d53f44e45d70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0c35cba-7f0b-4e64-adc6-1a2f53cff646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cdd74d53-fa65-466e-ae06-9dcd6e6a8956")
 			(effects
 				(font
 					(size 1 1)
@@ -10304,7 +10728,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-156646-5a-n-d.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-156646-5a-n-d.pdf"
 			(at 0 6.4 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10338,6 +10762,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2db88f68-8867-49f9-99e7-1e051d9a0d35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eddc33f8-6a55-4b58-8675-cc1c5fce5928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "SLW-156646-5A-N-D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "303afaee-263d-49cd-877f-4d0d56f481d1")
 			(effects
 				(font
 					(size 1 1)
@@ -10651,7 +11103,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10671,6 +11123,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "02cf928d-08ae-46b4-b6e7-e646feb281bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c05daffb-a98a-47a2-bc4b-82cc9fe1f0fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b65f0566-ae51-439b-a43e-8c4436ba8179")
 			(effects
 				(font
 					(size 1 1)
@@ -10805,7 +11285,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10825,6 +11305,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0ebba648-0a07-4369-a435-8e544b99f4a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b5b3612-39c1-4107-864b-e8055e4326bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce00006f-dc15-4c75-a080-a4025f704491")
 			(effects
 				(font
 					(size 1 1)
@@ -10959,7 +11467,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/drawings/bg301.pdf"
 			(at -4.0132 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10979,6 +11487,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "00037a9d-4243-419f-9288-22efade71c98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5eaf82ba-4daf-4ab6-8035-1bfaa4ed2d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "BG301-03-A-0540-L-B"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf1500ec-18e7-41d9-b15f-9e7fd28ce77a")
 			(effects
 				(font
 					(size 1 1)
@@ -11113,7 +11649,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11136,6 +11672,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e36b5301-854e-46ca-99e3-ba4cdcf9a9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "PH2-08-UA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ba088781-4d1a-4f40-be7e-902583a10c64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11469,7 +12033,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/slw-1277545-2a-ra-s-d.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-1277545-2a-ra-s-d.pdf"
 			(at 4 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11489,6 +12053,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7861e628-b118-4ad3-92ab-1dd4dc1b1396")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47f542b7-d7f4-4945-a7d3-4cc14ce4c053")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "SLW-1277545-2A-RA-S-D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e998c4c-899f-4174-84d0-ddb2507d3201")
 			(effects
 				(font
 					(size 1 1)

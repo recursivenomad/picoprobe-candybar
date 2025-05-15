@@ -14,6 +14,458 @@
 		(comment 4 "https://gitlab.com/recursivenomad/picoprobe-candybar/")
 	)
 	(lib_symbols
+		(symbol "Conn_02x04_Odd_Even_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -173,6 +625,458 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8328,20 +9232,164 @@
 		(uuid "db32b71c-373f-4276-8926-86586ada5acd")
 	)
 	(no_connect
+		(at 349.25 90.17)
+		(uuid "00a1d382-1f45-483c-965a-a250577e7355")
+	)
+	(no_connect
+		(at 336.55 67.31)
+		(uuid "055e4f65-1a2a-4d7e-8ff1-0c812f5f404a")
+	)
+	(no_connect
+		(at 349.25 41.91)
+		(uuid "0609309f-0863-41bd-b727-d4dbc3699b0c")
+	)
+	(no_connect
+		(at 363.22 63.5)
+		(uuid "0976e0ed-c21e-4877-ba45-c5ecd11f6129")
+	)
+	(no_connect
 		(at 170.18 63.5)
 		(uuid "0b80662d-aca5-442a-a287-336804d45196")
+	)
+	(no_connect
+		(at 349.25 67.31)
+		(uuid "2ccf6586-5e95-45c9-99a1-0b29c4d2efb3")
+	)
+	(no_connect
+		(at 363.22 35.56)
+		(uuid "2d10a01a-15f7-4eb7-a6cc-c06222b0e33e")
+	)
+	(no_connect
+		(at 388.62 57.15)
+		(uuid "37a2cc9b-932b-4896-ae5b-e38eebbe21bd")
+	)
+	(no_connect
+		(at 349.25 59.69)
+		(uuid "398e3483-1cf4-4c99-afa3-d4ac325d82a8")
+	)
+	(no_connect
+		(at 336.55 90.17)
+		(uuid "3a4e8378-62e3-45be-be61-b1c0c25a58b2")
+	)
+	(no_connect
+		(at 336.55 41.91)
+		(uuid "3fc1e0ef-7f13-4dc8-887e-e2873f7ad1c4")
+	)
+	(no_connect
+		(at 349.25 64.77)
+		(uuid "3febfc25-588c-4da8-b62d-696877c36a7d")
+	)
+	(no_connect
+		(at 388.62 67.31)
+		(uuid "47621a37-35ea-4b4b-bfb1-315954612c4f")
+	)
+	(no_connect
+		(at 336.55 87.63)
+		(uuid "48bb85ef-686e-4f1c-8f46-7f70a3256a78")
+	)
+	(no_connect
+		(at 388.62 59.69)
+		(uuid "521753ba-2535-40b7-b837-99166cdd803c")
+	)
+	(no_connect
+		(at 349.25 87.63)
+		(uuid "59dd5ab4-9b5a-472e-b034-ba95fb7aadff")
+	)
+	(no_connect
+		(at 363.22 88.9)
+		(uuid "5c6fffa2-3225-4265-a62f-5c7972f9cbf8")
 	)
 	(no_connect
 		(at 71.12 95.25)
 		(uuid "675135f7-7104-4d47-a621-0f39ca071b92")
 	)
 	(no_connect
+		(at 388.62 39.37)
+		(uuid "7398add3-3123-446b-bb90-9b08d6b7798f")
+	)
+	(no_connect
 		(at 152.4 63.5)
 		(uuid "7c10c9e9-b9c6-4162-a85d-fb5eabc4b313")
 	)
 	(no_connect
+		(at 363.22 91.44)
+		(uuid "83178a01-3f9d-4bf1-96b6-ff2939cd631c")
+	)
+	(no_connect
+		(at 388.62 64.77)
+		(uuid "867d401a-277e-4cf3-b143-f25dd66f91de")
+	)
+	(no_connect
+		(at 349.25 62.23)
+		(uuid "86856e64-fe3a-4e52-b963-7af9f1172b6d")
+	)
+	(no_connect
+		(at 336.55 62.23)
+		(uuid "9091ece9-6de5-4c58-a7ce-8a908f9d9c31")
+	)
+	(no_connect
+		(at 336.55 59.69)
+		(uuid "94403087-deaf-482b-a566-080333adddfa")
+	)
+	(no_connect
+		(at 388.62 62.23)
+		(uuid "96ff5727-8042-4fa9-8aa6-c5d146be541c")
+	)
+	(no_connect
+		(at 388.62 36.83)
+		(uuid "971d3312-6913-415f-87a7-f86eebedddab")
+	)
+	(no_connect
+		(at 336.55 36.83)
+		(uuid "9cabef82-9a82-4c15-a65b-b7eae8895fe9")
+	)
+	(no_connect
+		(at 349.25 39.37)
+		(uuid "aff91e82-9bde-4127-9e2f-f0fae86f6267")
+	)
+	(no_connect
+		(at 363.22 66.04)
+		(uuid "b9f87471-0c38-4a1a-bfef-3970a70a33fe")
+	)
+	(no_connect
+		(at 363.22 38.1)
+		(uuid "bc6bd544-ac81-42e9-adea-fef8e71fd421")
+	)
+	(no_connect
+		(at 388.62 69.85)
+		(uuid "cf755761-465b-4e5a-a57c-1d98cca82dc0")
+	)
+	(no_connect
+		(at 363.22 40.64)
+		(uuid "d1d04761-5942-4805-a179-44c55d23788f")
+	)
+	(no_connect
+		(at 349.25 34.29)
+		(uuid "d8ffc3cd-e058-4c8d-872a-5ea016e15463")
+	)
+	(no_connect
 		(at 241.3 71.12)
 		(uuid "dbbd09c0-0394-4023-b138-891baeb3ca45")
+	)
+	(no_connect
+		(at 336.55 39.37)
+		(uuid "dfcc3d01-ae31-4ab4-921f-dafada27a71a")
+	)
+	(no_connect
+		(at 363.22 86.36)
+		(uuid "e2f60c0f-deed-45d1-9cc7-e8bdbc939124")
+	)
+	(no_connect
+		(at 363.22 60.96)
+		(uuid "e822aa09-3bf9-4816-983a-aa1d1ce1dbc9")
+	)
+	(no_connect
+		(at 349.25 36.83)
+		(uuid "fd15b05f-c352-4bb8-96ed-51f9031323f3")
+	)
+	(no_connect
+		(at 336.55 34.29)
+		(uuid "ff3951c6-704b-4ab8-b8b1-f1ce8fbfc481")
 	)
 	(wire
 		(pts
@@ -10343,6 +11391,19 @@
 		)
 		(uuid "ff9cae01-18a7-4a90-b048-dfd63d515337")
 	)
+	(rectangle
+		(start 330.2 25.4)
+		(end 406.4 101.6)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 080bfc4c-8cdd-4b36-8b9d-8893a06a413e)
+	)
 	(text "UART RX LED"
 		(exclude_from_sim no)
 		(at 254.635 153.67 0)
@@ -10510,6 +11571,19 @@
 			)
 		)
 		(uuid "b994f31e-9b3d-48bb-b729-daea5ac6067c")
+	)
+	(text "Non-soldered parts for BOM"
+		(exclude_from_sim no)
+		(at 368.3 22.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "c5356104-c652-47c2-8d76-9838ec5e7e7c")
 	)
 	(text "Logic level-shifting"
 		(exclude_from_sim no)
@@ -12865,6 +13939,203 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 341.63 62.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "30a44751-fda9-4491-8a90-004c75efcc6f")
+		(property "Reference" "J101"
+			(at 342.9 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_2x04"
+			(at 342.9 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
+			(at 341.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 341.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 341.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PH2-08-UA"
+			(at 341.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94e052c6-d34b-4058-8951-50272313426a")
+		)
+		(pin "8"
+			(uuid "95564aef-9dae-4237-b0ba-00474b4d8aad")
+		)
+		(pin "1"
+			(uuid "837a3238-6136-403e-851d-66e3049ab7d8")
+		)
+		(pin "3"
+			(uuid "39f5033e-38f2-46b7-b49b-560e8c240709")
+		)
+		(pin "4"
+			(uuid "219a3cca-646c-4411-bf47-c0247ca822b3")
+		)
+		(pin "6"
+			(uuid "7ad5a4dc-b717-4796-beab-f8341dd1551f")
+		)
+		(pin "7"
+			(uuid "b1658cb8-53cc-45bf-9553-bd74f2ef8078")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 393.7 62.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "334c4fa9-c3dc-44c2-89bc-6cc40f15d235")
+		(property "Reference" "J107"
+			(at 393.7 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestHooks_x06"
+			(at 393.7 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4322"
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4322"
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a3156890-0acc-4284-ba9d-40ef448c5da7")
+		)
+		(pin "5"
+			(uuid "887bb124-e9c5-4bbe-a61c-1629ba1ab653")
+		)
+		(pin "6"
+			(uuid "65ea726f-c734-4d2d-aa30-0ca28c6295c7")
+		)
+		(pin "1"
+			(uuid "6790b828-e7f8-46c1-9df7-2e13b0dd2e39")
+		)
+		(pin "4"
+			(uuid "cd2d999b-394b-4aa2-97f3-4af2be0b72cc")
+		)
+		(pin "2"
+			(uuid "f71fab6a-d33c-4569-bb1c-5d1aa1e26dd1")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 307.34 165.1 180)
 		(unit 1)
@@ -14053,6 +15324,201 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_02x04_Odd_Even_1")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 341.63 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "58a6895b-2d71-47df-9b5b-ca613dab9df9")
+		(property "Reference" "J100"
+			(at 342.9 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IDSD-04-D-10.00"
+			(at 342.9 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/idsx-xx-x-xx.xx-xxx-xxx-mkt.pdf"
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "IDSD-04-D-10.00"
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9bb5f2d4-7612-4165-b206-f46abe3311b9")
+		)
+		(pin "5"
+			(uuid "c63d4d57-3ea6-4e51-a6f3-3469843d2d4d")
+		)
+		(pin "8"
+			(uuid "d0ca66de-88c7-4f1c-be4f-5e17f1fc0def")
+		)
+		(pin "3"
+			(uuid "68f3c926-6ffd-4607-ac32-74d4a18c0f1c")
+		)
+		(pin "6"
+			(uuid "e9a6ad70-4d9c-4253-b514-3f34c3b99134")
+		)
+		(pin "2"
+			(uuid "cece0d01-7963-451f-b741-6a5b6dcdf314")
+		)
+		(pin "1"
+			(uuid "cf98c315-60ca-4e8a-8183-b4584171071c")
+		)
+		(pin "7"
+			(uuid "edc6ff7e-34ab-4f60-ae53-50886ab59712")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 341.63 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "5a530247-0bcf-4d43-a74a-58c84d0d7ae5")
+		(property "Reference" "J102"
+			(at 342.9 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_2x02"
+			(at 342.9 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PH2-04-UA"
+			(at 341.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b43e4a4e-3342-49bc-83b9-9e4ccd59871d")
+		)
+		(pin "1"
+			(uuid "4e7b38de-d4ec-4d75-9df6-1b306d8bcaee")
+		)
+		(pin "3"
+			(uuid "442bc267-a9b4-4baa-ba76-52238bfeb561")
+		)
+		(pin "4"
+			(uuid "2ba1b4ed-cffc-4e67-a28a-5d7b9d6bacd4")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 142.24 0)
 		(unit 1)
@@ -14294,6 +15760,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 368.3 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "63e8d3d2-1871-4615-8f37-1564d44d0671")
+		(property "Reference" "J105"
+			(at 368.3 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JumperCable_1x03"
+			(at 368.3 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4935"
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4935"
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c943a00e-2b9a-4fca-8d1f-c6e5a7ba0796")
+		)
+		(pin "2"
+			(uuid "13cdbcfc-5c15-4f16-87e2-da69ef58449b")
+		)
+		(pin "3"
+			(uuid "5319b1dd-4d76-4456-9a9e-b77c8d45cf6b")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 222.25 30.48 0)
 		(unit 1)
@@ -14392,7 +15946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
 			(at 245.11 40.64 0)
 			(effects
 				(font
@@ -14402,6 +15956,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PH2-08-UA"
 			(at 245.11 40.64 0)
 			(effects
 				(font
@@ -15667,6 +17239,94 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 368.3 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "9953cf28-580c-4b0b-b779-583efaf9dc55")
+		(property "Reference" "J104"
+			(at 368.3 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JumperCable_1x03"
+			(at 368.3 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4935"
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4935"
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdf3fbde-b355-4a82-9e0b-b9a668da734e")
+		)
+		(pin "2"
+			(uuid "998d34f3-50f7-4385-ac56-34d49842c729")
+		)
+		(pin "3"
+			(uuid "1d8f1684-1d66-4e12-9365-fded6b304c93")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -17564,6 +19224,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 368.3 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e3ed8664-6e1c-4c90-a5cc-b65fc52af062")
+		(property "Reference" "J103"
+			(at 368.3 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JumperCable_1x03"
+			(at 368.3 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4935"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4935"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4084048c-a715-4022-ae9c-9e9542e96b8b")
+		)
+		(pin "2"
+			(uuid "112eeceb-5c6f-4693-a492-0ae247bfcbd5")
+		)
+		(pin "3"
+			(uuid "2e1ea361-0a0c-4571-a194-6ef724ad6546")
+		)
+		(instances
+			(project "picoprobe-candybar"
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectSymbols_PicoprobeCandybar:SW_Slide_SP3T")
 		(at 143.51 152.4 0)
 		(unit 1)
@@ -18363,6 +20111,91 @@
 			(project "picoprobe-candybar"
 				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 393.7 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fe7ff03e-8dd1-427e-92dc-c31355c9947b")
+		(property "Reference" "J106"
+			(at 393.7 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JumperCable_1x02"
+			(at 393.7 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/4934"
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "4934"
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21feeac9-ea36-448f-b23c-942a1b3eae58")
+		)
+		(pin "2"
+			(uuid "a5fa937c-8166-45e9-82d5-ee9485fb9c03")
+		)
+		(instances
+			(project ""
+				(path "/73798b73-b835-4423-abd2-5bd613a215bf"
+					(reference "J106")
 					(unit 1)
 				)
 			)
