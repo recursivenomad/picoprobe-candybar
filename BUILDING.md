@@ -6,37 +6,28 @@
 
 ## Overview
 
-*Development was done using Windows 10, but should use the same tools regardless.*
+PCB export & development environment: KiCad [8.0.4][URL-KiCad]
 
-Firmware build environment:
-- Arm GNU Toolchain *(arm-none-eabi)* [13.2.Rel1][URL-ARM]
-- GCC/G++ [13.2.0][URL-GCC]
-- CMake [3.30.2][URL-CMake]
-- Raspberry Pi Pico SDK [1.5.1][URL-Pico-SDK]
-  - Python [3.12.4][URL-Python]
+Parametric modelling: FreeCAD [1.0.1][URL-FreeCAD]
 
-Firmware development environment:
-- OpenOCD *(built after commit 8af4d44; **0.12.0 does NOT work**)*
-- Serial monitor *(example: [Serial Studio][URL-Serial-Studio])*
-- VSCodium [1.85.2][URL-VSCodium] *(later versions break debugging)*
-  - CMake Tools
-    - CMake language server
-  - clangd language server 
-  - Cortex-Debug
-    - debug-tracker-vscode
-    - MemoryView
-    - Peripheral Viewer
-    - RTOS Views
+If you plan on committing changes to the .FCStd document and want (somewhat) trackable commits, then from the repository root call:
 
-PCB export & development environment:
-- KiCad [8.0.4][URL-KiCad]
+```bash
+mkdir -p .git/hooks
+cp .githooks/pre-commit.sh .git/hooks/pre-commit
+git config --local core.hooksPath .git/hooks
+```
+
+*(If you are already using a `pre-commit` git hook, then manually add the content of `pre-commit.sh` to the existing hook instead)*
+
+> *Copying the file at a known state curbs the security concerns of remote changes to a hook.  Always audit scripts before using them.*
 
 
 
-## Specific build/development environment setup
+## Specific firmware build/development environment setup
 
 > *This section will be filled out in the future, but in the meantime similar steps can loosely be followed from:*  
-> *https://gitlab.com/recursivenomad/capacitance-measurement-module/-/blob/main/BUILDING.md*
+> *https://gitlab.com/recursivenomad/index-audio-interface/-/blob/main/BUILDING.md*
 
 
 
@@ -119,3 +110,4 @@ Upload the following files for release:
 [URL-VSCodium]: <https://github.com/VSCodium/vscodium/releases/tag/1.85.2.24019>
 
 [URL-KiCad]: <https://github.com/KiCad/kicad-source-mirror/releases/tag/8.0.4>
+[URL-FreeCAD]: <https://github.com/FreeCAD/FreeCAD/releases/tag/1.0.1>
