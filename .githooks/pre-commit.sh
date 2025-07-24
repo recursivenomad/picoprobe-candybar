@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #  SPDX-License-Identifier: MIT-0 OR CC0-1.0  #
-#     Authored 2024 by Peter S. Hollander     #
+#    Authored 2024-2025 Peter S. Hollander    #
 
 
 
 
-# 1.0.3
+# 1.1.0
 
 # Pre-commit git hook for committing reduced, usable, & trackable .FCStd files
 # ----------------------------------------------------------------------------
@@ -18,15 +18,26 @@
 #   entire file if you commit after a checkout/clone.
 
 #   Continuously committing from the same non-reduced local source document
-#   does not encounter this issue.
+#   appears to reduce this issue.
+
+#   Last updated for FreeCAD 1.0.1
 
 
+
+
+# Topological naming "shadow" regeneration:
+#   Features which rely on specific edges/faces (such as Chamfers) may not
+#   recompute properly.  This removes that stored information to be recomputed
+#   from scratch.
+
+RegenerateTopologicalShadow=true
 
 
 # Single-colour file exclusion:
 #   Uncomment if you want to exclude (hopefully) recomputable colour files
+#   Only applies to files saved before FreeCAD 1.0
 
-ExcludeSingleColourFiles=true
+ExcludeLegacySingleColourFiles=true
 
 
 # Total file exclusion:
@@ -40,8 +51,11 @@ ExcludeFiles+=" *.brp"
 ExcludeFiles+=" PointColorArray*"
 ExcludeFiles+=" LineColorArray*"
 #ExcludeFiles+=" DiffuseColor*"
+#ExcludeFiles+=" ShapeAppearance*"
 ExcludeFiles+=" ScaleList*"
 ExcludeFiles+=" PlacementList*"
+ExcludeFiles+=" *Shape.Map.txt"
+ExcludeFiles+=" StringHasher.Table.txt"
 
 
 
@@ -96,7 +110,7 @@ for file in "${StagedFiles[@]}"; do
 
 
     # Delete recomputable (ie. 8 bytes / 1 colour) colour files if requested
-    if [[ "$ExcludeSingleColourFiles" = true ]] ; then
+    if [[ "$ExcludeLegacySingleColourFiles" = true ]] ; then
       find "${GitRoot}"/.unzip-temp/incoming/ -name "*Color*" -size -9c -delete
     fi
 
@@ -110,6 +124,14 @@ for file in "${StagedFiles[@]}"; do
         --expression='s|(_Property.*name="_Body.*status=".*)6"[ ]*/>|\17"/>|' \
         --expression='s|(_Property.*name="_Body.*status=".*)8"[ ]*/>|\19"/>|' \
         --in-place "${GitRoot}"/.unzip-temp/incoming/Document.xml
+
+
+    if [[ "$RegenerateTopologicalShadow" = true ]] ; then
+      #echo "Removing topological 'shadow' entries..."
+      sed --regexp-extended \
+          --expression='s|(<Sub value="[a-zA-Z0-9]*")[ ]*shadow=.*/>|\1/>|' \
+          --in-place "${GitRoot}"/.unzip-temp/incoming/Document.xml
+    fi
 
 
     if [[ ! `git cat-file -e HEAD:"${file}" 2>&1` ]]; then
@@ -130,7 +152,8 @@ for file in "${StagedFiles[@]}"; do
 
     #echo "Differences found in archive contents - Repackaging uncompressed .FCStd"
     #   Create an array of all non-xml files and prepend the command `--add-file=.unzip-temp/incoming/`
-    AppendCommandList=$(ls --ignore "*.xml" "${GitRoot}"/.unzip-temp/incoming/ | sed 's/^/--add-file=.unzip-temp\/incoming\//')
+    #   Specifically save files in "version" order (ie. ...9 before ...10)
+    AppendCommandList=$(ls --ignore "*.xml" --sort=version "${GitRoot}"/.unzip-temp/incoming/ | sed 's/^/--add-file=.unzip-temp\/incoming\//')
     #   Make a temporary commit so we can leverage `git archive`
     git add .unzip-temp/incoming/
     git commit --quiet --no-verify -m "Temp commit by pre-commit hook for .FCStd tracking" -- .unzip-temp/incoming/
