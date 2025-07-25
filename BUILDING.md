@@ -61,6 +61,9 @@ Schematic:
 - `Plot All Pages`
 - The exported schematic is in `./pcb/build/picoprobe-candybar.pdf`
 
+Models:
+- *This section will be filled out in the future, but in the meantime similar steps can loosely be followed from:*  
+  *https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/blob/main/BUILDING.md#models*
 
 
 ## Assembling a release
