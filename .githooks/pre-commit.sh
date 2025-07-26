@@ -6,7 +6,7 @@
 
 
 
-# 1.1.0
+# 1.1.1
 
 # Pre-commit git hook for committing reduced, usable, & trackable .FCStd files
 # ----------------------------------------------------------------------------
@@ -62,6 +62,11 @@ ExcludeFiles+=" StringHasher.Table.txt"
 
 # --show-toplevel should throw an error if there is no working tree (untested)
 GitRoot=$(git rev-parse --show-toplevel)
+
+if [[ -s "${GitRoot}"/.git/MERGE_HEAD ]]; then
+  echo "Currently in merge commit - skipping FCStd pre-commit hook."
+  exit 0
+fi
 
 # Get an array of the paths of each staged file
 StagedFiles=($(git diff --cached --name-only))
