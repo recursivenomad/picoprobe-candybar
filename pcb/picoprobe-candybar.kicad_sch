@@ -1395,7 +1395,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SWD-UART_PicoprobeCandybar_PressFit"
+			(property "Footprint" "Connector_PicoprobeCandybar:SWD-UART_PicoprobeCandybar_PressFit"
 				(at 0 -24.13 0)
 				(effects
 					(font
