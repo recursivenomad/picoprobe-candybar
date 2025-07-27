@@ -1,5 +1,5 @@
 #  SPDX-License-Identifier: MIT-0 OR CC0-1.0  #
-#     Authored 2024 by Peter S. Hollander     #
+#    Authored 2024-2025 Peter S. Hollander    #
 
 
 # The (minimum) versions below are what the Pico SDK uses
@@ -22,9 +22,9 @@ include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 # Include the FreeRTOS library (invokes the library's CMakeLists.txt)
 include(lib/debugprobe/freertos/portable/ThirdParty/GCC/RP2040/FREERTOS_KERNEL_import.cmake)
 
-# Technically compiled at 1.5.0, but only tested with 1.5.1
-if (PICO_SDK_VERSION_STRING VERSION_LESS "1.5.1")
-    message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.5.1 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}.")
+# TODO - Test SDK version compatibility
+if (PICO_SDK_VERSION_STRING VERSION_LESS "2.0.0")
+    message(FATAL_ERROR "Raspberry Pi Pico SDK version 2.0.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}.")
 endif()
 
 
@@ -41,7 +41,6 @@ pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
     src/candybar_hook.c
-    lib/debugprobe/src/led.c
     lib/debugprobe/src/main.c
     lib/debugprobe/src/usb_descriptors.c
     lib/debugprobe/src/probe.c
@@ -52,16 +51,16 @@ add_executable(${PROJECT_NAME}
 )
 
 target_sources(${PROJECT_NAME} PRIVATE
-    lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c
-    lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
+    lib/debugprobe/CMSIS_DAP/CMSIS/DAP/Firmware/Source/DAP.c
+    lib/debugprobe/CMSIS_DAP/CMSIS/DAP/Firmware/Source/DAP_vendor.c
 )
 
 # Include library headers as SYSTEM to suppress header compiler warnings
 target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE
     lib/debugprobe/src/
     lib/debugprobe/include/
-    lib/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/
-    lib/debugprobe/CMSIS_5/CMSIS/Core/Include/
+    lib/debugprobe/CMSIS_DAP/CMSIS/DAP/Firmware/Include/
+    lib/debugprobe/CMSIS_DAP/CMSIS/Core/Include/
 )
 
 # Specify BEFORE here to assert 'override/' being first include dir in the list
