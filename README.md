@@ -45,12 +45,6 @@ Although attribution is not required, sharing when you've made something with my
   >   - [*MIT License*][URL-MIT]
   >   - [*3-Clause BSD License*][URL-BSD-3-Clause]
   >   - [*Apache License, Version 2.0*][URL-Apache-2.0]
-  >   - Be aware Raspberry Pi distributes 3 **unlicensed files** (ie. "all rights reserved") in that submodule:
-  >     - [`debugprobe/CMakeLists.txt`](https://github.com/raspberrypi/debugprobe/blob/debugprobe-v2.0.1/CMakeLists.txt)
-  >     - [`debugprobe/src/probe_config.c`](https://github.com/raspberrypi/debugprobe/blob/debugprobe-v2.0.1/src/probe_config.c)
-  >     - [`debugprobe/src/probe_oen.pio`](https://github.com/raspberrypi/debugprobe/blob/debugprobe-v2.0.1/src/probe_oen.pio)
-  >
-  > No unlicensed files are used in the build process of Picoprobe Candybar.
   >
   > Binaries are built using the [Pico SDK][URL-Pico-SDK] and [Arm GNU Toolchain][URL-ARM-Toolchain], and will add the following notices for distribution:
   >   - [*GCC Runtime Library Exception*][URL-GCC-Exception]
